@@ -1,0 +1,6442 @@
+[
+  {
+    "onetsoccode": "11-1011",
+    "occupation_title": "Chief Executives",
+    "observed_exposure": 0.0333,
+    "expertise_percentile": 83.5496292114,
+    "soc_group": "11"
+  },
+  {
+    "onetsoccode": "11-1011",
+    "occupation_title": "Chief Sustainability Officers",
+    "observed_exposure": 0.0333,
+    "expertise_percentile": 76.1648178101,
+    "soc_group": "11"
+  },
+  {
+    "onetsoccode": "11-1021",
+    "occupation_title": "General and Operations Managers",
+    "observed_exposure": 0.1378,
+    "expertise_percentile": 75.9848175049,
+    "soc_group": "11"
+  },
+  {
+    "onetsoccode": "11-1031",
+    "occupation_title": "Legislators",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 73.788444519,
+    "soc_group": "11"
+  },
+  {
+    "onetsoccode": "11-2011",
+    "occupation_title": "Advertising and Promotions Managers",
+    "observed_exposure": 0.1731,
+    "expertise_percentile": 64.6652755737,
+    "soc_group": "11"
+  },
+  {
+    "onetsoccode": "11-2021",
+    "occupation_title": "Marketing Managers",
+    "observed_exposure": 0.3195,
+    "expertise_percentile": 81.0118255615,
+    "soc_group": "11"
+  },
+  {
+    "onetsoccode": "11-2022",
+    "occupation_title": "Sales Managers",
+    "observed_exposure": 0.0433,
+    "expertise_percentile": 60.6542243958,
+    "soc_group": "11"
+  },
+  {
+    "onetsoccode": "11-2032",
+    "occupation_title": "Public Relations Managers",
+    "observed_exposure": 0.2315,
+    "expertise_percentile": 67.4883041382,
+    "soc_group": "11"
+  },
+  {
+    "onetsoccode": "11-2033",
+    "occupation_title": "Fundraising Managers",
+    "observed_exposure": null,
+    "expertise_percentile": 65.3108291626,
+    "soc_group": "11"
+  },
+  {
+    "onetsoccode": "11-3012",
+    "occupation_title": "Administrative Services Managers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 50.4829330444,
+    "soc_group": "11"
+  },
+  {
+    "onetsoccode": "11-3013",
+    "occupation_title": "Facilities Managers",
+    "observed_exposure": 0.1345,
+    "expertise_percentile": 72.0754165649,
+    "soc_group": "11"
+  },
+  {
+    "onetsoccode": "11-3013",
+    "occupation_title": "Security Managers",
+    "observed_exposure": 0.1345,
+    "expertise_percentile": 69.0718917847,
+    "soc_group": "11"
+  },
+  {
+    "onetsoccode": "11-3021",
+    "occupation_title": "Computer and Information Systems Managers",
+    "observed_exposure": 0.1559,
+    "expertise_percentile": 76.8535766602,
+    "soc_group": "11"
+  },
+  {
+    "onetsoccode": "11-3031",
+    "occupation_title": "Financial Managers",
+    "observed_exposure": 0.3907,
+    "expertise_percentile": 73.1188812256,
+    "soc_group": "11"
+  },
+  {
+    "onetsoccode": "11-3031",
+    "occupation_title": "Treasurers and Controllers",
+    "observed_exposure": 0.3907,
+    "expertise_percentile": 82.6811752319,
+    "soc_group": "11"
+  },
+  {
+    "onetsoccode": "11-3031",
+    "occupation_title": "Investment Fund Managers",
+    "observed_exposure": 0.3907,
+    "expertise_percentile": 79.4722900391,
+    "soc_group": "11"
+  },
+  {
+    "onetsoccode": "11-3051",
+    "occupation_title": "Industrial Production Managers",
+    "observed_exposure": 0.0132,
+    "expertise_percentile": 58.8914642334,
+    "soc_group": "11"
+  },
+  {
+    "onetsoccode": "11-3051",
+    "occupation_title": "Quality Control Systems Managers",
+    "observed_exposure": 0.0132,
+    "expertise_percentile": 62.5343017578,
+    "soc_group": "11"
+  },
+  {
+    "onetsoccode": "11-3051",
+    "occupation_title": "Geothermal Production Managers",
+    "observed_exposure": 0.0132,
+    "expertise_percentile": 78.3094024658,
+    "soc_group": "11"
+  },
+  {
+    "onetsoccode": "11-3051",
+    "occupation_title": "Biofuels Production Managers",
+    "observed_exposure": 0.0132,
+    "expertise_percentile": 60.8580818176,
+    "soc_group": "11"
+  },
+  {
+    "onetsoccode": "11-3051",
+    "occupation_title": "Biomass Power Plant Managers",
+    "observed_exposure": 0.0132,
+    "expertise_percentile": 66.2273788452,
+    "soc_group": "11"
+  },
+  {
+    "onetsoccode": "11-3051",
+    "occupation_title": "Hydroelectric Production Managers",
+    "observed_exposure": 0.0132,
+    "expertise_percentile": 85.8656921387,
+    "soc_group": "11"
+  },
+  {
+    "onetsoccode": "11-3061",
+    "occupation_title": "Purchasing Managers",
+    "observed_exposure": 0.2004,
+    "expertise_percentile": 65.1181335449,
+    "soc_group": "11"
+  },
+  {
+    "onetsoccode": "11-3071",
+    "occupation_title": "Transportation, Storage, and Distribution Managers",
+    "observed_exposure": 0.0956,
+    "expertise_percentile": 64.6542892456,
+    "soc_group": "11"
+  },
+  {
+    "onetsoccode": "11-3071",
+    "occupation_title": "Supply Chain Managers",
+    "observed_exposure": 0.0956,
+    "expertise_percentile": 65.2916107178,
+    "soc_group": "11"
+  },
+  {
+    "onetsoccode": "11-3111",
+    "occupation_title": "Compensation and Benefits Managers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 81.022277832,
+    "soc_group": "11"
+  },
+  {
+    "onetsoccode": "11-3121",
+    "occupation_title": "Human Resources Managers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 72.0019836426,
+    "soc_group": "11"
+  },
+  {
+    "onetsoccode": "11-3131",
+    "occupation_title": "Training and Development Managers",
+    "observed_exposure": 0.3777,
+    "expertise_percentile": 67.4487228394,
+    "soc_group": "11"
+  },
+  {
+    "onetsoccode": "11-9013",
+    "occupation_title": "Farmers, Ranchers, and Other Agricultural Managers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 67.9513626099,
+    "soc_group": "11"
+  },
+  {
+    "onetsoccode": "11-9021",
+    "occupation_title": "Construction Managers",
+    "observed_exposure": 0.1186,
+    "expertise_percentile": 72.6678695679,
+    "soc_group": "11"
+  },
+  {
+    "onetsoccode": "11-9031",
+    "occupation_title": "Education and Childcare Administrators, Preschool and Daycare",
+    "observed_exposure": 0.0395,
+    "expertise_percentile": 72.4763870239,
+    "soc_group": "11"
+  },
+  {
+    "onetsoccode": "11-9032",
+    "occupation_title": "Education Administrators, Kindergarten through Secondary",
+    "observed_exposure": 0.0525,
+    "expertise_percentile": 81.7229232788,
+    "soc_group": "11"
+  },
+  {
+    "onetsoccode": "11-9033",
+    "occupation_title": "Education Administrators, Postsecondary",
+    "observed_exposure": 0.0644,
+    "expertise_percentile": 80.1613616943,
+    "soc_group": "11"
+  },
+  {
+    "onetsoccode": "11-9041",
+    "occupation_title": "Architectural and Engineering Managers",
+    "observed_exposure": 0.0306,
+    "expertise_percentile": 86.7523574829,
+    "soc_group": "11"
+  },
+  {
+    "onetsoccode": "11-9041",
+    "occupation_title": "Biofuels/Biodiesel Technology and Product Development Managers",
+    "observed_exposure": 0.0306,
+    "expertise_percentile": 98.9103469849,
+    "soc_group": "11"
+  },
+  {
+    "onetsoccode": "11-9051",
+    "occupation_title": "Food Service Managers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 47.2998847961,
+    "soc_group": "11"
+  },
+  {
+    "onetsoccode": "11-9071",
+    "occupation_title": "Gambling Managers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 41.2650718689,
+    "soc_group": "11"
+  },
+  {
+    "onetsoccode": "11-9072",
+    "occupation_title": "Entertainment and Recreation Managers, Except Gambling",
+    "observed_exposure": null,
+    "expertise_percentile": 33.7440376282,
+    "soc_group": "11"
+  },
+  {
+    "onetsoccode": "11-9081",
+    "occupation_title": "Lodging Managers",
+    "observed_exposure": 0.1215,
+    "expertise_percentile": 43.5565605164,
+    "soc_group": "11"
+  },
+  {
+    "onetsoccode": "11-9111",
+    "occupation_title": "Medical and Health Services Managers",
+    "observed_exposure": 0.0659,
+    "expertise_percentile": 81.3475341797,
+    "soc_group": "11"
+  },
+  {
+    "onetsoccode": "11-9121",
+    "occupation_title": "Natural Sciences Managers",
+    "observed_exposure": 0.0613,
+    "expertise_percentile": 95.164894104,
+    "soc_group": "11"
+  },
+  {
+    "onetsoccode": "11-9121",
+    "occupation_title": "Clinical Research Coordinators",
+    "observed_exposure": 0.0613,
+    "expertise_percentile": 66.4706878662,
+    "soc_group": "11"
+  },
+  {
+    "onetsoccode": "11-9121",
+    "occupation_title": "Water Resource Specialists",
+    "observed_exposure": 0.0613,
+    "expertise_percentile": 86.0143737793,
+    "soc_group": "11"
+  },
+  {
+    "onetsoccode": "11-9131",
+    "occupation_title": "Postmasters and Mail Superintendents",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 48.2159423828,
+    "soc_group": "11"
+  },
+  {
+    "onetsoccode": "11-9141",
+    "occupation_title": "Property, Real Estate, and Community Association Managers",
+    "observed_exposure": 0.1653,
+    "expertise_percentile": 51.8635940552,
+    "soc_group": "11"
+  },
+  {
+    "onetsoccode": "11-9151",
+    "occupation_title": "Social and Community Service Managers",
+    "observed_exposure": 0.1808,
+    "expertise_percentile": 71.5167617798,
+    "soc_group": "11"
+  },
+  {
+    "onetsoccode": "11-9161",
+    "occupation_title": "Emergency Management Directors",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 68.6650009155,
+    "soc_group": "11"
+  },
+  {
+    "onetsoccode": "11-9171",
+    "occupation_title": "Funeral Home Managers",
+    "observed_exposure": 0.0108,
+    "expertise_percentile": 45.1616744995,
+    "soc_group": "11"
+  },
+  {
+    "onetsoccode": "11-9179",
+    "occupation_title": "Fitness and Wellness Coordinators",
+    "observed_exposure": 0.1244,
+    "expertise_percentile": 50.3506584167,
+    "soc_group": "11"
+  },
+  {
+    "onetsoccode": "11-9179",
+    "occupation_title": "Spa Managers",
+    "observed_exposure": 0.1244,
+    "expertise_percentile": 42.8035621643,
+    "soc_group": "11"
+  },
+  {
+    "onetsoccode": "11-9199",
+    "occupation_title": "Regulatory Affairs Managers",
+    "observed_exposure": 0.0686,
+    "expertise_percentile": 80.609046936,
+    "soc_group": "11"
+  },
+  {
+    "onetsoccode": "11-9199",
+    "occupation_title": "Compliance Managers",
+    "observed_exposure": 0.0686,
+    "expertise_percentile": 63.8834838867,
+    "soc_group": "11"
+  },
+  {
+    "onetsoccode": "11-9199",
+    "occupation_title": "Loss Prevention Managers",
+    "observed_exposure": 0.0686,
+    "expertise_percentile": 54.056930542,
+    "soc_group": "11"
+  },
+  {
+    "onetsoccode": "11-9199",
+    "occupation_title": "Wind Energy Operations Managers",
+    "observed_exposure": 0.0686,
+    "expertise_percentile": 57.9920578003,
+    "soc_group": "11"
+  },
+  {
+    "onetsoccode": "11-9199",
+    "occupation_title": "Wind Energy Development Managers",
+    "observed_exposure": 0.0686,
+    "expertise_percentile": 84.0295181274,
+    "soc_group": "11"
+  },
+  {
+    "onetsoccode": "11-9199",
+    "occupation_title": "Brownfield Redevelopment Specialists and Site Managers",
+    "observed_exposure": 0.0686,
+    "expertise_percentile": 90.3094787598,
+    "soc_group": "11"
+  },
+  {
+    "onetsoccode": "13-1011",
+    "occupation_title": "Agents and Business Managers of Artists, Performers, and Athletes",
+    "observed_exposure": 0.118,
+    "expertise_percentile": 63.2018737793,
+    "soc_group": "13"
+  },
+  {
+    "onetsoccode": "13-1021",
+    "occupation_title": "Buyers and Purchasing Agents, Farm Products",
+    "observed_exposure": null,
+    "expertise_percentile": null,
+    "soc_group": "13"
+  },
+  {
+    "onetsoccode": "13-1022",
+    "occupation_title": "Wholesale and Retail Buyers, Except Farm Products",
+    "observed_exposure": null,
+    "expertise_percentile": null,
+    "soc_group": "13"
+  },
+  {
+    "onetsoccode": "13-1023",
+    "occupation_title": "Purchasing Agents, Except Wholesale, Retail, and Farm Products",
+    "observed_exposure": null,
+    "expertise_percentile": null,
+    "soc_group": "13"
+  },
+  {
+    "onetsoccode": "13-1031",
+    "occupation_title": "Claims Adjusters, Examiners, and Investigators",
+    "observed_exposure": 0.0818,
+    "expertise_percentile": 54.5918960571,
+    "soc_group": "13"
+  },
+  {
+    "onetsoccode": "13-1032",
+    "occupation_title": "Insurance Appraisers, Auto Damage",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 47.0785446167,
+    "soc_group": "13"
+  },
+  {
+    "onetsoccode": "13-1041",
+    "occupation_title": "Compliance Officers",
+    "observed_exposure": 0.1211,
+    "expertise_percentile": 43.17212677,
+    "soc_group": "13"
+  },
+  {
+    "onetsoccode": "13-1041",
+    "occupation_title": "Environmental Compliance Inspectors",
+    "observed_exposure": 0.1211,
+    "expertise_percentile": 61.0651130676,
+    "soc_group": "13"
+  },
+  {
+    "onetsoccode": "13-1041",
+    "occupation_title": "Equal Opportunity Representatives and Officers",
+    "observed_exposure": 0.1211,
+    "expertise_percentile": 68.8780059814,
+    "soc_group": "13"
+  },
+  {
+    "onetsoccode": "13-1041",
+    "occupation_title": "Government Property Inspectors and Investigators",
+    "observed_exposure": 0.1211,
+    "expertise_percentile": 58.2746963501,
+    "soc_group": "13"
+  },
+  {
+    "onetsoccode": "13-1041",
+    "occupation_title": "Coroners",
+    "observed_exposure": 0.1211,
+    "expertise_percentile": 94.8594436646,
+    "soc_group": "13"
+  },
+  {
+    "onetsoccode": "13-1041",
+    "occupation_title": "Regulatory Affairs Specialists",
+    "observed_exposure": 0.1211,
+    "expertise_percentile": 71.1865386963,
+    "soc_group": "13"
+  },
+  {
+    "onetsoccode": "13-1041",
+    "occupation_title": "Customs Brokers",
+    "observed_exposure": 0.1211,
+    "expertise_percentile": 43.776966095,
+    "soc_group": "13"
+  },
+  {
+    "onetsoccode": "13-1051",
+    "occupation_title": "Cost Estimators",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 64.017326355,
+    "soc_group": "13"
+  },
+  {
+    "onetsoccode": "13-1071",
+    "occupation_title": "Human Resources Specialists",
+    "observed_exposure": 0.4034,
+    "expertise_percentile": 49.4296073914,
+    "soc_group": "13"
+  },
+  {
+    "onetsoccode": "13-1074",
+    "occupation_title": "Farm Labor Contractors",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 34.3839187622,
+    "soc_group": "13"
+  },
+  {
+    "onetsoccode": "13-1075",
+    "occupation_title": "Labor Relations Specialists",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 80.2273483276,
+    "soc_group": "13"
+  },
+  {
+    "onetsoccode": "13-1081",
+    "occupation_title": "Logisticians",
+    "observed_exposure": 0.1571,
+    "expertise_percentile": 70.9795150757,
+    "soc_group": "13"
+  },
+  {
+    "onetsoccode": "13-1081",
+    "occupation_title": "Logistics Engineers",
+    "observed_exposure": 0.1571,
+    "expertise_percentile": 73.4347915649,
+    "soc_group": "13"
+  },
+  {
+    "onetsoccode": "13-1081",
+    "occupation_title": "Logistics Analysts",
+    "observed_exposure": 0.1571,
+    "expertise_percentile": 53.7041778564,
+    "soc_group": "13"
+  },
+  {
+    "onetsoccode": "13-1082",
+    "occupation_title": "Project Management Specialists",
+    "observed_exposure": null,
+    "expertise_percentile": 42.6103172302,
+    "soc_group": "13"
+  },
+  {
+    "onetsoccode": "13-1111",
+    "occupation_title": "Management Analysts",
+    "observed_exposure": 0.2435,
+    "expertise_percentile": 58.7399482727,
+    "soc_group": "13"
+  },
+  {
+    "onetsoccode": "13-1121",
+    "occupation_title": "Meeting, Convention, and Event Planners",
+    "observed_exposure": 0.1023,
+    "expertise_percentile": 45.3902168274,
+    "soc_group": "13"
+  },
+  {
+    "onetsoccode": "13-1131",
+    "occupation_title": "Fundraisers",
+    "observed_exposure": 0.0466,
+    "expertise_percentile": 46.2320671082,
+    "soc_group": "13"
+  },
+  {
+    "onetsoccode": "13-1141",
+    "occupation_title": "Compensation, Benefits, and Job Analysis Specialists",
+    "observed_exposure": 0.0649,
+    "expertise_percentile": 80.280632019,
+    "soc_group": "13"
+  },
+  {
+    "onetsoccode": "13-1151",
+    "occupation_title": "Training and Development Specialists",
+    "observed_exposure": 0.2793,
+    "expertise_percentile": 50.9636154175,
+    "soc_group": "13"
+  },
+  {
+    "onetsoccode": "13-1161",
+    "occupation_title": "Market Research Analysts and Marketing Specialists",
+    "observed_exposure": 0.6483,
+    "expertise_percentile": 63.0577201843,
+    "soc_group": "13"
+  },
+  {
+    "onetsoccode": "13-1161",
+    "occupation_title": "Search Marketing Strategists",
+    "observed_exposure": 0.6483,
+    "expertise_percentile": 61.5224380493,
+    "soc_group": "13"
+  },
+  {
+    "onetsoccode": "13-1199",
+    "occupation_title": "Business Continuity Planners",
+    "observed_exposure": 0.1846,
+    "expertise_percentile": 68.5385665894,
+    "soc_group": "13"
+  },
+  {
+    "onetsoccode": "13-1199",
+    "occupation_title": "Sustainability Specialists",
+    "observed_exposure": 0.1846,
+    "expertise_percentile": 69.6737670898,
+    "soc_group": "13"
+  },
+  {
+    "onetsoccode": "13-1199",
+    "occupation_title": "Online Merchants",
+    "observed_exposure": 0.1846,
+    "expertise_percentile": 39.9568977356,
+    "soc_group": "13"
+  },
+  {
+    "onetsoccode": "13-1199",
+    "occupation_title": "Security Management Specialists",
+    "observed_exposure": 0.1846,
+    "expertise_percentile": 67.2980270386,
+    "soc_group": "13"
+  },
+  {
+    "onetsoccode": "13-2011",
+    "occupation_title": "Accountants and Auditors",
+    "observed_exposure": 0.3478,
+    "expertise_percentile": 83.4349746704,
+    "soc_group": "13"
+  },
+  {
+    "onetsoccode": "13-2022",
+    "occupation_title": "Appraisers of Personal and Business Property",
+    "observed_exposure": null,
+    "expertise_percentile": null,
+    "soc_group": "13"
+  },
+  {
+    "onetsoccode": "13-2023",
+    "occupation_title": "Appraisers and Assessors of Real Estate",
+    "observed_exposure": null,
+    "expertise_percentile": null,
+    "soc_group": "13"
+  },
+  {
+    "onetsoccode": "13-2031",
+    "occupation_title": "Budget Analysts",
+    "observed_exposure": 0.0672,
+    "expertise_percentile": 76.2217025757,
+    "soc_group": "13"
+  },
+  {
+    "onetsoccode": "13-2041",
+    "occupation_title": "Credit Analysts",
+    "observed_exposure": 0.1685,
+    "expertise_percentile": 57.6267967224,
+    "soc_group": "13"
+  },
+  {
+    "onetsoccode": "13-2051",
+    "occupation_title": "Financial and Investment Analysts",
+    "observed_exposure": 0.5716,
+    "expertise_percentile": 81.5357894897,
+    "soc_group": "13"
+  },
+  {
+    "onetsoccode": "13-2052",
+    "occupation_title": "Personal Financial Advisors",
+    "observed_exposure": 0.3504,
+    "expertise_percentile": 66.7108230591,
+    "soc_group": "13"
+  },
+  {
+    "onetsoccode": "13-2054",
+    "occupation_title": "Financial Risk Specialists",
+    "observed_exposure": 0.2649,
+    "expertise_percentile": 83.6446609497,
+    "soc_group": "13"
+  },
+  {
+    "onetsoccode": "13-2061",
+    "occupation_title": "Financial Examiners",
+    "observed_exposure": 0.0428,
+    "expertise_percentile": 86.9832000732,
+    "soc_group": "13"
+  },
+  {
+    "onetsoccode": "13-2071",
+    "occupation_title": "Credit Counselors",
+    "observed_exposure": 0.2341,
+    "expertise_percentile": 49.4442329407,
+    "soc_group": "13"
+  },
+  {
+    "onetsoccode": "13-2072",
+    "occupation_title": "Loan Officers",
+    "observed_exposure": 0.1857,
+    "expertise_percentile": 46.8536987305,
+    "soc_group": "13"
+  },
+  {
+    "onetsoccode": "13-2081",
+    "occupation_title": "Tax Examiners and Collectors, and Revenue Agents",
+    "observed_exposure": 0.0275,
+    "expertise_percentile": 63.5550727844,
+    "soc_group": "13"
+  },
+  {
+    "onetsoccode": "13-2082",
+    "occupation_title": "Tax Preparers",
+    "observed_exposure": 0.1283,
+    "expertise_percentile": 60.0181465149,
+    "soc_group": "13"
+  },
+  {
+    "onetsoccode": "13-2099",
+    "occupation_title": "Financial Quantitative Analysts",
+    "observed_exposure": 0.2202,
+    "expertise_percentile": 86.563079834,
+    "soc_group": "13"
+  },
+  {
+    "onetsoccode": "13-2099",
+    "occupation_title": "Fraud Examiners, Investigators and Analysts",
+    "observed_exposure": 0.2202,
+    "expertise_percentile": 71.3318023682,
+    "soc_group": "13"
+  },
+  {
+    "onetsoccode": "15-1211",
+    "occupation_title": "Computer Systems Analysts",
+    "observed_exposure": 0.2763,
+    "expertise_percentile": 71.7758560181,
+    "soc_group": "15"
+  },
+  {
+    "onetsoccode": "15-1211",
+    "occupation_title": "Health Informatics Specialists",
+    "observed_exposure": 0.2763,
+    "expertise_percentile": 94.1274490356,
+    "soc_group": "15"
+  },
+  {
+    "onetsoccode": "15-1212",
+    "occupation_title": "Information Security Analysts",
+    "observed_exposure": 0.4859,
+    "expertise_percentile": 68.9984512329,
+    "soc_group": "15"
+  },
+  {
+    "onetsoccode": "15-1221",
+    "occupation_title": "Computer and Information Research Scientists",
+    "observed_exposure": 0.3404,
+    "expertise_percentile": 87.1442565918,
+    "soc_group": "15"
+  },
+  {
+    "onetsoccode": "15-1231",
+    "occupation_title": "Computer Network Support Specialists",
+    "observed_exposure": 0.2867,
+    "expertise_percentile": 47.1727714539,
+    "soc_group": "15"
+  },
+  {
+    "onetsoccode": "15-1232",
+    "occupation_title": "Computer User Support Specialists",
+    "observed_exposure": 0.4685,
+    "expertise_percentile": 53.3605270386,
+    "soc_group": "15"
+  },
+  {
+    "onetsoccode": "15-1241",
+    "occupation_title": "Computer Network Architects",
+    "observed_exposure": 0.1987,
+    "expertise_percentile": 71.8731842041,
+    "soc_group": "15"
+  },
+  {
+    "onetsoccode": "15-1241",
+    "occupation_title": "Telecommunications Engineering Specialists",
+    "observed_exposure": 0.1987,
+    "expertise_percentile": 56.9870948792,
+    "soc_group": "15"
+  },
+  {
+    "onetsoccode": "15-1242",
+    "occupation_title": "Database Administrators",
+    "observed_exposure": 0.3315,
+    "expertise_percentile": 67.4253234863,
+    "soc_group": "15"
+  },
+  {
+    "onetsoccode": "15-1243",
+    "occupation_title": "Database Architects",
+    "observed_exposure": 0.5787,
+    "expertise_percentile": 70.6523895264,
+    "soc_group": "15"
+  },
+  {
+    "onetsoccode": "15-1243",
+    "occupation_title": "Data Warehousing Specialists",
+    "observed_exposure": 0.5787,
+    "expertise_percentile": 70.4827575684,
+    "soc_group": "15"
+  },
+  {
+    "onetsoccode": "15-1244",
+    "occupation_title": "Network and Computer Systems Administrators",
+    "observed_exposure": 0.3373,
+    "expertise_percentile": 63.5272140503,
+    "soc_group": "15"
+  },
+  {
+    "onetsoccode": "15-1251",
+    "occupation_title": "Computer Programmers",
+    "observed_exposure": 0.7451,
+    "expertise_percentile": 80.7087936401,
+    "soc_group": "15"
+  },
+  {
+    "onetsoccode": "15-1252",
+    "occupation_title": "Software Developers",
+    "observed_exposure": 0.288,
+    "expertise_percentile": 78.1874084473,
+    "soc_group": "15"
+  },
+  {
+    "onetsoccode": "15-1253",
+    "occupation_title": "Software Quality Assurance Analysts and Testers",
+    "observed_exposure": 0.5195,
+    "expertise_percentile": 59.3556594849,
+    "soc_group": "15"
+  },
+  {
+    "onetsoccode": "15-1254",
+    "occupation_title": "Web Developers",
+    "observed_exposure": 0.4802,
+    "expertise_percentile": 56.8949699402,
+    "soc_group": "15"
+  },
+  {
+    "onetsoccode": "15-1255",
+    "occupation_title": "Web and Digital Interface Designers",
+    "observed_exposure": 0.249,
+    "expertise_percentile": 63.1944732666,
+    "soc_group": "15"
+  },
+  {
+    "onetsoccode": "15-1255",
+    "occupation_title": "Video Game Designers",
+    "observed_exposure": 0.249,
+    "expertise_percentile": 67.3872299194,
+    "soc_group": "15"
+  },
+  {
+    "onetsoccode": "15-1299",
+    "occupation_title": "Web Administrators",
+    "observed_exposure": 0.3106,
+    "expertise_percentile": 51.4798164368,
+    "soc_group": "15"
+  },
+  {
+    "onetsoccode": "15-1299",
+    "occupation_title": "Geographic Information Systems Technologists and Technicians",
+    "observed_exposure": 0.3106,
+    "expertise_percentile": 65.5395126343,
+    "soc_group": "15"
+  },
+  {
+    "onetsoccode": "15-1299",
+    "occupation_title": "Document Management Specialists",
+    "observed_exposure": 0.3106,
+    "expertise_percentile": 50.345199585,
+    "soc_group": "15"
+  },
+  {
+    "onetsoccode": "15-1299",
+    "occupation_title": "Penetration Testers",
+    "observed_exposure": 0.3106,
+    "expertise_percentile": 74.1192016602,
+    "soc_group": "15"
+  },
+  {
+    "onetsoccode": "15-1299",
+    "occupation_title": "Information Security Engineers",
+    "observed_exposure": 0.3106,
+    "expertise_percentile": 78.5843734741,
+    "soc_group": "15"
+  },
+  {
+    "onetsoccode": "15-1299",
+    "occupation_title": "Digital Forensics Analysts",
+    "observed_exposure": 0.3106,
+    "expertise_percentile": 76.5132751465,
+    "soc_group": "15"
+  },
+  {
+    "onetsoccode": "15-1299",
+    "occupation_title": "Blockchain Engineers",
+    "observed_exposure": 0.3106,
+    "expertise_percentile": 77.1694030762,
+    "soc_group": "15"
+  },
+  {
+    "onetsoccode": "15-1299",
+    "occupation_title": "Computer Systems Engineers/Architects",
+    "observed_exposure": 0.3106,
+    "expertise_percentile": 79.9389724731,
+    "soc_group": "15"
+  },
+  {
+    "onetsoccode": "15-1299",
+    "occupation_title": "Information Technology Project Managers",
+    "observed_exposure": 0.3106,
+    "expertise_percentile": 52.922039032,
+    "soc_group": "15"
+  },
+  {
+    "onetsoccode": "15-2011",
+    "occupation_title": "Actuaries",
+    "observed_exposure": 0.0539,
+    "expertise_percentile": 94.5595321655,
+    "soc_group": "15"
+  },
+  {
+    "onetsoccode": "15-2021",
+    "occupation_title": "Mathematicians",
+    "observed_exposure": 0.4241,
+    "expertise_percentile": 98.5176773071,
+    "soc_group": "15"
+  },
+  {
+    "onetsoccode": "15-2031",
+    "occupation_title": "Operations Research Analysts",
+    "observed_exposure": 0.4288,
+    "expertise_percentile": 87.200340271,
+    "soc_group": "15"
+  },
+  {
+    "onetsoccode": "15-2041",
+    "occupation_title": "Statisticians",
+    "observed_exposure": 0.2107,
+    "expertise_percentile": 87.3385162354,
+    "soc_group": "15"
+  },
+  {
+    "onetsoccode": "15-2041",
+    "occupation_title": "Biostatisticians",
+    "observed_exposure": 0.2107,
+    "expertise_percentile": 87.4749832153,
+    "soc_group": "15"
+  },
+  {
+    "onetsoccode": "15-2051",
+    "occupation_title": "Data Scientists",
+    "observed_exposure": 0.4605,
+    "expertise_percentile": 77.3198699951,
+    "soc_group": "15"
+  },
+  {
+    "onetsoccode": "15-2051",
+    "occupation_title": "Business Intelligence Analysts",
+    "observed_exposure": 0.4605,
+    "expertise_percentile": 70.2980728149,
+    "soc_group": "15"
+  },
+  {
+    "onetsoccode": "15-2051",
+    "occupation_title": "Clinical Data Managers",
+    "observed_exposure": 0.4605,
+    "expertise_percentile": 57.5917320251,
+    "soc_group": "15"
+  },
+  {
+    "onetsoccode": "15-2099",
+    "occupation_title": "Bioinformatics Technicians",
+    "observed_exposure": 0.4793,
+    "expertise_percentile": 70.8418426514,
+    "soc_group": "15"
+  },
+  {
+    "onetsoccode": "17-1011",
+    "occupation_title": "Architects, Except Landscape and Naval",
+    "observed_exposure": 0.0784,
+    "expertise_percentile": 87.1242218018,
+    "soc_group": "17"
+  },
+  {
+    "onetsoccode": "17-1012",
+    "occupation_title": "Landscape Architects",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 72.486579895,
+    "soc_group": "17"
+  },
+  {
+    "onetsoccode": "17-1021",
+    "occupation_title": "Cartographers and Photogrammetrists",
+    "observed_exposure": 0.08,
+    "expertise_percentile": 66.287979126,
+    "soc_group": "17"
+  },
+  {
+    "onetsoccode": "17-1022",
+    "occupation_title": "Surveyors",
+    "observed_exposure": 0.0022,
+    "expertise_percentile": 80.1889877319,
+    "soc_group": "17"
+  },
+  {
+    "onetsoccode": "17-1022",
+    "occupation_title": "Geodetic Surveyors",
+    "observed_exposure": 0.0022,
+    "expertise_percentile": 64.6929016113,
+    "soc_group": "17"
+  },
+  {
+    "onetsoccode": "17-2011",
+    "occupation_title": "Aerospace Engineers",
+    "observed_exposure": 0.0753,
+    "expertise_percentile": 96.6951217651,
+    "soc_group": "17"
+  },
+  {
+    "onetsoccode": "17-2021",
+    "occupation_title": "Agricultural Engineers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 95.265045166,
+    "soc_group": "17"
+  },
+  {
+    "onetsoccode": "17-2031",
+    "occupation_title": "Bioengineers and Biomedical Engineers",
+    "observed_exposure": 0.1328,
+    "expertise_percentile": 95.5992965698,
+    "soc_group": "17"
+  },
+  {
+    "onetsoccode": "17-2041",
+    "occupation_title": "Chemical Engineers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 95.583114624,
+    "soc_group": "17"
+  },
+  {
+    "onetsoccode": "17-2051",
+    "occupation_title": "Civil Engineers",
+    "observed_exposure": 0.0081,
+    "expertise_percentile": 95.784286499,
+    "soc_group": "17"
+  },
+  {
+    "onetsoccode": "17-2051",
+    "occupation_title": "Transportation Engineers",
+    "observed_exposure": 0.0081,
+    "expertise_percentile": 89.6881484985,
+    "soc_group": "17"
+  },
+  {
+    "onetsoccode": "17-2051",
+    "occupation_title": "Water/Wastewater Engineers",
+    "observed_exposure": 0.0081,
+    "expertise_percentile": 96.2366027832,
+    "soc_group": "17"
+  },
+  {
+    "onetsoccode": "17-2061",
+    "occupation_title": "Computer Hardware Engineers",
+    "observed_exposure": 0.1453,
+    "expertise_percentile": 79.0126419067,
+    "soc_group": "17"
+  },
+  {
+    "onetsoccode": "17-2071",
+    "occupation_title": "Electrical Engineers",
+    "observed_exposure": 0.059,
+    "expertise_percentile": 86.4649047852,
+    "soc_group": "17"
+  },
+  {
+    "onetsoccode": "17-2072",
+    "occupation_title": "Electronics Engineers, Except Computer",
+    "observed_exposure": 0.0999,
+    "expertise_percentile": 86.9505004883,
+    "soc_group": "17"
+  },
+  {
+    "onetsoccode": "17-2072",
+    "occupation_title": "Radio Frequency Identification Device Specialists",
+    "observed_exposure": 0.0999,
+    "expertise_percentile": 64.7529678345,
+    "soc_group": "17"
+  },
+  {
+    "onetsoccode": "17-2081",
+    "occupation_title": "Environmental Engineers",
+    "observed_exposure": 0.0358,
+    "expertise_percentile": 86.4846572876,
+    "soc_group": "17"
+  },
+  {
+    "onetsoccode": "17-2111",
+    "occupation_title": "Health and Safety Engineers, Except Mining Safety Engineers and Inspectors",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 86.5751647949,
+    "soc_group": "17"
+  },
+  {
+    "onetsoccode": "17-2111",
+    "occupation_title": "Fire-Prevention and Protection Engineers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 86.4967422485,
+    "soc_group": "17"
+  },
+  {
+    "onetsoccode": "17-2112",
+    "occupation_title": "Industrial Engineers",
+    "observed_exposure": 0.0367,
+    "expertise_percentile": 79.6848754883,
+    "soc_group": "17"
+  },
+  {
+    "onetsoccode": "17-2112",
+    "occupation_title": "Human Factors Engineers and Ergonomists",
+    "observed_exposure": 0.0367,
+    "expertise_percentile": 86.2776107788,
+    "soc_group": "17"
+  },
+  {
+    "onetsoccode": "17-2112",
+    "occupation_title": "Validation Engineers",
+    "observed_exposure": 0.0367,
+    "expertise_percentile": 73.7281951904,
+    "soc_group": "17"
+  },
+  {
+    "onetsoccode": "17-2112",
+    "occupation_title": "Manufacturing Engineers",
+    "observed_exposure": 0.0367,
+    "expertise_percentile": 81.9052124023,
+    "soc_group": "17"
+  },
+  {
+    "onetsoccode": "17-2121",
+    "occupation_title": "Marine Engineers and Naval Architects",
+    "observed_exposure": 0.0358,
+    "expertise_percentile": 87.4594726562,
+    "soc_group": "17"
+  },
+  {
+    "onetsoccode": "17-2131",
+    "occupation_title": "Materials Engineers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 94.342300415,
+    "soc_group": "17"
+  },
+  {
+    "onetsoccode": "17-2141",
+    "occupation_title": "Mechanical Engineers",
+    "observed_exposure": 0.0813,
+    "expertise_percentile": 86.9016036987,
+    "soc_group": "17"
+  },
+  {
+    "onetsoccode": "17-2141",
+    "occupation_title": "Fuel Cell Engineers",
+    "observed_exposure": 0.0813,
+    "expertise_percentile": 94.3283843994,
+    "soc_group": "17"
+  },
+  {
+    "onetsoccode": "17-2141",
+    "occupation_title": "Automotive Engineers",
+    "observed_exposure": 0.0813,
+    "expertise_percentile": 95.1017532349,
+    "soc_group": "17"
+  },
+  {
+    "onetsoccode": "17-2151",
+    "occupation_title": "Mining and Geological Engineers, Including Mining Safety Engineers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 95.5879211426,
+    "soc_group": "17"
+  },
+  {
+    "onetsoccode": "17-2161",
+    "occupation_title": "Nuclear Engineers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 98.747505188,
+    "soc_group": "17"
+  },
+  {
+    "onetsoccode": "17-2171",
+    "occupation_title": "Petroleum Engineers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 93.8683547974,
+    "soc_group": "17"
+  },
+  {
+    "onetsoccode": "17-2199",
+    "occupation_title": "Energy Engineers, Except Wind and Solar",
+    "observed_exposure": 0.0659,
+    "expertise_percentile": 70.5612258911,
+    "soc_group": "17"
+  },
+  {
+    "onetsoccode": "17-2199",
+    "occupation_title": "Mechatronics Engineers",
+    "observed_exposure": 0.0659,
+    "expertise_percentile": 87.4169769287,
+    "soc_group": "17"
+  },
+  {
+    "onetsoccode": "17-2199",
+    "occupation_title": "Microsystems Engineers",
+    "observed_exposure": 0.0659,
+    "expertise_percentile": 95.2519989014,
+    "soc_group": "17"
+  },
+  {
+    "onetsoccode": "17-2199",
+    "occupation_title": "Photonics Engineers",
+    "observed_exposure": 0.0659,
+    "expertise_percentile": 95.8627471924,
+    "soc_group": "17"
+  },
+  {
+    "onetsoccode": "17-2199",
+    "occupation_title": "Robotics Engineers",
+    "observed_exposure": 0.0659,
+    "expertise_percentile": 87.2788009644,
+    "soc_group": "17"
+  },
+  {
+    "onetsoccode": "17-2199",
+    "occupation_title": "Nanosystems Engineers",
+    "observed_exposure": 0.0659,
+    "expertise_percentile": 99.0155639648,
+    "soc_group": "17"
+  },
+  {
+    "onetsoccode": "17-2199",
+    "occupation_title": "Wind Energy Engineers",
+    "observed_exposure": 0.0659,
+    "expertise_percentile": 87.0663833618,
+    "soc_group": "17"
+  },
+  {
+    "onetsoccode": "17-2199",
+    "occupation_title": "Solar Energy Systems Engineers",
+    "observed_exposure": 0.0659,
+    "expertise_percentile": 85.9618682861,
+    "soc_group": "17"
+  },
+  {
+    "onetsoccode": "17-3011",
+    "occupation_title": "Architectural and Civil Drafters",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 78.7609481812,
+    "soc_group": "17"
+  },
+  {
+    "onetsoccode": "17-3012",
+    "occupation_title": "Electrical and Electronics Drafters",
+    "observed_exposure": 0.0889,
+    "expertise_percentile": 63.068145752,
+    "soc_group": "17"
+  },
+  {
+    "onetsoccode": "17-3013",
+    "occupation_title": "Mechanical Drafters",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 78.8255691528,
+    "soc_group": "17"
+  },
+  {
+    "onetsoccode": "17-3021",
+    "occupation_title": "Aerospace Engineering and Operations Technologists and Technicians",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 72.3598556519,
+    "soc_group": "17"
+  },
+  {
+    "onetsoccode": "17-3022",
+    "occupation_title": "Civil Engineering Technologists and Technicians",
+    "observed_exposure": 0.0776,
+    "expertise_percentile": 76.1971511841,
+    "soc_group": "17"
+  },
+  {
+    "onetsoccode": "17-3023",
+    "occupation_title": "Electrical and Electronic Engineering Technologists and Technicians",
+    "observed_exposure": 0.0202,
+    "expertise_percentile": 78.9644088745,
+    "soc_group": "17"
+  },
+  {
+    "onetsoccode": "17-3024",
+    "occupation_title": "Electro-Mechanical and Mechatronics Technologists and Technicians",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 65.5471572876,
+    "soc_group": "17"
+  },
+  {
+    "onetsoccode": "17-3024",
+    "occupation_title": "Robotics Technicians",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 72.0830535889,
+    "soc_group": "17"
+  },
+  {
+    "onetsoccode": "17-3025",
+    "occupation_title": "Environmental Engineering Technologists and Technicians",
+    "observed_exposure": 0.1029,
+    "expertise_percentile": 70.5677261353,
+    "soc_group": "17"
+  },
+  {
+    "onetsoccode": "17-3026",
+    "occupation_title": "Industrial Engineering Technologists and Technicians",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 71.4150161743,
+    "soc_group": "17"
+  },
+  {
+    "onetsoccode": "17-3026",
+    "occupation_title": "Nanotechnology Engineering Technologists and Technicians",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 79.9985351562,
+    "soc_group": "17"
+  },
+  {
+    "onetsoccode": "17-3027",
+    "occupation_title": "Mechanical Engineering Technologists and Technicians",
+    "observed_exposure": 0.0683,
+    "expertise_percentile": 80.738899231,
+    "soc_group": "17"
+  },
+  {
+    "onetsoccode": "17-3027",
+    "occupation_title": "Automotive Engineering Technicians",
+    "observed_exposure": 0.0683,
+    "expertise_percentile": 76.9407196045,
+    "soc_group": "17"
+  },
+  {
+    "onetsoccode": "17-3028",
+    "occupation_title": "Calibration Technologists and Technicians",
+    "observed_exposure": null,
+    "expertise_percentile": 64.5434341431,
+    "soc_group": "17"
+  },
+  {
+    "onetsoccode": "17-3029",
+    "occupation_title": "Non-Destructive Testing Specialists",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 70.6859130859,
+    "soc_group": "17"
+  },
+  {
+    "onetsoccode": "17-3029",
+    "occupation_title": "Photonics Technicians",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 76.0545578003,
+    "soc_group": "17"
+  },
+  {
+    "onetsoccode": "17-3031",
+    "occupation_title": "Surveying and Mapping Technicians",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 58.7694702148,
+    "soc_group": "17"
+  },
+  {
+    "onetsoccode": "19-1011",
+    "occupation_title": "Animal Scientists",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 95.5843963623,
+    "soc_group": "19"
+  },
+  {
+    "onetsoccode": "19-1012",
+    "occupation_title": "Food Scientists and Technologists",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 94.1791305542,
+    "soc_group": "19"
+  },
+  {
+    "onetsoccode": "19-1013",
+    "occupation_title": "Soil and Plant Scientists",
+    "observed_exposure": 0.0513,
+    "expertise_percentile": 95.1735305786,
+    "soc_group": "19"
+  },
+  {
+    "onetsoccode": "19-1021",
+    "occupation_title": "Biochemists and Biophysicists",
+    "observed_exposure": 0.0756,
+    "expertise_percentile": 99.6103439331,
+    "soc_group": "19"
+  },
+  {
+    "onetsoccode": "19-1022",
+    "occupation_title": "Microbiologists",
+    "observed_exposure": 0.0969,
+    "expertise_percentile": 96.4306106567,
+    "soc_group": "19"
+  },
+  {
+    "onetsoccode": "19-1023",
+    "occupation_title": "Zoologists and Wildlife Biologists",
+    "observed_exposure": 0.0606,
+    "expertise_percentile": 87.4358444214,
+    "soc_group": "19"
+  },
+  {
+    "onetsoccode": "19-1029",
+    "occupation_title": "Bioinformatics Scientists",
+    "observed_exposure": 0.2452,
+    "expertise_percentile": 90.3405532837,
+    "soc_group": "19"
+  },
+  {
+    "onetsoccode": "19-1029",
+    "occupation_title": "Molecular and Cellular Biologists",
+    "observed_exposure": 0.2452,
+    "expertise_percentile": 98.5165252686,
+    "soc_group": "19"
+  },
+  {
+    "onetsoccode": "19-1029",
+    "occupation_title": "Geneticists",
+    "observed_exposure": 0.2452,
+    "expertise_percentile": 98.8008651733,
+    "soc_group": "19"
+  },
+  {
+    "onetsoccode": "19-1029",
+    "occupation_title": "Biologists",
+    "observed_exposure": 0.2452,
+    "expertise_percentile": 94.6524124146,
+    "soc_group": "19"
+  },
+  {
+    "onetsoccode": "19-1031",
+    "occupation_title": "Conservation Scientists",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 85.8790130615,
+    "soc_group": "19"
+  },
+  {
+    "onetsoccode": "19-1031",
+    "occupation_title": "Range Managers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 86.2909317017,
+    "soc_group": "19"
+  },
+  {
+    "onetsoccode": "19-1031",
+    "occupation_title": "Park Naturalists",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 54.2499008179,
+    "soc_group": "19"
+  },
+  {
+    "onetsoccode": "19-1032",
+    "occupation_title": "Foresters",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 86.3614730835,
+    "soc_group": "19"
+  },
+  {
+    "onetsoccode": "19-1041",
+    "occupation_title": "Epidemiologists",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 99.1939315796,
+    "soc_group": "19"
+  },
+  {
+    "onetsoccode": "19-1042",
+    "occupation_title": "Medical Scientists, Except Epidemiologists",
+    "observed_exposure": 0.0381,
+    "expertise_percentile": 99.6916885376,
+    "soc_group": "19"
+  },
+  {
+    "onetsoccode": "19-2011",
+    "occupation_title": "Astronomers",
+    "observed_exposure": 0.3849,
+    "expertise_percentile": 96.695930481,
+    "soc_group": "19"
+  },
+  {
+    "onetsoccode": "19-2012",
+    "occupation_title": "Physicists",
+    "observed_exposure": 0.2727,
+    "expertise_percentile": 96.4417190552,
+    "soc_group": "19"
+  },
+  {
+    "onetsoccode": "19-2021",
+    "occupation_title": "Atmospheric and Space Scientists",
+    "observed_exposure": 0.038,
+    "expertise_percentile": 95.3966827393,
+    "soc_group": "19"
+  },
+  {
+    "onetsoccode": "19-2031",
+    "occupation_title": "Chemists",
+    "observed_exposure": 0.2614,
+    "expertise_percentile": 86.3463973999,
+    "soc_group": "19"
+  },
+  {
+    "onetsoccode": "19-2032",
+    "occupation_title": "Materials Scientists",
+    "observed_exposure": 0.1843,
+    "expertise_percentile": 95.264175415,
+    "soc_group": "19"
+  },
+  {
+    "onetsoccode": "19-2041",
+    "occupation_title": "Environmental Scientists and Specialists, Including Health",
+    "observed_exposure": 0.0548,
+    "expertise_percentile": 94.1716461182,
+    "soc_group": "19"
+  },
+  {
+    "onetsoccode": "19-2041",
+    "occupation_title": "Climate Change Policy Analysts",
+    "observed_exposure": 0.0548,
+    "expertise_percentile": 87.3230056763,
+    "soc_group": "19"
+  },
+  {
+    "onetsoccode": "19-2041",
+    "occupation_title": "Environmental Restoration Planners",
+    "observed_exposure": 0.0548,
+    "expertise_percentile": 94.6198043823,
+    "soc_group": "19"
+  },
+  {
+    "onetsoccode": "19-2041",
+    "occupation_title": "Industrial Ecologists",
+    "observed_exposure": 0.0548,
+    "expertise_percentile": 94.9105300903,
+    "soc_group": "19"
+  },
+  {
+    "onetsoccode": "19-2042",
+    "occupation_title": "Geoscientists, Except Hydrologists and Geographers",
+    "observed_exposure": 0.043,
+    "expertise_percentile": 95.5725326538,
+    "soc_group": "19"
+  },
+  {
+    "onetsoccode": "19-2043",
+    "occupation_title": "Hydrologists",
+    "observed_exposure": 0.0748,
+    "expertise_percentile": 95.1047286987,
+    "soc_group": "19"
+  },
+  {
+    "onetsoccode": "19-2099",
+    "occupation_title": "Remote Sensing Scientists and Technologists",
+    "observed_exposure": 0.0379,
+    "expertise_percentile": 73.8868484497,
+    "soc_group": "19"
+  },
+  {
+    "onetsoccode": "19-3011",
+    "occupation_title": "Economists",
+    "observed_exposure": 0.2418,
+    "expertise_percentile": 99.1879653931,
+    "soc_group": "19"
+  },
+  {
+    "onetsoccode": "19-3011",
+    "occupation_title": "Environmental Economists",
+    "observed_exposure": 0.2418,
+    "expertise_percentile": 95.2733078003,
+    "soc_group": "19"
+  },
+  {
+    "onetsoccode": "19-3022",
+    "occupation_title": "Survey Researchers",
+    "observed_exposure": 0.4316,
+    "expertise_percentile": 59.9346618652,
+    "soc_group": "19"
+  },
+  {
+    "onetsoccode": "19-3032",
+    "occupation_title": "Industrial-Organizational Psychologists",
+    "observed_exposure": 0.1577,
+    "expertise_percentile": 86.5757141113,
+    "soc_group": "19"
+  },
+  {
+    "onetsoccode": "19-3033",
+    "occupation_title": "Clinical and Counseling Psychologists",
+    "observed_exposure": 0.0591,
+    "expertise_percentile": 96.4792938232,
+    "soc_group": "19"
+  },
+  {
+    "onetsoccode": "19-3034",
+    "occupation_title": "School Psychologists",
+    "observed_exposure": 0.0467,
+    "expertise_percentile": 94.5049285889,
+    "soc_group": "19"
+  },
+  {
+    "onetsoccode": "19-3039",
+    "occupation_title": "Neuropsychologists",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 99.7941055298,
+    "soc_group": "19"
+  },
+  {
+    "onetsoccode": "19-3039",
+    "occupation_title": "Clinical Neuropsychologists",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 99.9926300049,
+    "soc_group": "19"
+  },
+  {
+    "onetsoccode": "19-3041",
+    "occupation_title": "Sociologists",
+    "observed_exposure": 0.3833,
+    "expertise_percentile": 94.6213378906,
+    "soc_group": "19"
+  },
+  {
+    "onetsoccode": "19-3051",
+    "occupation_title": "Urban and Regional Planners",
+    "observed_exposure": 0.0959,
+    "expertise_percentile": 83.599647522,
+    "soc_group": "19"
+  },
+  {
+    "onetsoccode": "19-3091",
+    "occupation_title": "Anthropologists and Archeologists",
+    "observed_exposure": 0.1354,
+    "expertise_percentile": 95.2974700928,
+    "soc_group": "19"
+  },
+  {
+    "onetsoccode": "19-3092",
+    "occupation_title": "Geographers",
+    "observed_exposure": 0.1096,
+    "expertise_percentile": 78.8047943115,
+    "soc_group": "19"
+  },
+  {
+    "onetsoccode": "19-3093",
+    "occupation_title": "Historians",
+    "observed_exposure": 0.028,
+    "expertise_percentile": 86.6428756714,
+    "soc_group": "19"
+  },
+  {
+    "onetsoccode": "19-3094",
+    "occupation_title": "Political Scientists",
+    "observed_exposure": 0.452,
+    "expertise_percentile": 89.2846069336,
+    "soc_group": "19"
+  },
+  {
+    "onetsoccode": "19-3099",
+    "occupation_title": "Transportation Planners",
+    "observed_exposure": 0.0327,
+    "expertise_percentile": 87.455078125,
+    "soc_group": "19"
+  },
+  {
+    "onetsoccode": "19-4012",
+    "occupation_title": "Agricultural Technicians",
+    "observed_exposure": 0.0058,
+    "expertise_percentile": 52.0240440369,
+    "soc_group": "19"
+  },
+  {
+    "onetsoccode": "19-4012",
+    "occupation_title": "Precision Agriculture Technicians",
+    "observed_exposure": 0.0058,
+    "expertise_percentile": 70.8394165039,
+    "soc_group": "19"
+  },
+  {
+    "onetsoccode": "19-4013",
+    "occupation_title": "Food Science Technicians",
+    "observed_exposure": 0.2038,
+    "expertise_percentile": 46.8955154419,
+    "soc_group": "19"
+  },
+  {
+    "onetsoccode": "19-4021",
+    "occupation_title": "Biological Technicians",
+    "observed_exposure": 0.0599,
+    "expertise_percentile": 73.7678451538,
+    "soc_group": "19"
+  },
+  {
+    "onetsoccode": "19-4031",
+    "occupation_title": "Chemical Technicians",
+    "observed_exposure": 0.3148,
+    "expertise_percentile": 77.1983718872,
+    "soc_group": "19"
+  },
+  {
+    "onetsoccode": "19-4042",
+    "occupation_title": "Environmental Science and Protection Technicians, Including Health",
+    "observed_exposure": 0.1444,
+    "expertise_percentile": 66.3141326904,
+    "soc_group": "19"
+  },
+  {
+    "onetsoccode": "19-4043",
+    "occupation_title": "Geological Technicians, Except Hydrologic Technicians",
+    "observed_exposure": 0.229,
+    "expertise_percentile": 83.6046981812,
+    "soc_group": "19"
+  },
+  {
+    "onetsoccode": "19-4044",
+    "occupation_title": "Hydrologic Technicians",
+    "observed_exposure": null,
+    "expertise_percentile": 87.4765167236,
+    "soc_group": "19"
+  },
+  {
+    "onetsoccode": "19-4051",
+    "occupation_title": "Nuclear Technicians",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 70.4490509033,
+    "soc_group": "19"
+  },
+  {
+    "onetsoccode": "19-4051",
+    "occupation_title": "Nuclear Monitoring Technicians",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 48.0963363647,
+    "soc_group": "19"
+  },
+  {
+    "onetsoccode": "19-4061",
+    "occupation_title": "Social Science Research Assistants",
+    "observed_exposure": 0.4393,
+    "expertise_percentile": 50.6843910217,
+    "soc_group": "19"
+  },
+  {
+    "onetsoccode": "19-4071",
+    "occupation_title": "Forest and Conservation Technicians",
+    "observed_exposure": 0.0221,
+    "expertise_percentile": 68.8941802979,
+    "soc_group": "19"
+  },
+  {
+    "onetsoccode": "19-4092",
+    "occupation_title": "Forensic Science Technicians",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 73.8750991821,
+    "soc_group": "19"
+  },
+  {
+    "onetsoccode": "19-4099",
+    "occupation_title": "Quality Control Analysts",
+    "observed_exposure": 0.0955,
+    "expertise_percentile": 68.5757293701,
+    "soc_group": "19"
+  },
+  {
+    "onetsoccode": "19-4099",
+    "occupation_title": "Remote Sensing Technicians",
+    "observed_exposure": 0.0955,
+    "expertise_percentile": 67.9482879639,
+    "soc_group": "19"
+  },
+  {
+    "onetsoccode": "19-5011",
+    "occupation_title": "Occupational Health and Safety Specialists",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 66.5375366211,
+    "soc_group": "19"
+  },
+  {
+    "onetsoccode": "19-5012",
+    "occupation_title": "Occupational Health and Safety Technicians",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 61.5887870789,
+    "soc_group": "19"
+  },
+  {
+    "onetsoccode": "21-1011",
+    "occupation_title": "Substance Abuse and Behavioral Disorder Counselors",
+    "observed_exposure": null,
+    "expertise_percentile": null,
+    "soc_group": "21"
+  },
+  {
+    "onetsoccode": "21-1012",
+    "occupation_title": "Educational, Guidance, and Career Counselors and Advisors",
+    "observed_exposure": 0.1182,
+    "expertise_percentile": 67.6664962769,
+    "soc_group": "21"
+  },
+  {
+    "onetsoccode": "21-1013",
+    "occupation_title": "Marriage and Family Therapists",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 89.7306365967,
+    "soc_group": "21"
+  },
+  {
+    "onetsoccode": "21-1014",
+    "occupation_title": "Mental Health Counselors",
+    "observed_exposure": null,
+    "expertise_percentile": null,
+    "soc_group": "21"
+  },
+  {
+    "onetsoccode": "21-1015",
+    "occupation_title": "Rehabilitation Counselors",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 78.355682373,
+    "soc_group": "21"
+  },
+  {
+    "onetsoccode": "21-1021",
+    "occupation_title": "Child, Family, and School Social Workers",
+    "observed_exposure": 0.0074,
+    "expertise_percentile": 89.4839248657,
+    "soc_group": "21"
+  },
+  {
+    "onetsoccode": "21-1022",
+    "occupation_title": "Healthcare Social Workers",
+    "observed_exposure": 0.0916,
+    "expertise_percentile": 87.5732955933,
+    "soc_group": "21"
+  },
+  {
+    "onetsoccode": "21-1023",
+    "occupation_title": "Mental Health and Substance Abuse Social Workers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 86.641242981,
+    "soc_group": "21"
+  },
+  {
+    "onetsoccode": "21-1091",
+    "occupation_title": "Health Education Specialists",
+    "observed_exposure": 0.1376,
+    "expertise_percentile": 80.7728042603,
+    "soc_group": "21"
+  },
+  {
+    "onetsoccode": "21-1092",
+    "occupation_title": "Probation Officers and Correctional Treatment Specialists",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 59.9798545837,
+    "soc_group": "21"
+  },
+  {
+    "onetsoccode": "21-1093",
+    "occupation_title": "Social and Human Service Assistants",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 57.4555397034,
+    "soc_group": "21"
+  },
+  {
+    "onetsoccode": "21-1094",
+    "occupation_title": "Community Health Workers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 48.8967590332,
+    "soc_group": "21"
+  },
+  {
+    "onetsoccode": "21-2011",
+    "occupation_title": "Clergy",
+    "observed_exposure": 0.1116,
+    "expertise_percentile": 78.7981338501,
+    "soc_group": "21"
+  },
+  {
+    "onetsoccode": "21-2021",
+    "occupation_title": "Directors, Religious Activities and Education",
+    "observed_exposure": 0.153,
+    "expertise_percentile": 64.7040710449,
+    "soc_group": "21"
+  },
+  {
+    "onetsoccode": "23-1011",
+    "occupation_title": "Lawyers",
+    "observed_exposure": 0.1673,
+    "expertise_percentile": 99.5923690796,
+    "soc_group": "23"
+  },
+  {
+    "onetsoccode": "23-1012",
+    "occupation_title": "Judicial Law Clerks",
+    "observed_exposure": 0.1704,
+    "expertise_percentile": 94.8663330078,
+    "soc_group": "23"
+  },
+  {
+    "onetsoccode": "23-1021",
+    "occupation_title": "Administrative Law Judges, Adjudicators, and Hearing Officers",
+    "observed_exposure": 0.3048,
+    "expertise_percentile": 93.8584823608,
+    "soc_group": "23"
+  },
+  {
+    "onetsoccode": "23-1022",
+    "occupation_title": "Arbitrators, Mediators, and Conciliators",
+    "observed_exposure": 0.2426,
+    "expertise_percentile": 76.517364502,
+    "soc_group": "23"
+  },
+  {
+    "onetsoccode": "23-1023",
+    "occupation_title": "Judges, Magistrate Judges, and Magistrates",
+    "observed_exposure": 0.3109,
+    "expertise_percentile": 99.7848510742,
+    "soc_group": "23"
+  },
+  {
+    "onetsoccode": "23-2011",
+    "occupation_title": "Paralegals and Legal Assistants",
+    "observed_exposure": 0.2927,
+    "expertise_percentile": 73.3121490479,
+    "soc_group": "23"
+  },
+  {
+    "onetsoccode": "23-2093",
+    "occupation_title": "Title Examiners, Abstractors, and Searchers",
+    "observed_exposure": 0.0216,
+    "expertise_percentile": 49.5304946899,
+    "soc_group": "23"
+  },
+  {
+    "onetsoccode": "25-1011",
+    "occupation_title": "Business Teachers, Postsecondary",
+    "observed_exposure": 0.3072,
+    "expertise_percentile": 80.6516113281,
+    "soc_group": "25"
+  },
+  {
+    "onetsoccode": "25-1021",
+    "occupation_title": "Computer Science Teachers, Postsecondary",
+    "observed_exposure": 0.2414,
+    "expertise_percentile": 73.8073120117,
+    "soc_group": "25"
+  },
+  {
+    "onetsoccode": "25-1022",
+    "occupation_title": "Mathematical Science Teachers, Postsecondary",
+    "observed_exposure": 0.4305,
+    "expertise_percentile": 79.7102890015,
+    "soc_group": "25"
+  },
+  {
+    "onetsoccode": "25-1031",
+    "occupation_title": "Architecture Teachers, Postsecondary",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 80.1937332153,
+    "soc_group": "25"
+  },
+  {
+    "onetsoccode": "25-1032",
+    "occupation_title": "Engineering Teachers, Postsecondary",
+    "observed_exposure": 0.3589,
+    "expertise_percentile": 81.5565643311,
+    "soc_group": "25"
+  },
+  {
+    "onetsoccode": "25-1041",
+    "occupation_title": "Agricultural Sciences Teachers, Postsecondary",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 81.3585281372,
+    "soc_group": "25"
+  },
+  {
+    "onetsoccode": "25-1042",
+    "occupation_title": "Biological Science Teachers, Postsecondary",
+    "observed_exposure": 0.2914,
+    "expertise_percentile": 83.7011108398,
+    "soc_group": "25"
+  },
+  {
+    "onetsoccode": "25-1043",
+    "occupation_title": "Forestry and Conservation Science Teachers, Postsecondary",
+    "observed_exposure": 0.0206,
+    "expertise_percentile": 85.8834075928,
+    "soc_group": "25"
+  },
+  {
+    "onetsoccode": "25-1051",
+    "occupation_title": "Atmospheric, Earth, Marine, and Space Sciences Teachers, Postsecondary",
+    "observed_exposure": 0.0396,
+    "expertise_percentile": 84.0354919434,
+    "soc_group": "25"
+  },
+  {
+    "onetsoccode": "25-1052",
+    "occupation_title": "Chemistry Teachers, Postsecondary",
+    "observed_exposure": 0.2185,
+    "expertise_percentile": 80.7194061279,
+    "soc_group": "25"
+  },
+  {
+    "onetsoccode": "25-1053",
+    "occupation_title": "Environmental Science Teachers, Postsecondary",
+    "observed_exposure": 0.0232,
+    "expertise_percentile": 85.8827209473,
+    "soc_group": "25"
+  },
+  {
+    "onetsoccode": "25-1054",
+    "occupation_title": "Physics Teachers, Postsecondary",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 83.6733932495,
+    "soc_group": "25"
+  },
+  {
+    "onetsoccode": "25-1061",
+    "occupation_title": "Anthropology and Archeology Teachers, Postsecondary",
+    "observed_exposure": 0.0236,
+    "expertise_percentile": 81.9079437256,
+    "soc_group": "25"
+  },
+  {
+    "onetsoccode": "25-1062",
+    "occupation_title": "Area, Ethnic, and Cultural Studies Teachers, Postsecondary",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 78.8040847778,
+    "soc_group": "25"
+  },
+  {
+    "onetsoccode": "25-1063",
+    "occupation_title": "Economics Teachers, Postsecondary",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 81.3539962769,
+    "soc_group": "25"
+  },
+  {
+    "onetsoccode": "25-1064",
+    "occupation_title": "Geography Teachers, Postsecondary",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 83.6153488159,
+    "soc_group": "25"
+  },
+  {
+    "onetsoccode": "25-1065",
+    "occupation_title": "Political Science Teachers, Postsecondary",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 83.6136322021,
+    "soc_group": "25"
+  },
+  {
+    "onetsoccode": "25-1066",
+    "occupation_title": "Psychology Teachers, Postsecondary",
+    "observed_exposure": 0.3219,
+    "expertise_percentile": 83.6663208008,
+    "soc_group": "25"
+  },
+  {
+    "onetsoccode": "25-1067",
+    "occupation_title": "Sociology Teachers, Postsecondary",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 77.3263092041,
+    "soc_group": "25"
+  },
+  {
+    "onetsoccode": "25-1071",
+    "occupation_title": "Health Specialties Teachers, Postsecondary",
+    "observed_exposure": 0.3045,
+    "expertise_percentile": 78.7039337158,
+    "soc_group": "25"
+  },
+  {
+    "onetsoccode": "25-1072",
+    "occupation_title": "Nursing Instructors and Teachers, Postsecondary",
+    "observed_exposure": 0.1909,
+    "expertise_percentile": 80.8114547729,
+    "soc_group": "25"
+  },
+  {
+    "onetsoccode": "25-1081",
+    "occupation_title": "Education Teachers, Postsecondary",
+    "observed_exposure": 0.2621,
+    "expertise_percentile": 81.0530319214,
+    "soc_group": "25"
+  },
+  {
+    "onetsoccode": "25-1082",
+    "occupation_title": "Library Science Teachers, Postsecondary",
+    "observed_exposure": 0.018,
+    "expertise_percentile": 73.1210174561,
+    "soc_group": "25"
+  },
+  {
+    "onetsoccode": "25-1111",
+    "occupation_title": "Criminal Justice and Law Enforcement Teachers, Postsecondary",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 71.8898086548,
+    "soc_group": "25"
+  },
+  {
+    "onetsoccode": "25-1112",
+    "occupation_title": "Law Teachers, Postsecondary",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 83.5772476196,
+    "soc_group": "25"
+  },
+  {
+    "onetsoccode": "25-1113",
+    "occupation_title": "Social Work Teachers, Postsecondary",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 78.7678985596,
+    "soc_group": "25"
+  },
+  {
+    "onetsoccode": "25-1121",
+    "occupation_title": "Art, Drama, and Music Teachers, Postsecondary",
+    "observed_exposure": 0.2142,
+    "expertise_percentile": 70.6186752319,
+    "soc_group": "25"
+  },
+  {
+    "onetsoccode": "25-1122",
+    "occupation_title": "Communications Teachers, Postsecondary",
+    "observed_exposure": 0.2111,
+    "expertise_percentile": 79.5025863647,
+    "soc_group": "25"
+  },
+  {
+    "onetsoccode": "25-1123",
+    "occupation_title": "English Language and Literature Teachers, Postsecondary",
+    "observed_exposure": 0.3618,
+    "expertise_percentile": 72.355140686,
+    "soc_group": "25"
+  },
+  {
+    "onetsoccode": "25-1124",
+    "occupation_title": "Foreign Language and Literature Teachers, Postsecondary",
+    "observed_exposure": 0.2403,
+    "expertise_percentile": 79.9603271484,
+    "soc_group": "25"
+  },
+  {
+    "onetsoccode": "25-1125",
+    "occupation_title": "History Teachers, Postsecondary",
+    "observed_exposure": 0.0994,
+    "expertise_percentile": 79.9493103027,
+    "soc_group": "25"
+  },
+  {
+    "onetsoccode": "25-1126",
+    "occupation_title": "Philosophy and Religion Teachers, Postsecondary",
+    "observed_exposure": 0.2197,
+    "expertise_percentile": 79.0298843384,
+    "soc_group": "25"
+  },
+  {
+    "onetsoccode": "25-1192",
+    "occupation_title": "Family and Consumer Sciences Teachers, Postsecondary",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 73.5459060669,
+    "soc_group": "25"
+  },
+  {
+    "onetsoccode": "25-1193",
+    "occupation_title": "Recreation and Fitness Studies Teachers, Postsecondary",
+    "observed_exposure": 0.1138,
+    "expertise_percentile": 79.0462188721,
+    "soc_group": "25"
+  },
+  {
+    "onetsoccode": "25-1194",
+    "occupation_title": "Career/Technical Education Teachers, Postsecondary",
+    "observed_exposure": 0.1563,
+    "expertise_percentile": 68.6335754395,
+    "soc_group": "25"
+  },
+  {
+    "onetsoccode": "25-2011",
+    "occupation_title": "Preschool Teachers, Except Special Education",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 57.2187538147,
+    "soc_group": "25"
+  },
+  {
+    "onetsoccode": "25-2012",
+    "occupation_title": "Kindergarten Teachers, Except Special Education",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 63.3614044189,
+    "soc_group": "25"
+  },
+  {
+    "onetsoccode": "25-2021",
+    "occupation_title": "Elementary School Teachers, Except Special Education",
+    "observed_exposure": 0.103,
+    "expertise_percentile": 62.3198165894,
+    "soc_group": "25"
+  },
+  {
+    "onetsoccode": "25-2022",
+    "occupation_title": "Middle School Teachers, Except Special and Career/Technical Education",
+    "observed_exposure": 0.2972,
+    "expertise_percentile": 65.0758514404,
+    "soc_group": "25"
+  },
+  {
+    "onetsoccode": "25-2023",
+    "occupation_title": "Career/Technical Education Teachers, Middle School",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 61.0725059509,
+    "soc_group": "25"
+  },
+  {
+    "onetsoccode": "25-2031",
+    "occupation_title": "Secondary School Teachers, Except Special and Career/Technical Education",
+    "observed_exposure": 0.2901,
+    "expertise_percentile": 66.1053924561,
+    "soc_group": "25"
+  },
+  {
+    "onetsoccode": "25-2032",
+    "occupation_title": "Career/Technical Education Teachers, Secondary School",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 66.3684997559,
+    "soc_group": "25"
+  },
+  {
+    "onetsoccode": "25-2051",
+    "occupation_title": "Special Education Teachers, Preschool",
+    "observed_exposure": 0.0058,
+    "expertise_percentile": 69.0865631104,
+    "soc_group": "25"
+  },
+  {
+    "onetsoccode": "25-2055",
+    "occupation_title": "Special Education Teachers, Kindergarten",
+    "observed_exposure": null,
+    "expertise_percentile": null,
+    "soc_group": "25"
+  },
+  {
+    "onetsoccode": "25-2056",
+    "occupation_title": "Special Education Teachers, Elementary School",
+    "observed_exposure": null,
+    "expertise_percentile": null,
+    "soc_group": "25"
+  },
+  {
+    "onetsoccode": "25-2057",
+    "occupation_title": "Special Education Teachers, Middle School",
+    "observed_exposure": 0.134,
+    "expertise_percentile": 72.2485122681,
+    "soc_group": "25"
+  },
+  {
+    "onetsoccode": "25-2058",
+    "occupation_title": "Special Education Teachers, Secondary School",
+    "observed_exposure": 0.0989,
+    "expertise_percentile": 72.1711196899,
+    "soc_group": "25"
+  },
+  {
+    "onetsoccode": "25-2059",
+    "occupation_title": "Adapted Physical Education Specialists",
+    "observed_exposure": 0.0257,
+    "expertise_percentile": 76.9212341309,
+    "soc_group": "25"
+  },
+  {
+    "onetsoccode": "25-3011",
+    "occupation_title": "Adult Basic Education, Adult Secondary Education, and English as a Second Language Instructors",
+    "observed_exposure": 0.0636,
+    "expertise_percentile": 65.1489105225,
+    "soc_group": "25"
+  },
+  {
+    "onetsoccode": "25-3021",
+    "occupation_title": "Self-Enrichment Teachers",
+    "observed_exposure": 0.0662,
+    "expertise_percentile": 60.1787223816,
+    "soc_group": "25"
+  },
+  {
+    "onetsoccode": "25-3031",
+    "occupation_title": "Substitute Teachers, Short-Term",
+    "observed_exposure": null,
+    "expertise_percentile": 52.547706604,
+    "soc_group": "25"
+  },
+  {
+    "onetsoccode": "25-3041",
+    "occupation_title": "Tutors",
+    "observed_exposure": 0.4077,
+    "expertise_percentile": 45.3201293945,
+    "soc_group": "25"
+  },
+  {
+    "onetsoccode": "25-4011",
+    "occupation_title": "Archivists",
+    "observed_exposure": 0.1348,
+    "expertise_percentile": 73.8905181885,
+    "soc_group": "25"
+  },
+  {
+    "onetsoccode": "25-4012",
+    "occupation_title": "Curators",
+    "observed_exposure": 0.4123,
+    "expertise_percentile": 79.0190429688,
+    "soc_group": "25"
+  },
+  {
+    "onetsoccode": "25-4013",
+    "occupation_title": "Museum Technicians and Conservators",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 73.7746505737,
+    "soc_group": "25"
+  },
+  {
+    "onetsoccode": "25-4022",
+    "occupation_title": "Librarians and Media Collections Specialists",
+    "observed_exposure": 0.2032,
+    "expertise_percentile": 54.7526473999,
+    "soc_group": "25"
+  },
+  {
+    "onetsoccode": "25-4031",
+    "occupation_title": "Library Technicians",
+    "observed_exposure": 0.054,
+    "expertise_percentile": 38.6754264832,
+    "soc_group": "25"
+  },
+  {
+    "onetsoccode": "25-9021",
+    "occupation_title": "Farm and Home Management Educators",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 71.8827514648,
+    "soc_group": "25"
+  },
+  {
+    "onetsoccode": "25-9031",
+    "occupation_title": "Instructional Coordinators",
+    "observed_exposure": 0.3043,
+    "expertise_percentile": 73.5445404053,
+    "soc_group": "25"
+  },
+  {
+    "onetsoccode": "25-9042",
+    "occupation_title": "Teaching Assistants, Preschool, Elementary, Middle, and Secondary School, Except Special Education",
+    "observed_exposure": null,
+    "expertise_percentile": null,
+    "soc_group": "25"
+  },
+  {
+    "onetsoccode": "25-9043",
+    "occupation_title": "Teaching Assistants, Special Education",
+    "observed_exposure": null,
+    "expertise_percentile": null,
+    "soc_group": "25"
+  },
+  {
+    "onetsoccode": "25-9044",
+    "occupation_title": "Teaching Assistants, Postsecondary",
+    "observed_exposure": 0.1002,
+    "expertise_percentile": 63.2825546265,
+    "soc_group": "25"
+  },
+  {
+    "onetsoccode": "27-1011",
+    "occupation_title": "Art Directors",
+    "observed_exposure": 0.2098,
+    "expertise_percentile": 66.5637588501,
+    "soc_group": "27"
+  },
+  {
+    "onetsoccode": "27-1012",
+    "occupation_title": "Craft Artists",
+    "observed_exposure": 0.0539,
+    "expertise_percentile": 55.160194397,
+    "soc_group": "27"
+  },
+  {
+    "onetsoccode": "27-1013",
+    "occupation_title": "Fine Artists, Including Painters, Sculptors, and Illustrators",
+    "observed_exposure": 0.3565,
+    "expertise_percentile": 71.7810668945,
+    "soc_group": "27"
+  },
+  {
+    "onetsoccode": "27-1014",
+    "occupation_title": "Special Effects Artists and Animators",
+    "observed_exposure": 0.3571,
+    "expertise_percentile": 76.2845840454,
+    "soc_group": "27"
+  },
+  {
+    "onetsoccode": "27-1021",
+    "occupation_title": "Commercial and Industrial Designers",
+    "observed_exposure": 0.0437,
+    "expertise_percentile": 83.5653762817,
+    "soc_group": "27"
+  },
+  {
+    "onetsoccode": "27-1022",
+    "occupation_title": "Fashion Designers",
+    "observed_exposure": 0.0568,
+    "expertise_percentile": 60.6651000977,
+    "soc_group": "27"
+  },
+  {
+    "onetsoccode": "27-1023",
+    "occupation_title": "Floral Designers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 35.1606178284,
+    "soc_group": "27"
+  },
+  {
+    "onetsoccode": "27-1024",
+    "occupation_title": "Graphic Designers",
+    "observed_exposure": 0.3672,
+    "expertise_percentile": 52.2971992493,
+    "soc_group": "27"
+  },
+  {
+    "onetsoccode": "27-1025",
+    "occupation_title": "Interior Designers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 76.0210342407,
+    "soc_group": "27"
+  },
+  {
+    "onetsoccode": "27-1026",
+    "occupation_title": "Merchandise Displayers and Window Trimmers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 30.6359939575,
+    "soc_group": "27"
+  },
+  {
+    "onetsoccode": "27-1027",
+    "occupation_title": "Set and Exhibit Designers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 66.2936325073,
+    "soc_group": "27"
+  },
+  {
+    "onetsoccode": "27-2011",
+    "occupation_title": "Actors",
+    "observed_exposure": 0.1011,
+    "expertise_percentile": 76.9007415771,
+    "soc_group": "27"
+  },
+  {
+    "onetsoccode": "27-2012",
+    "occupation_title": "Producers and Directors",
+    "observed_exposure": 0.092,
+    "expertise_percentile": 72.3241195679,
+    "soc_group": "27"
+  },
+  {
+    "onetsoccode": "27-2012",
+    "occupation_title": "Media Programming Directors",
+    "observed_exposure": 0.092,
+    "expertise_percentile": 58.0676689148,
+    "soc_group": "27"
+  },
+  {
+    "onetsoccode": "27-2012",
+    "occupation_title": "Talent Directors",
+    "observed_exposure": 0.092,
+    "expertise_percentile": 54.6675033569,
+    "soc_group": "27"
+  },
+  {
+    "onetsoccode": "27-2012",
+    "occupation_title": "Media Technical Directors/Managers",
+    "observed_exposure": 0.092,
+    "expertise_percentile": 52.9976501465,
+    "soc_group": "27"
+  },
+  {
+    "onetsoccode": "27-2021",
+    "occupation_title": "Athletes and Sports Competitors",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 44.3212623596,
+    "soc_group": "27"
+  },
+  {
+    "onetsoccode": "27-2022",
+    "occupation_title": "Coaches and Scouts",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 67.9111251831,
+    "soc_group": "27"
+  },
+  {
+    "onetsoccode": "27-2023",
+    "occupation_title": "Umpires, Referees, and Other Sports Officials",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 40.0725364685,
+    "soc_group": "27"
+  },
+  {
+    "onetsoccode": "27-2031",
+    "occupation_title": "Dancers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 86.9879150391,
+    "soc_group": "27"
+  },
+  {
+    "onetsoccode": "27-2032",
+    "occupation_title": "Choreographers",
+    "observed_exposure": 0.0801,
+    "expertise_percentile": 89.6963500977,
+    "soc_group": "27"
+  },
+  {
+    "onetsoccode": "27-2041",
+    "occupation_title": "Music Directors and Composers",
+    "observed_exposure": 0.0368,
+    "expertise_percentile": 89.6945648193,
+    "soc_group": "27"
+  },
+  {
+    "onetsoccode": "27-2042",
+    "occupation_title": "Musicians and Singers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 95.2932739258,
+    "soc_group": "27"
+  },
+  {
+    "onetsoccode": "27-2091",
+    "occupation_title": "Disc Jockeys, Except Radio",
+    "observed_exposure": null,
+    "expertise_percentile": 33.279209137,
+    "soc_group": "27"
+  },
+  {
+    "onetsoccode": "27-3011",
+    "occupation_title": "Broadcast Announcers and Radio Disc Jockeys",
+    "observed_exposure": 0.0634,
+    "expertise_percentile": 45.2121009827,
+    "soc_group": "27"
+  },
+  {
+    "onetsoccode": "27-3023",
+    "occupation_title": "News Analysts, Reporters, and Journalists",
+    "observed_exposure": 0.2098,
+    "expertise_percentile": 54.0785560608,
+    "soc_group": "27"
+  },
+  {
+    "onetsoccode": "27-3031",
+    "occupation_title": "Public Relations Specialists",
+    "observed_exposure": 0.453,
+    "expertise_percentile": 70.8319549561,
+    "soc_group": "27"
+  },
+  {
+    "onetsoccode": "27-3041",
+    "occupation_title": "Editors",
+    "observed_exposure": 0.246,
+    "expertise_percentile": 66.4181900024,
+    "soc_group": "27"
+  },
+  {
+    "onetsoccode": "27-3042",
+    "occupation_title": "Technical Writers",
+    "observed_exposure": 0.4747,
+    "expertise_percentile": 52.0529441833,
+    "soc_group": "27"
+  },
+  {
+    "onetsoccode": "27-3043",
+    "occupation_title": "Writers and Authors",
+    "observed_exposure": 0.2462,
+    "expertise_percentile": 60.3352241516,
+    "soc_group": "27"
+  },
+  {
+    "onetsoccode": "27-3043",
+    "occupation_title": "Poets, Lyricists and Creative Writers",
+    "observed_exposure": 0.2462,
+    "expertise_percentile": 68.658454895,
+    "soc_group": "27"
+  },
+  {
+    "onetsoccode": "27-3091",
+    "occupation_title": "Interpreters and Translators",
+    "observed_exposure": 0.4304,
+    "expertise_percentile": 72.198890686,
+    "soc_group": "27"
+  },
+  {
+    "onetsoccode": "27-3092",
+    "occupation_title": "Court Reporters and Simultaneous Captioners",
+    "observed_exposure": 0.3431,
+    "expertise_percentile": 48.1029052734,
+    "soc_group": "27"
+  },
+  {
+    "onetsoccode": "27-4011",
+    "occupation_title": "Audio and Video Technicians",
+    "observed_exposure": 0.0173,
+    "expertise_percentile": 50.7290763855,
+    "soc_group": "27"
+  },
+  {
+    "onetsoccode": "27-4012",
+    "occupation_title": "Broadcast Technicians",
+    "observed_exposure": 0.0197,
+    "expertise_percentile": 47.8272209167,
+    "soc_group": "27"
+  },
+  {
+    "onetsoccode": "27-4014",
+    "occupation_title": "Sound Engineering Technicians",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 54.6742935181,
+    "soc_group": "27"
+  },
+  {
+    "onetsoccode": "27-4015",
+    "occupation_title": "Lighting Technicians",
+    "observed_exposure": null,
+    "expertise_percentile": 44.5287513733,
+    "soc_group": "27"
+  },
+  {
+    "onetsoccode": "27-4021",
+    "occupation_title": "Photographers",
+    "observed_exposure": 0.195,
+    "expertise_percentile": 43.4641647339,
+    "soc_group": "27"
+  },
+  {
+    "onetsoccode": "27-4031",
+    "occupation_title": "Camera Operators, Television, Video, and Film",
+    "observed_exposure": 0.1651,
+    "expertise_percentile": 56.0567092896,
+    "soc_group": "27"
+  },
+  {
+    "onetsoccode": "27-4032",
+    "occupation_title": "Film and Video Editors",
+    "observed_exposure": 0.2234,
+    "expertise_percentile": 70.8568649292,
+    "soc_group": "27"
+  },
+  {
+    "onetsoccode": "29-1011",
+    "occupation_title": "Chiropractors",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 96.256187439,
+    "soc_group": "29"
+  },
+  {
+    "onetsoccode": "29-1021",
+    "occupation_title": "Dentists, General",
+    "observed_exposure": 0.0309,
+    "expertise_percentile": 98.467918396,
+    "soc_group": "29"
+  },
+  {
+    "onetsoccode": "29-1022",
+    "occupation_title": "Oral and Maxillofacial Surgeons",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 99.9833679199,
+    "soc_group": "29"
+  },
+  {
+    "onetsoccode": "29-1023",
+    "occupation_title": "Orthodontists",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 95.8654251099,
+    "soc_group": "29"
+  },
+  {
+    "onetsoccode": "29-1024",
+    "occupation_title": "Prosthodontists",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 98.4045410156,
+    "soc_group": "29"
+  },
+  {
+    "onetsoccode": "29-1031",
+    "occupation_title": "Dietitians and Nutritionists",
+    "observed_exposure": 0.1328,
+    "expertise_percentile": 94.5447769165,
+    "soc_group": "29"
+  },
+  {
+    "onetsoccode": "29-1041",
+    "occupation_title": "Optometrists",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 98.932144165,
+    "soc_group": "29"
+  },
+  {
+    "onetsoccode": "29-1051",
+    "occupation_title": "Pharmacists",
+    "observed_exposure": 0.0896,
+    "expertise_percentile": 89.901802063,
+    "soc_group": "29"
+  },
+  {
+    "onetsoccode": "29-1071",
+    "occupation_title": "Physician Assistants",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 95.3921051025,
+    "soc_group": "29"
+  },
+  {
+    "onetsoccode": "29-1071",
+    "occupation_title": "Anesthesiologist Assistants",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 86.0953292847,
+    "soc_group": "29"
+  },
+  {
+    "onetsoccode": "29-1081",
+    "occupation_title": "Podiatrists",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 98.9371032715,
+    "soc_group": "29"
+  },
+  {
+    "onetsoccode": "29-1122",
+    "occupation_title": "Occupational Therapists",
+    "observed_exposure": 0.008,
+    "expertise_percentile": 89.9810638428,
+    "soc_group": "29"
+  },
+  {
+    "onetsoccode": "29-1122",
+    "occupation_title": "Low Vision Therapists, Orientation and Mobility Specialists, and Vision Rehabilitation Therapists",
+    "observed_exposure": 0.008,
+    "expertise_percentile": 72.4391098022,
+    "soc_group": "29"
+  },
+  {
+    "onetsoccode": "29-1123",
+    "occupation_title": "Physical Therapists",
+    "observed_exposure": 0.0174,
+    "expertise_percentile": 94.4717025757,
+    "soc_group": "29"
+  },
+  {
+    "onetsoccode": "29-1124",
+    "occupation_title": "Radiation Therapists",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 79.0396118164,
+    "soc_group": "29"
+  },
+  {
+    "onetsoccode": "29-1125",
+    "occupation_title": "Recreational Therapists",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 95.2598342896,
+    "soc_group": "29"
+  },
+  {
+    "onetsoccode": "29-1126",
+    "occupation_title": "Respiratory Therapists",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 80.0695343018,
+    "soc_group": "29"
+  },
+  {
+    "onetsoccode": "29-1127",
+    "occupation_title": "Speech-Language Pathologists",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 90.4336090088,
+    "soc_group": "29"
+  },
+  {
+    "onetsoccode": "29-1128",
+    "occupation_title": "Exercise Physiologists",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 71.8774108887,
+    "soc_group": "29"
+  },
+  {
+    "onetsoccode": "29-1129",
+    "occupation_title": "Art Therapists",
+    "observed_exposure": 0.0402,
+    "expertise_percentile": 86.3564529419,
+    "soc_group": "29"
+  },
+  {
+    "onetsoccode": "29-1129",
+    "occupation_title": "Music Therapists",
+    "observed_exposure": 0.0402,
+    "expertise_percentile": 87.4270324707,
+    "soc_group": "29"
+  },
+  {
+    "onetsoccode": "29-1131",
+    "occupation_title": "Veterinarians",
+    "observed_exposure": 0.0926,
+    "expertise_percentile": 94.9524993896,
+    "soc_group": "29"
+  },
+  {
+    "onetsoccode": "29-1141",
+    "occupation_title": "Registered Nurses",
+    "observed_exposure": 0.0595,
+    "expertise_percentile": 89.28150177,
+    "soc_group": "29"
+  },
+  {
+    "onetsoccode": "29-1141",
+    "occupation_title": "Acute Care Nurses",
+    "observed_exposure": 0.0595,
+    "expertise_percentile": 92.1418151855,
+    "soc_group": "29"
+  },
+  {
+    "onetsoccode": "29-1141",
+    "occupation_title": "Advanced Practice Psychiatric Nurses",
+    "observed_exposure": 0.0595,
+    "expertise_percentile": 98.4041442871,
+    "soc_group": "29"
+  },
+  {
+    "onetsoccode": "29-1141",
+    "occupation_title": "Critical Care Nurses",
+    "observed_exposure": 0.0595,
+    "expertise_percentile": 85.7437057495,
+    "soc_group": "29"
+  },
+  {
+    "onetsoccode": "29-1141",
+    "occupation_title": "Clinical Nurse Specialists",
+    "observed_exposure": 0.0595,
+    "expertise_percentile": 93.8500366211,
+    "soc_group": "29"
+  },
+  {
+    "onetsoccode": "29-1151",
+    "occupation_title": "Nurse Anesthetists",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 95.8916320801,
+    "soc_group": "29"
+  },
+  {
+    "onetsoccode": "29-1161",
+    "occupation_title": "Nurse Midwives",
+    "observed_exposure": 0.052,
+    "expertise_percentile": 98.4088516235,
+    "soc_group": "29"
+  },
+  {
+    "onetsoccode": "29-1171",
+    "occupation_title": "Nurse Practitioners",
+    "observed_exposure": 0.0944,
+    "expertise_percentile": 96.0516204834,
+    "soc_group": "29"
+  },
+  {
+    "onetsoccode": "29-1181",
+    "occupation_title": "Audiologists",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 95.1123962402,
+    "soc_group": "29"
+  },
+  {
+    "onetsoccode": "29-1211",
+    "occupation_title": "Anesthesiologists",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 99.9800491333,
+    "soc_group": "29"
+  },
+  {
+    "onetsoccode": "29-1212",
+    "occupation_title": "Cardiologists",
+    "observed_exposure": null,
+    "expertise_percentile": 98.7697906494,
+    "soc_group": "29"
+  },
+  {
+    "onetsoccode": "29-1213",
+    "occupation_title": "Dermatologists",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 99.2031860352,
+    "soc_group": "29"
+  },
+  {
+    "onetsoccode": "29-1214",
+    "occupation_title": "Emergency Medicine Physicians",
+    "observed_exposure": null,
+    "expertise_percentile": 98.4854431152,
+    "soc_group": "29"
+  },
+  {
+    "onetsoccode": "29-1215",
+    "occupation_title": "Family Medicine Physicians",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 98.7380065918,
+    "soc_group": "29"
+  },
+  {
+    "onetsoccode": "29-1216",
+    "occupation_title": "General Internal Medicine Physicians",
+    "observed_exposure": 0.084,
+    "expertise_percentile": 99.7491760254,
+    "soc_group": "29"
+  },
+  {
+    "onetsoccode": "29-1217",
+    "occupation_title": "Neurologists",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 99.1979446411,
+    "soc_group": "29"
+  },
+  {
+    "onetsoccode": "29-1218",
+    "occupation_title": "Obstetricians and Gynecologists",
+    "observed_exposure": 0.0685,
+    "expertise_percentile": 99.7144927979,
+    "soc_group": "29"
+  },
+  {
+    "onetsoccode": "29-1221",
+    "occupation_title": "Pediatricians, General",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 99.7715377808,
+    "soc_group": "29"
+  },
+  {
+    "onetsoccode": "29-1222",
+    "occupation_title": "Physicians, Pathologists",
+    "observed_exposure": 0.1577,
+    "expertise_percentile": 99.6978378296,
+    "soc_group": "29"
+  },
+  {
+    "onetsoccode": "29-1223",
+    "occupation_title": "Psychiatrists",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 98.7604064941,
+    "soc_group": "29"
+  },
+  {
+    "onetsoccode": "29-1224",
+    "occupation_title": "Radiologists",
+    "observed_exposure": 0.199,
+    "expertise_percentile": 95.3111495972,
+    "soc_group": "29"
+  },
+  {
+    "onetsoccode": "29-1229",
+    "occupation_title": "Allergists and Immunologists",
+    "observed_exposure": 0.0297,
+    "expertise_percentile": 99.1797027588,
+    "soc_group": "29"
+  },
+  {
+    "onetsoccode": "29-1229",
+    "occupation_title": "Hospitalists",
+    "observed_exposure": 0.0297,
+    "expertise_percentile": 98.6818161011,
+    "soc_group": "29"
+  },
+  {
+    "onetsoccode": "29-1229",
+    "occupation_title": "Urologists",
+    "observed_exposure": 0.0297,
+    "expertise_percentile": 99.9582443237,
+    "soc_group": "29"
+  },
+  {
+    "onetsoccode": "29-1229",
+    "occupation_title": "Physical Medicine and Rehabilitation Physicians",
+    "observed_exposure": 0.0297,
+    "expertise_percentile": 96.6434326172,
+    "soc_group": "29"
+  },
+  {
+    "onetsoccode": "29-1229",
+    "occupation_title": "Preventive Medicine Physicians",
+    "observed_exposure": 0.0297,
+    "expertise_percentile": 95.5608215332,
+    "soc_group": "29"
+  },
+  {
+    "onetsoccode": "29-1229",
+    "occupation_title": "Sports Medicine Physicians",
+    "observed_exposure": 0.0297,
+    "expertise_percentile": 96.4203262329,
+    "soc_group": "29"
+  },
+  {
+    "onetsoccode": "29-1241",
+    "occupation_title": "Ophthalmologists, Except Pediatric",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 99.7041320801,
+    "soc_group": "29"
+  },
+  {
+    "onetsoccode": "29-1242",
+    "occupation_title": "Orthopedic Surgeons, Except Pediatric",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 100.0,
+    "soc_group": "29"
+  },
+  {
+    "onetsoccode": "29-1243",
+    "occupation_title": "Pediatric Surgeons",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 99.9805984497,
+    "soc_group": "29"
+  },
+  {
+    "onetsoccode": "29-1291",
+    "occupation_title": "Acupuncturists",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 83.4393692017,
+    "soc_group": "29"
+  },
+  {
+    "onetsoccode": "29-1292",
+    "occupation_title": "Dental Hygienists",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 67.7805099487,
+    "soc_group": "29"
+  },
+  {
+    "onetsoccode": "29-1299",
+    "occupation_title": "Naturopathic Physicians",
+    "observed_exposure": 0.0222,
+    "expertise_percentile": 94.5755996704,
+    "soc_group": "29"
+  },
+  {
+    "onetsoccode": "29-1299",
+    "occupation_title": "Orthoptists",
+    "observed_exposure": 0.0222,
+    "expertise_percentile": 96.6595001221,
+    "soc_group": "29"
+  },
+  {
+    "onetsoccode": "29-2011",
+    "occupation_title": "Medical and Clinical Laboratory Technologists",
+    "observed_exposure": null,
+    "expertise_percentile": null,
+    "soc_group": "29"
+  },
+  {
+    "onetsoccode": "29-2011",
+    "occupation_title": "Cytogenetic Technologists",
+    "observed_exposure": null,
+    "expertise_percentile": null,
+    "soc_group": "29"
+  },
+  {
+    "onetsoccode": "29-2011",
+    "occupation_title": "Cytotechnologists",
+    "observed_exposure": null,
+    "expertise_percentile": null,
+    "soc_group": "29"
+  },
+  {
+    "onetsoccode": "29-2011",
+    "occupation_title": "Histotechnologists",
+    "observed_exposure": null,
+    "expertise_percentile": null,
+    "soc_group": "29"
+  },
+  {
+    "onetsoccode": "29-2012",
+    "occupation_title": "Medical and Clinical Laboratory Technicians",
+    "observed_exposure": null,
+    "expertise_percentile": null,
+    "soc_group": "29"
+  },
+  {
+    "onetsoccode": "29-2012",
+    "occupation_title": "Histology Technicians",
+    "observed_exposure": null,
+    "expertise_percentile": null,
+    "soc_group": "29"
+  },
+  {
+    "onetsoccode": "29-2031",
+    "occupation_title": "Cardiovascular Technologists and Technicians",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 65.1807479858,
+    "soc_group": "29"
+  },
+  {
+    "onetsoccode": "29-2032",
+    "occupation_title": "Diagnostic Medical Sonographers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 71.3768081665,
+    "soc_group": "29"
+  },
+  {
+    "onetsoccode": "29-2033",
+    "occupation_title": "Nuclear Medicine Technologists",
+    "observed_exposure": 0.0513,
+    "expertise_percentile": 78.973236084,
+    "soc_group": "29"
+  },
+  {
+    "onetsoccode": "29-2034",
+    "occupation_title": "Radiologic Technologists and Technicians",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 70.176574707,
+    "soc_group": "29"
+  },
+  {
+    "onetsoccode": "29-2035",
+    "occupation_title": "Magnetic Resonance Imaging Technologists",
+    "observed_exposure": 0.039,
+    "expertise_percentile": 53.4022865295,
+    "soc_group": "29"
+  },
+  {
+    "onetsoccode": "29-2036",
+    "occupation_title": "Medical Dosimetrists",
+    "observed_exposure": null,
+    "expertise_percentile": 94.3304443359,
+    "soc_group": "29"
+  },
+  {
+    "onetsoccode": "29-2042",
+    "occupation_title": "Emergency Medical Technicians",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 54.8452796936,
+    "soc_group": "29"
+  },
+  {
+    "onetsoccode": "29-2043",
+    "occupation_title": "Paramedics",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 76.2735061646,
+    "soc_group": "29"
+  },
+  {
+    "onetsoccode": "29-2051",
+    "occupation_title": "Dietetic Technicians",
+    "observed_exposure": 0.2446,
+    "expertise_percentile": 71.2137908936,
+    "soc_group": "29"
+  },
+  {
+    "onetsoccode": "29-2052",
+    "occupation_title": "Pharmacy Technicians",
+    "observed_exposure": 0.0735,
+    "expertise_percentile": 36.5551223755,
+    "soc_group": "29"
+  },
+  {
+    "onetsoccode": "29-2053",
+    "occupation_title": "Psychiatric Technicians",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 70.445930481,
+    "soc_group": "29"
+  },
+  {
+    "onetsoccode": "29-2055",
+    "occupation_title": "Surgical Technologists",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 52.1215629578,
+    "soc_group": "29"
+  },
+  {
+    "onetsoccode": "29-2056",
+    "occupation_title": "Veterinary Technologists and Technicians",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 63.1364936829,
+    "soc_group": "29"
+  },
+  {
+    "onetsoccode": "29-2057",
+    "occupation_title": "Ophthalmic Medical Technicians",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 41.3405914307,
+    "soc_group": "29"
+  },
+  {
+    "onetsoccode": "29-2061",
+    "occupation_title": "Licensed Practical and Licensed Vocational Nurses",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 59.6848258972,
+    "soc_group": "29"
+  },
+  {
+    "onetsoccode": "29-2072",
+    "occupation_title": "Medical Records Specialists",
+    "observed_exposure": 0.6674,
+    "expertise_percentile": 43.9539604187,
+    "soc_group": "29"
+  },
+  {
+    "onetsoccode": "29-2081",
+    "occupation_title": "Opticians, Dispensing",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 48.2087554932,
+    "soc_group": "29"
+  },
+  {
+    "onetsoccode": "29-2091",
+    "occupation_title": "Orthotists and Prosthetists",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 86.366645813,
+    "soc_group": "29"
+  },
+  {
+    "onetsoccode": "29-2092",
+    "occupation_title": "Hearing Aid Specialists",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 70.3035736084,
+    "soc_group": "29"
+  },
+  {
+    "onetsoccode": "29-2099",
+    "occupation_title": "Neurodiagnostic Technologists",
+    "observed_exposure": 0.0445,
+    "expertise_percentile": 78.9161605835,
+    "soc_group": "29"
+  },
+  {
+    "onetsoccode": "29-2099",
+    "occupation_title": "Ophthalmic Medical Technologists",
+    "observed_exposure": 0.0445,
+    "expertise_percentile": 62.4105262756,
+    "soc_group": "29"
+  },
+  {
+    "onetsoccode": "29-2099",
+    "occupation_title": "Patient Representatives",
+    "observed_exposure": 0.0445,
+    "expertise_percentile": 47.0744895935,
+    "soc_group": "29"
+  },
+  {
+    "onetsoccode": "29-9021",
+    "occupation_title": "Health Information Technologists and Medical Registrars",
+    "observed_exposure": 0.3063,
+    "expertise_percentile": 63.9030685425,
+    "soc_group": "29"
+  },
+  {
+    "onetsoccode": "29-9091",
+    "occupation_title": "Athletic Trainers",
+    "observed_exposure": 0.0531,
+    "expertise_percentile": 79.4873580933,
+    "soc_group": "29"
+  },
+  {
+    "onetsoccode": "29-9092",
+    "occupation_title": "Genetic Counselors",
+    "observed_exposure": 0.0123,
+    "expertise_percentile": 98.7398300171,
+    "soc_group": "29"
+  },
+  {
+    "onetsoccode": "29-9093",
+    "occupation_title": "Surgical Assistants",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 65.1300354004,
+    "soc_group": "29"
+  },
+  {
+    "onetsoccode": "29-9099",
+    "occupation_title": "Midwives",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 89.5031661987,
+    "soc_group": "29"
+  },
+  {
+    "onetsoccode": "31-1121",
+    "occupation_title": "Home Health Aides",
+    "observed_exposure": null,
+    "expertise_percentile": null,
+    "soc_group": "31"
+  },
+  {
+    "onetsoccode": "31-1122",
+    "occupation_title": "Personal Care Aides",
+    "observed_exposure": null,
+    "expertise_percentile": null,
+    "soc_group": "31"
+  },
+  {
+    "onetsoccode": "31-1131",
+    "occupation_title": "Nursing Assistants",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 36.1913566589,
+    "soc_group": "31"
+  },
+  {
+    "onetsoccode": "31-1132",
+    "occupation_title": "Orderlies",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 8.0660228729,
+    "soc_group": "31"
+  },
+  {
+    "onetsoccode": "31-1133",
+    "occupation_title": "Psychiatric Aides",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 33.7068481445,
+    "soc_group": "31"
+  },
+  {
+    "onetsoccode": "31-2011",
+    "occupation_title": "Occupational Therapy Assistants",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 72.6928100586,
+    "soc_group": "31"
+  },
+  {
+    "onetsoccode": "31-2012",
+    "occupation_title": "Occupational Therapy Aides",
+    "observed_exposure": 0.0661,
+    "expertise_percentile": 52.5503082275,
+    "soc_group": "31"
+  },
+  {
+    "onetsoccode": "31-2021",
+    "occupation_title": "Physical Therapist Assistants",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 52.6065216064,
+    "soc_group": "31"
+  },
+  {
+    "onetsoccode": "31-2022",
+    "occupation_title": "Physical Therapist Aides",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 46.2549819946,
+    "soc_group": "31"
+  },
+  {
+    "onetsoccode": "31-9011",
+    "occupation_title": "Massage Therapists",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 61.5724220276,
+    "soc_group": "31"
+  },
+  {
+    "onetsoccode": "31-9091",
+    "occupation_title": "Dental Assistants",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 44.523475647,
+    "soc_group": "31"
+  },
+  {
+    "onetsoccode": "31-9092",
+    "occupation_title": "Medical Assistants",
+    "observed_exposure": 0.0476,
+    "expertise_percentile": 47.7788314819,
+    "soc_group": "31"
+  },
+  {
+    "onetsoccode": "31-9093",
+    "occupation_title": "Medical Equipment Preparers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 23.8487415314,
+    "soc_group": "31"
+  },
+  {
+    "onetsoccode": "31-9094",
+    "occupation_title": "Medical Transcriptionists",
+    "observed_exposure": 0.6365,
+    "expertise_percentile": 44.2564125061,
+    "soc_group": "31"
+  },
+  {
+    "onetsoccode": "31-9095",
+    "occupation_title": "Pharmacy Aides",
+    "observed_exposure": 0.022,
+    "expertise_percentile": 47.8162536621,
+    "soc_group": "31"
+  },
+  {
+    "onetsoccode": "31-9096",
+    "occupation_title": "Veterinary Assistants and Laboratory Animal Caretakers",
+    "observed_exposure": 0.0179,
+    "expertise_percentile": 47.8866577148,
+    "soc_group": "31"
+  },
+  {
+    "onetsoccode": "31-9097",
+    "occupation_title": "Phlebotomists",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 40.9734954834,
+    "soc_group": "31"
+  },
+  {
+    "onetsoccode": "31-9099",
+    "occupation_title": "Speech-Language Pathology Assistants",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 66.2813262939,
+    "soc_group": "31"
+  },
+  {
+    "onetsoccode": "31-9099",
+    "occupation_title": "Endoscopy Technicians",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 54.4331359863,
+    "soc_group": "31"
+  },
+  {
+    "onetsoccode": "33-1011",
+    "occupation_title": "First-Line Supervisors of Correctional Officers",
+    "observed_exposure": 0.0315,
+    "expertise_percentile": 42.0130081177,
+    "soc_group": "33"
+  },
+  {
+    "onetsoccode": "33-1012",
+    "occupation_title": "First-Line Supervisors of Police and Detectives",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 54.3474273682,
+    "soc_group": "33"
+  },
+  {
+    "onetsoccode": "33-1021",
+    "occupation_title": "First-Line Supervisors of Firefighting and Prevention Workers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 62.6095161438,
+    "soc_group": "33"
+  },
+  {
+    "onetsoccode": "33-1091",
+    "occupation_title": "First-Line Supervisors of Security Workers",
+    "observed_exposure": null,
+    "expertise_percentile": 35.4687080383,
+    "soc_group": "33"
+  },
+  {
+    "onetsoccode": "33-2011",
+    "occupation_title": "Firefighters",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 41.1464233398,
+    "soc_group": "33"
+  },
+  {
+    "onetsoccode": "33-2021",
+    "occupation_title": "Fire Inspectors and Investigators",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 63.2898674011,
+    "soc_group": "33"
+  },
+  {
+    "onetsoccode": "33-2022",
+    "occupation_title": "Forest Fire Inspectors and Prevention Specialists",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 43.1889419556,
+    "soc_group": "33"
+  },
+  {
+    "onetsoccode": "33-3011",
+    "occupation_title": "Bailiffs",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 30.1997909546,
+    "soc_group": "33"
+  },
+  {
+    "onetsoccode": "33-3012",
+    "occupation_title": "Correctional Officers and Jailers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 31.4772911072,
+    "soc_group": "33"
+  },
+  {
+    "onetsoccode": "33-3021",
+    "occupation_title": "Detectives and Criminal Investigators",
+    "observed_exposure": 0.0374,
+    "expertise_percentile": 52.6641921997,
+    "soc_group": "33"
+  },
+  {
+    "onetsoccode": "33-3021",
+    "occupation_title": "Police Identification and Records Officers",
+    "observed_exposure": 0.0374,
+    "expertise_percentile": 51.5374794006,
+    "soc_group": "33"
+  },
+  {
+    "onetsoccode": "33-3021",
+    "occupation_title": "Intelligence Analysts",
+    "observed_exposure": 0.0374,
+    "expertise_percentile": 73.8649749756,
+    "soc_group": "33"
+  },
+  {
+    "onetsoccode": "33-3031",
+    "occupation_title": "Fish and Game Wardens",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 72.0864028931,
+    "soc_group": "33"
+  },
+  {
+    "onetsoccode": "33-3041",
+    "occupation_title": "Parking Enforcement Workers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 18.1178684235,
+    "soc_group": "33"
+  },
+  {
+    "onetsoccode": "33-3051",
+    "occupation_title": "Police and Sheriff's Patrol Officers",
+    "observed_exposure": 0.1234,
+    "expertise_percentile": 49.8792037964,
+    "soc_group": "33"
+  },
+  {
+    "onetsoccode": "33-3051",
+    "occupation_title": "Customs and Border Protection Officers",
+    "observed_exposure": 0.1234,
+    "expertise_percentile": 82.2551040649,
+    "soc_group": "33"
+  },
+  {
+    "onetsoccode": "33-3052",
+    "occupation_title": "Transit and Railroad Police",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 49.5320549011,
+    "soc_group": "33"
+  },
+  {
+    "onetsoccode": "33-9011",
+    "occupation_title": "Animal Control Workers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 60.2786827087,
+    "soc_group": "33"
+  },
+  {
+    "onetsoccode": "33-9021",
+    "occupation_title": "Private Detectives and Investigators",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 53.3806724548,
+    "soc_group": "33"
+  },
+  {
+    "onetsoccode": "33-9031",
+    "occupation_title": "Gambling Surveillance Officers and Gambling Investigators",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 29.6759376526,
+    "soc_group": "33"
+  },
+  {
+    "onetsoccode": "33-9032",
+    "occupation_title": "Security Guards",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 23.8108692169,
+    "soc_group": "33"
+  },
+  {
+    "onetsoccode": "33-9091",
+    "occupation_title": "Crossing Guards and Flaggers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 19.3508739471,
+    "soc_group": "33"
+  },
+  {
+    "onetsoccode": "33-9092",
+    "occupation_title": "Lifeguards, Ski Patrol, and Other Recreational Protective Service Workers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 33.2308044434,
+    "soc_group": "33"
+  },
+  {
+    "onetsoccode": "33-9093",
+    "occupation_title": "Transportation Security Screeners",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 23.1645584106,
+    "soc_group": "33"
+  },
+  {
+    "onetsoccode": "33-9094",
+    "occupation_title": "School Bus Monitors",
+    "observed_exposure": null,
+    "expertise_percentile": 22.9798851013,
+    "soc_group": "33"
+  },
+  {
+    "onetsoccode": "33-9099",
+    "occupation_title": "Retail Loss Prevention Specialists",
+    "observed_exposure": 0.0571,
+    "expertise_percentile": 44.5720062256,
+    "soc_group": "33"
+  },
+  {
+    "onetsoccode": "35-1011",
+    "occupation_title": "Chefs and Head Cooks",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 50.5904502869,
+    "soc_group": "35"
+  },
+  {
+    "onetsoccode": "35-1012",
+    "occupation_title": "First-Line Supervisors of Food Preparation and Serving Workers",
+    "observed_exposure": 0.0564,
+    "expertise_percentile": 48.8651504517,
+    "soc_group": "35"
+  },
+  {
+    "onetsoccode": "35-2011",
+    "occupation_title": "Cooks, Fast Food",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 12.1988534927,
+    "soc_group": "35"
+  },
+  {
+    "onetsoccode": "35-2012",
+    "occupation_title": "Cooks, Institution and Cafeteria",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 29.9868946075,
+    "soc_group": "35"
+  },
+  {
+    "onetsoccode": "35-2013",
+    "occupation_title": "Cooks, Private Household",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 52.6933479309,
+    "soc_group": "35"
+  },
+  {
+    "onetsoccode": "35-2014",
+    "occupation_title": "Cooks, Restaurant",
+    "observed_exposure": 0.0116,
+    "expertise_percentile": 35.1397171021,
+    "soc_group": "35"
+  },
+  {
+    "onetsoccode": "35-2015",
+    "occupation_title": "Cooks, Short Order",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 19.5610466003,
+    "soc_group": "35"
+  },
+  {
+    "onetsoccode": "35-2021",
+    "occupation_title": "Food Preparation Workers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 1.8792271614,
+    "soc_group": "35"
+  },
+  {
+    "onetsoccode": "35-3011",
+    "occupation_title": "Bartenders",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 13.8553438187,
+    "soc_group": "35"
+  },
+  {
+    "onetsoccode": "35-3023",
+    "occupation_title": "Fast Food and Counter Workers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 18.1138210297,
+    "soc_group": "35"
+  },
+  {
+    "onetsoccode": "35-3023",
+    "occupation_title": "Baristas",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 3.8845479488,
+    "soc_group": "35"
+  },
+  {
+    "onetsoccode": "35-3031",
+    "occupation_title": "Waiters and Waitresses",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 9.5825910568,
+    "soc_group": "35"
+  },
+  {
+    "onetsoccode": "35-3041",
+    "occupation_title": "Food Servers, Nonrestaurant",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 1.1036038399,
+    "soc_group": "35"
+  },
+  {
+    "onetsoccode": "35-9011",
+    "occupation_title": "Dining Room and Cafeteria Attendants and Bartender Helpers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 0.5171895027,
+    "soc_group": "35"
+  },
+  {
+    "onetsoccode": "35-9021",
+    "occupation_title": "Dishwashers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 0.2454936504,
+    "soc_group": "35"
+  },
+  {
+    "onetsoccode": "35-9031",
+    "occupation_title": "Hosts and Hostesses, Restaurant, Lounge, and Coffee Shop",
+    "observed_exposure": 0.0734,
+    "expertise_percentile": 19.7833652496,
+    "soc_group": "35"
+  },
+  {
+    "onetsoccode": "37-1011",
+    "occupation_title": "First-Line Supervisors of Housekeeping and Janitorial Workers",
+    "observed_exposure": 0.0436,
+    "expertise_percentile": 46.3458824158,
+    "soc_group": "37"
+  },
+  {
+    "onetsoccode": "37-1012",
+    "occupation_title": "First-Line Supervisors of Landscaping, Lawn Service, and Groundskeeping Workers",
+    "observed_exposure": 0.1083,
+    "expertise_percentile": 50.6550559998,
+    "soc_group": "37"
+  },
+  {
+    "onetsoccode": "37-2011",
+    "occupation_title": "Janitors and Cleaners, Except Maids and Housekeeping Cleaners",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 8.0384254456,
+    "soc_group": "37"
+  },
+  {
+    "onetsoccode": "37-2012",
+    "occupation_title": "Maids and Housekeeping Cleaners",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 0.9621500969,
+    "soc_group": "37"
+  },
+  {
+    "onetsoccode": "37-2021",
+    "occupation_title": "Pest Control Workers",
+    "observed_exposure": 0.046,
+    "expertise_percentile": 28.1340484619,
+    "soc_group": "37"
+  },
+  {
+    "onetsoccode": "37-3011",
+    "occupation_title": "Landscaping and Groundskeeping Workers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 24.5783157349,
+    "soc_group": "37"
+  },
+  {
+    "onetsoccode": "37-3012",
+    "occupation_title": "Pesticide Handlers, Sprayers, and Applicators, Vegetation",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 23.1255760193,
+    "soc_group": "37"
+  },
+  {
+    "onetsoccode": "37-3013",
+    "occupation_title": "Tree Trimmers and Pruners",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 38.812286377,
+    "soc_group": "37"
+  },
+  {
+    "onetsoccode": "39-1013",
+    "occupation_title": "First-Line Supervisors of Gambling Services Workers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 30.1478443146,
+    "soc_group": "39"
+  },
+  {
+    "onetsoccode": "39-1014",
+    "occupation_title": "First-Line Supervisors of Entertainment and Recreation Workers, Except Gambling Services",
+    "observed_exposure": 0.0443,
+    "expertise_percentile": 33.8270797729,
+    "soc_group": "39"
+  },
+  {
+    "onetsoccode": "39-1022",
+    "occupation_title": "First-Line Supervisors of Personal Service Workers",
+    "observed_exposure": 0.0407,
+    "expertise_percentile": 38.3927955627,
+    "soc_group": "39"
+  },
+  {
+    "onetsoccode": "39-2011",
+    "occupation_title": "Animal Trainers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 62.5447692871,
+    "soc_group": "39"
+  },
+  {
+    "onetsoccode": "39-2021",
+    "occupation_title": "Animal Caretakers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 34.3837013245,
+    "soc_group": "39"
+  },
+  {
+    "onetsoccode": "39-3011",
+    "occupation_title": "Gambling Dealers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 18.183172226,
+    "soc_group": "39"
+  },
+  {
+    "onetsoccode": "39-3012",
+    "occupation_title": "Gambling and Sports Book Writers and Runners",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 8.0699806213,
+    "soc_group": "39"
+  },
+  {
+    "onetsoccode": "39-3021",
+    "occupation_title": "Motion Picture Projectionists",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 22.9423408508,
+    "soc_group": "39"
+  },
+  {
+    "onetsoccode": "39-3031",
+    "occupation_title": "Ushers, Lobby Attendants, and Ticket Takers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 4.1400909424,
+    "soc_group": "39"
+  },
+  {
+    "onetsoccode": "39-3091",
+    "occupation_title": "Amusement and Recreation Attendants",
+    "observed_exposure": 0.0619,
+    "expertise_percentile": 4.6311855316,
+    "soc_group": "39"
+  },
+  {
+    "onetsoccode": "39-3092",
+    "occupation_title": "Costume Attendants",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 44.5752868652,
+    "soc_group": "39"
+  },
+  {
+    "onetsoccode": "39-3093",
+    "occupation_title": "Locker Room, Coatroom, and Dressing Room Attendants",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 4.1618642807,
+    "soc_group": "39"
+  },
+  {
+    "onetsoccode": "39-4011",
+    "occupation_title": "Embalmers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 48.2219924927,
+    "soc_group": "39"
+  },
+  {
+    "onetsoccode": "39-4012",
+    "occupation_title": "Crematory Operators",
+    "observed_exposure": null,
+    "expertise_percentile": 30.5358161926,
+    "soc_group": "39"
+  },
+  {
+    "onetsoccode": "39-4021",
+    "occupation_title": "Funeral Attendants",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 28.2916126251,
+    "soc_group": "39"
+  },
+  {
+    "onetsoccode": "39-4031",
+    "occupation_title": "Morticians, Undertakers, and Funeral Arrangers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 43.569934845,
+    "soc_group": "39"
+  },
+  {
+    "onetsoccode": "39-5011",
+    "occupation_title": "Barbers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 33.2949638367,
+    "soc_group": "39"
+  },
+  {
+    "onetsoccode": "39-5012",
+    "occupation_title": "Hairdressers, Hairstylists, and Cosmetologists",
+    "observed_exposure": 0.0304,
+    "expertise_percentile": 41.4943695068,
+    "soc_group": "39"
+  },
+  {
+    "onetsoccode": "39-5091",
+    "occupation_title": "Makeup Artists, Theatrical and Performance",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 61.0742263794,
+    "soc_group": "39"
+  },
+  {
+    "onetsoccode": "39-5092",
+    "occupation_title": "Manicurists and Pedicurists",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 23.1015434265,
+    "soc_group": "39"
+  },
+  {
+    "onetsoccode": "39-5093",
+    "occupation_title": "Shampooers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 33.6886901855,
+    "soc_group": "39"
+  },
+  {
+    "onetsoccode": "39-5094",
+    "occupation_title": "Skincare Specialists",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 42.0866355896,
+    "soc_group": "39"
+  },
+  {
+    "onetsoccode": "39-6011",
+    "occupation_title": "Baggage Porters and Bellhops",
+    "observed_exposure": 0.073,
+    "expertise_percentile": 4.3326559067,
+    "soc_group": "39"
+  },
+  {
+    "onetsoccode": "39-6012",
+    "occupation_title": "Concierges",
+    "observed_exposure": 0.1875,
+    "expertise_percentile": 19.3039360046,
+    "soc_group": "39"
+  },
+  {
+    "onetsoccode": "39-7011",
+    "occupation_title": "Tour Guides and Escorts",
+    "observed_exposure": null,
+    "expertise_percentile": null,
+    "soc_group": "39"
+  },
+  {
+    "onetsoccode": "39-7012",
+    "occupation_title": "Travel Guides",
+    "observed_exposure": null,
+    "expertise_percentile": null,
+    "soc_group": "39"
+  },
+  {
+    "onetsoccode": "39-9011",
+    "occupation_title": "Childcare Workers",
+    "observed_exposure": 0.0122,
+    "expertise_percentile": 39.2369155884,
+    "soc_group": "39"
+  },
+  {
+    "onetsoccode": "39-9011",
+    "occupation_title": "Nannies",
+    "observed_exposure": 0.0122,
+    "expertise_percentile": 28.8632030487,
+    "soc_group": "39"
+  },
+  {
+    "onetsoccode": "39-9031",
+    "occupation_title": "Exercise Trainers and Group Fitness Instructors",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 54.2365837097,
+    "soc_group": "39"
+  },
+  {
+    "onetsoccode": "39-9032",
+    "occupation_title": "Recreation Workers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 53.5634536743,
+    "soc_group": "39"
+  },
+  {
+    "onetsoccode": "39-9041",
+    "occupation_title": "Residential Advisors",
+    "observed_exposure": 0.067,
+    "expertise_percentile": 49.4873352051,
+    "soc_group": "39"
+  },
+  {
+    "onetsoccode": "41-1011",
+    "occupation_title": "First-Line Supervisors of Retail Sales Workers",
+    "observed_exposure": 0.2627,
+    "expertise_percentile": 45.1546554565,
+    "soc_group": "41"
+  },
+  {
+    "onetsoccode": "41-1012",
+    "occupation_title": "First-Line Supervisors of Non-Retail Sales Workers",
+    "observed_exposure": 0.2295,
+    "expertise_percentile": 41.9726257324,
+    "soc_group": "41"
+  },
+  {
+    "onetsoccode": "41-2011",
+    "occupation_title": "Cashiers",
+    "observed_exposure": 0.0846,
+    "expertise_percentile": 16.1459331512,
+    "soc_group": "41"
+  },
+  {
+    "onetsoccode": "41-2012",
+    "occupation_title": "Gambling Change Persons and Booth Cashiers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 18.129283905,
+    "soc_group": "41"
+  },
+  {
+    "onetsoccode": "41-2021",
+    "occupation_title": "Counter and Rental Clerks",
+    "observed_exposure": 0.2048,
+    "expertise_percentile": 8.3840904236,
+    "soc_group": "41"
+  },
+  {
+    "onetsoccode": "41-2022",
+    "occupation_title": "Parts Salespersons",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 29.6707267761,
+    "soc_group": "41"
+  },
+  {
+    "onetsoccode": "41-2031",
+    "occupation_title": "Retail Salespersons",
+    "observed_exposure": 0.3222,
+    "expertise_percentile": 11.8510541916,
+    "soc_group": "41"
+  },
+  {
+    "onetsoccode": "41-3011",
+    "occupation_title": "Advertising Sales Agents",
+    "observed_exposure": 0.1482,
+    "expertise_percentile": 44.3137817383,
+    "soc_group": "41"
+  },
+  {
+    "onetsoccode": "41-3021",
+    "occupation_title": "Insurance Sales Agents",
+    "observed_exposure": 0.3188,
+    "expertise_percentile": 44.2140045166,
+    "soc_group": "41"
+  },
+  {
+    "onetsoccode": "41-3031",
+    "occupation_title": "Securities, Commodities, and Financial Services Sales Agents",
+    "observed_exposure": 0.4413,
+    "expertise_percentile": 59.930644989,
+    "soc_group": "41"
+  },
+  {
+    "onetsoccode": "41-3091",
+    "occupation_title": "Sales Representatives of Services, Except Advertising, Insurance, Financial Services, and Travel",
+    "observed_exposure": null,
+    "expertise_percentile": 31.2751121521,
+    "soc_group": "41"
+  },
+  {
+    "onetsoccode": "41-4011",
+    "occupation_title": "Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products",
+    "observed_exposure": 0.2706,
+    "expertise_percentile": 38.96616745,
+    "soc_group": "41"
+  },
+  {
+    "onetsoccode": "41-4011",
+    "occupation_title": "Solar Sales Representatives and Assessors",
+    "observed_exposure": 0.2706,
+    "expertise_percentile": 52.0165786743,
+    "soc_group": "41"
+  },
+  {
+    "onetsoccode": "41-4012",
+    "occupation_title": "Sales Representatives, Wholesale and Manufacturing, Except Technical and Scientific Products",
+    "observed_exposure": 0.6279,
+    "expertise_percentile": 40.9012069702,
+    "soc_group": "41"
+  },
+  {
+    "onetsoccode": "41-9011",
+    "occupation_title": "Demonstrators and Product Promoters",
+    "observed_exposure": 0.0788,
+    "expertise_percentile": 24.0590686798,
+    "soc_group": "41"
+  },
+  {
+    "onetsoccode": "41-9012",
+    "occupation_title": "Models",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 29.4419822693,
+    "soc_group": "41"
+  },
+  {
+    "onetsoccode": "41-9021",
+    "occupation_title": "Real Estate Brokers",
+    "observed_exposure": 0.2609,
+    "expertise_percentile": 54.3791885376,
+    "soc_group": "41"
+  },
+  {
+    "onetsoccode": "41-9022",
+    "occupation_title": "Real Estate Sales Agents",
+    "observed_exposure": 0.2828,
+    "expertise_percentile": 42.7980079651,
+    "soc_group": "41"
+  },
+  {
+    "onetsoccode": "41-9031",
+    "occupation_title": "Sales Engineers",
+    "observed_exposure": 0.3224,
+    "expertise_percentile": 51.2242736816,
+    "soc_group": "41"
+  },
+  {
+    "onetsoccode": "41-9091",
+    "occupation_title": "Door-to-Door Sales Workers, News and Street Vendors, and Related Workers",
+    "observed_exposure": 0.1758,
+    "expertise_percentile": 4.3350458145,
+    "soc_group": "41"
+  },
+  {
+    "onetsoccode": "43-1011",
+    "occupation_title": "First-Line Supervisors of Office and Administrative Support Workers",
+    "observed_exposure": 0.1856,
+    "expertise_percentile": 46.1769332886,
+    "soc_group": "43"
+  },
+  {
+    "onetsoccode": "43-2011",
+    "occupation_title": "Switchboard Operators, Including Answering Service",
+    "observed_exposure": 0.3863,
+    "expertise_percentile": 4.0780425072,
+    "soc_group": "43"
+  },
+  {
+    "onetsoccode": "43-2021",
+    "occupation_title": "Telephone Operators",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 22.9413261414,
+    "soc_group": "43"
+  },
+  {
+    "onetsoccode": "43-3011",
+    "occupation_title": "Bill and Account Collectors",
+    "observed_exposure": 0.2989,
+    "expertise_percentile": 30.4172401428,
+    "soc_group": "43"
+  },
+  {
+    "onetsoccode": "43-3021",
+    "occupation_title": "Billing and Posting Clerks",
+    "observed_exposure": 0.1924,
+    "expertise_percentile": 28.5089130402,
+    "soc_group": "43"
+  },
+  {
+    "onetsoccode": "43-3031",
+    "occupation_title": "Bookkeeping, Accounting, and Auditing Clerks",
+    "observed_exposure": 0.3104,
+    "expertise_percentile": 32.5202941895,
+    "soc_group": "43"
+  },
+  {
+    "onetsoccode": "43-3041",
+    "occupation_title": "Gambling Cage Workers",
+    "observed_exposure": 0.0653,
+    "expertise_percentile": 18.1362991333,
+    "soc_group": "43"
+  },
+  {
+    "onetsoccode": "43-3051",
+    "occupation_title": "Payroll and Timekeeping Clerks",
+    "observed_exposure": 0.0487,
+    "expertise_percentile": 33.495880127,
+    "soc_group": "43"
+  },
+  {
+    "onetsoccode": "43-3061",
+    "occupation_title": "Procurement Clerks",
+    "observed_exposure": 0.2436,
+    "expertise_percentile": 28.5924682617,
+    "soc_group": "43"
+  },
+  {
+    "onetsoccode": "43-3071",
+    "occupation_title": "Tellers",
+    "observed_exposure": 0.0231,
+    "expertise_percentile": 24.0253562927,
+    "soc_group": "43"
+  },
+  {
+    "onetsoccode": "43-4011",
+    "occupation_title": "Brokerage Clerks",
+    "observed_exposure": 0.1744,
+    "expertise_percentile": 33.7787628174,
+    "soc_group": "43"
+  },
+  {
+    "onetsoccode": "43-4021",
+    "occupation_title": "Correspondence Clerks",
+    "observed_exposure": 0.2786,
+    "expertise_percentile": 22.9903755188,
+    "soc_group": "43"
+  },
+  {
+    "onetsoccode": "43-4031",
+    "occupation_title": "Court, Municipal, and License Clerks",
+    "observed_exposure": 0.102,
+    "expertise_percentile": 42.6987991333,
+    "soc_group": "43"
+  },
+  {
+    "onetsoccode": "43-4041",
+    "occupation_title": "Credit Authorizers, Checkers, and Clerks",
+    "observed_exposure": 0.1296,
+    "expertise_percentile": 28.0725479126,
+    "soc_group": "43"
+  },
+  {
+    "onetsoccode": "43-4051",
+    "occupation_title": "Customer Service Representatives",
+    "observed_exposure": 0.7011,
+    "expertise_percentile": 37.9739112854,
+    "soc_group": "43"
+  },
+  {
+    "onetsoccode": "43-4061",
+    "occupation_title": "Eligibility Interviewers, Government Programs",
+    "observed_exposure": 0.0597,
+    "expertise_percentile": 40.2418365479,
+    "soc_group": "43"
+  },
+  {
+    "onetsoccode": "43-4071",
+    "occupation_title": "File Clerks",
+    "observed_exposure": 0.1568,
+    "expertise_percentile": 5.2865982056,
+    "soc_group": "43"
+  },
+  {
+    "onetsoccode": "43-4081",
+    "occupation_title": "Hotel, Motel, and Resort Desk Clerks",
+    "observed_exposure": 0.1725,
+    "expertise_percentile": 13.2653656006,
+    "soc_group": "43"
+  },
+  {
+    "onetsoccode": "43-4111",
+    "occupation_title": "Interviewers, Except Eligibility and Loan",
+    "observed_exposure": 0.3851,
+    "expertise_percentile": 28.0428295135,
+    "soc_group": "43"
+  },
+  {
+    "onetsoccode": "43-4121",
+    "occupation_title": "Library Assistants, Clerical",
+    "observed_exposure": 0.0978,
+    "expertise_percentile": 29.7176055908,
+    "soc_group": "43"
+  },
+  {
+    "onetsoccode": "43-4131",
+    "occupation_title": "Loan Interviewers and Clerks",
+    "observed_exposure": 0.2022,
+    "expertise_percentile": 40.0469894409,
+    "soc_group": "43"
+  },
+  {
+    "onetsoccode": "43-4141",
+    "occupation_title": "New Accounts Clerks",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 28.5287075043,
+    "soc_group": "43"
+  },
+  {
+    "onetsoccode": "43-4151",
+    "occupation_title": "Order Clerks",
+    "observed_exposure": 0.0748,
+    "expertise_percentile": 12.6541671753,
+    "soc_group": "43"
+  },
+  {
+    "onetsoccode": "43-4161",
+    "occupation_title": "Human Resources Assistants, Except Payroll and Timekeeping",
+    "observed_exposure": 0.4046,
+    "expertise_percentile": 30.2809486389,
+    "soc_group": "43"
+  },
+  {
+    "onetsoccode": "43-4171",
+    "occupation_title": "Receptionists and Information Clerks",
+    "observed_exposure": 0.4338,
+    "expertise_percentile": 14.493060112,
+    "soc_group": "43"
+  },
+  {
+    "onetsoccode": "43-4181",
+    "occupation_title": "Reservation and Transportation Ticket Agents and Travel Clerks",
+    "observed_exposure": 0.2467,
+    "expertise_percentile": 26.0354881287,
+    "soc_group": "43"
+  },
+  {
+    "onetsoccode": "43-5011",
+    "occupation_title": "Cargo and Freight Agents",
+    "observed_exposure": 0.0165,
+    "expertise_percentile": 27.8009243011,
+    "soc_group": "43"
+  },
+  {
+    "onetsoccode": "43-5011",
+    "occupation_title": "Freight Forwarders",
+    "observed_exposure": 0.0165,
+    "expertise_percentile": 41.8163299561,
+    "soc_group": "43"
+  },
+  {
+    "onetsoccode": "43-5021",
+    "occupation_title": "Couriers and Messengers",
+    "observed_exposure": 0.0412,
+    "expertise_percentile": 1.9166588783,
+    "soc_group": "43"
+  },
+  {
+    "onetsoccode": "43-5031",
+    "occupation_title": "Public Safety Telecommunicators",
+    "observed_exposure": 0.0465,
+    "expertise_percentile": 34.2393760681,
+    "soc_group": "43"
+  },
+  {
+    "onetsoccode": "43-5032",
+    "occupation_title": "Dispatchers, Except Police, Fire, and Ambulance",
+    "observed_exposure": 0.2258,
+    "expertise_percentile": 36.3011703491,
+    "soc_group": "43"
+  },
+  {
+    "onetsoccode": "43-5041",
+    "occupation_title": "Meter Readers, Utilities",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 19.2731742859,
+    "soc_group": "43"
+  },
+  {
+    "onetsoccode": "43-5051",
+    "occupation_title": "Postal Service Clerks",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 5.4467439651,
+    "soc_group": "43"
+  },
+  {
+    "onetsoccode": "43-5052",
+    "occupation_title": "Postal Service Mail Carriers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 4.059445858,
+    "soc_group": "43"
+  },
+  {
+    "onetsoccode": "43-5053",
+    "occupation_title": "Postal Service Mail Sorters, Processors, and Processing Machine Operators",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 4.2292356491,
+    "soc_group": "43"
+  },
+  {
+    "onetsoccode": "43-5061",
+    "occupation_title": "Production, Planning, and Expediting Clerks",
+    "observed_exposure": 0.0934,
+    "expertise_percentile": 41.7240257263,
+    "soc_group": "43"
+  },
+  {
+    "onetsoccode": "43-5071",
+    "occupation_title": "Shipping, Receiving, and Inventory Clerks",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 27.7443408966,
+    "soc_group": "43"
+  },
+  {
+    "onetsoccode": "43-5111",
+    "occupation_title": "Weighers, Measurers, Checkers, and Samplers, Recordkeeping",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 13.1028594971,
+    "soc_group": "43"
+  },
+  {
+    "onetsoccode": "43-6011",
+    "occupation_title": "Executive Secretaries and Executive Administrative Assistants",
+    "observed_exposure": 0.2336,
+    "expertise_percentile": 35.4066848755,
+    "soc_group": "43"
+  },
+  {
+    "onetsoccode": "43-6012",
+    "occupation_title": "Legal Secretaries and Administrative Assistants",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 42.8839912415,
+    "soc_group": "43"
+  },
+  {
+    "onetsoccode": "43-6013",
+    "occupation_title": "Medical Secretaries and Administrative Assistants",
+    "observed_exposure": 0.3623,
+    "expertise_percentile": 29.3625049591,
+    "soc_group": "43"
+  },
+  {
+    "onetsoccode": "43-6014",
+    "occupation_title": "Secretaries and Administrative Assistants, Except Legal, Medical, and Executive",
+    "observed_exposure": 0.4528,
+    "expertise_percentile": 27.0135879517,
+    "soc_group": "43"
+  },
+  {
+    "onetsoccode": "43-9021",
+    "occupation_title": "Data Entry Keyers",
+    "observed_exposure": 0.6707,
+    "expertise_percentile": 26.1058979034,
+    "soc_group": "43"
+  },
+  {
+    "onetsoccode": "43-9022",
+    "occupation_title": "Word Processors and Typists",
+    "observed_exposure": 0.2385,
+    "expertise_percentile": 22.9392642975,
+    "soc_group": "43"
+  },
+  {
+    "onetsoccode": "43-9031",
+    "occupation_title": "Desktop Publishers",
+    "observed_exposure": 0.464,
+    "expertise_percentile": 44.2584991455,
+    "soc_group": "43"
+  },
+  {
+    "onetsoccode": "43-9041",
+    "occupation_title": "Insurance Claims and Policy Processing Clerks",
+    "observed_exposure": 0.1467,
+    "expertise_percentile": 33.4141921997,
+    "soc_group": "43"
+  },
+  {
+    "onetsoccode": "43-9051",
+    "occupation_title": "Mail Clerks and Mail Machine Operators, Except Postal Service",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 4.3676972389,
+    "soc_group": "43"
+  },
+  {
+    "onetsoccode": "43-9061",
+    "occupation_title": "Office Clerks, General",
+    "observed_exposure": 0.4504,
+    "expertise_percentile": 25.8849983215,
+    "soc_group": "43"
+  },
+  {
+    "onetsoccode": "43-9071",
+    "occupation_title": "Office Machine Operators, Except Computer",
+    "observed_exposure": 0.0239,
+    "expertise_percentile": 13.1293001175,
+    "soc_group": "43"
+  },
+  {
+    "onetsoccode": "43-9081",
+    "occupation_title": "Proofreaders and Copy Markers",
+    "observed_exposure": 0.1781,
+    "expertise_percentile": 32.5581054688,
+    "soc_group": "43"
+  },
+  {
+    "onetsoccode": "43-9111",
+    "occupation_title": "Statistical Assistants",
+    "observed_exposure": 0.5099,
+    "expertise_percentile": 33.6050758362,
+    "soc_group": "43"
+  },
+  {
+    "onetsoccode": "45-1011",
+    "occupation_title": "First-Line Supervisors of Farming, Fishing, and Forestry Workers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 43.1875,
+    "soc_group": "45"
+  },
+  {
+    "onetsoccode": "45-2011",
+    "occupation_title": "Agricultural Inspectors",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 66.5700454712,
+    "soc_group": "45"
+  },
+  {
+    "onetsoccode": "45-2021",
+    "occupation_title": "Animal Breeders",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 38.8131866455,
+    "soc_group": "45"
+  },
+  {
+    "onetsoccode": "45-2041",
+    "occupation_title": "Graders and Sorters, Agricultural Products",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 4.154074192,
+    "soc_group": "45"
+  },
+  {
+    "onetsoccode": "45-2091",
+    "occupation_title": "Agricultural Equipment Operators",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 28.5448074341,
+    "soc_group": "45"
+  },
+  {
+    "onetsoccode": "45-2092",
+    "occupation_title": "Farmworkers and Laborers, Crop, Nursery, and Greenhouse",
+    "observed_exposure": 0.0203,
+    "expertise_percentile": 31.6500663757,
+    "soc_group": "45"
+  },
+  {
+    "onetsoccode": "45-2093",
+    "occupation_title": "Farmworkers, Farm, Ranch, and Aquacultural Animals",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 41.7654266357,
+    "soc_group": "45"
+  },
+  {
+    "onetsoccode": "45-3031",
+    "occupation_title": "Fishing and Hunting Workers",
+    "observed_exposure": null,
+    "expertise_percentile": null,
+    "soc_group": "45"
+  },
+  {
+    "onetsoccode": "45-4011",
+    "occupation_title": "Forest and Conservation Workers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 28.0834846497,
+    "soc_group": "45"
+  },
+  {
+    "onetsoccode": "45-4021",
+    "occupation_title": "Fallers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 33.757900238,
+    "soc_group": "45"
+  },
+  {
+    "onetsoccode": "45-4022",
+    "occupation_title": "Logging Equipment Operators",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 33.7557563782,
+    "soc_group": "45"
+  },
+  {
+    "onetsoccode": "45-4023",
+    "occupation_title": "Log Graders and Scalers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 28.0805587769,
+    "soc_group": "45"
+  },
+  {
+    "onetsoccode": "47-1011",
+    "occupation_title": "First-Line Supervisors of Construction Trades and Extraction Workers",
+    "observed_exposure": 0.0296,
+    "expertise_percentile": 55.7352523804,
+    "soc_group": "47"
+  },
+  {
+    "onetsoccode": "47-1011",
+    "occupation_title": "Solar Energy Installation Managers",
+    "observed_exposure": 0.0296,
+    "expertise_percentile": 64.4368743896,
+    "soc_group": "47"
+  },
+  {
+    "onetsoccode": "47-2011",
+    "occupation_title": "Boilermakers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 50.6896858215,
+    "soc_group": "47"
+  },
+  {
+    "onetsoccode": "47-2021",
+    "occupation_title": "Brickmasons and Blockmasons",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 43.4375038147,
+    "soc_group": "47"
+  },
+  {
+    "onetsoccode": "47-2022",
+    "occupation_title": "Stonemasons",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 44.263053894,
+    "soc_group": "47"
+  },
+  {
+    "onetsoccode": "47-2031",
+    "occupation_title": "Carpenters",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 38.3370704651,
+    "soc_group": "47"
+  },
+  {
+    "onetsoccode": "47-2041",
+    "occupation_title": "Carpet Installers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 29.9946899414,
+    "soc_group": "47"
+  },
+  {
+    "onetsoccode": "47-2042",
+    "occupation_title": "Floor Layers, Except Carpet, Wood, and Hard Tiles",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 21.3486442566,
+    "soc_group": "47"
+  },
+  {
+    "onetsoccode": "47-2043",
+    "occupation_title": "Floor Sanders and Finishers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 19.2629642487,
+    "soc_group": "47"
+  },
+  {
+    "onetsoccode": "47-2044",
+    "occupation_title": "Tile and Stone Setters",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 38.6955986023,
+    "soc_group": "47"
+  },
+  {
+    "onetsoccode": "47-2051",
+    "occupation_title": "Cement Masons and Concrete Finishers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 30.5267162323,
+    "soc_group": "47"
+  },
+  {
+    "onetsoccode": "47-2053",
+    "occupation_title": "Terrazzo Workers and Finishers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 28.9149932861,
+    "soc_group": "47"
+  },
+  {
+    "onetsoccode": "47-2061",
+    "occupation_title": "Construction Laborers",
+    "observed_exposure": 0.0281,
+    "expertise_percentile": 33.1264038086,
+    "soc_group": "47"
+  },
+  {
+    "onetsoccode": "47-2071",
+    "occupation_title": "Paving, Surfacing, and Tamping Equipment Operators",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 30.3077583313,
+    "soc_group": "47"
+  },
+  {
+    "onetsoccode": "47-2072",
+    "occupation_title": "Pile Driver Operators",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 41.7469902039,
+    "soc_group": "47"
+  },
+  {
+    "onetsoccode": "47-2073",
+    "occupation_title": "Operating Engineers and Other Construction Equipment Operators",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 38.6370353699,
+    "soc_group": "47"
+  },
+  {
+    "onetsoccode": "47-2081",
+    "occupation_title": "Drywall and Ceiling Tile Installers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 30.1909923553,
+    "soc_group": "47"
+  },
+  {
+    "onetsoccode": "47-2082",
+    "occupation_title": "Tapers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 28.049331665,
+    "soc_group": "47"
+  },
+  {
+    "onetsoccode": "47-2111",
+    "occupation_title": "Electricians",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 70.0602645874,
+    "soc_group": "47"
+  },
+  {
+    "onetsoccode": "47-2121",
+    "occupation_title": "Glaziers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 33.1560745239,
+    "soc_group": "47"
+  },
+  {
+    "onetsoccode": "47-2131",
+    "occupation_title": "Insulation Workers, Floor, Ceiling, and Wall",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 30.6560878754,
+    "soc_group": "47"
+  },
+  {
+    "onetsoccode": "47-2132",
+    "occupation_title": "Insulation Workers, Mechanical",
+    "observed_exposure": 0.0439,
+    "expertise_percentile": 33.2663764954,
+    "soc_group": "47"
+  },
+  {
+    "onetsoccode": "47-2141",
+    "occupation_title": "Painters, Construction and Maintenance",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 27.920293808,
+    "soc_group": "47"
+  },
+  {
+    "onetsoccode": "47-2142",
+    "occupation_title": "Paperhangers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 13.9808950424,
+    "soc_group": "47"
+  },
+  {
+    "onetsoccode": "47-2151",
+    "occupation_title": "Pipelayers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 33.8445549011,
+    "soc_group": "47"
+  },
+  {
+    "onetsoccode": "47-2152",
+    "occupation_title": "Plumbers, Pipefitters, and Steamfitters",
+    "observed_exposure": 0.0116,
+    "expertise_percentile": 55.9725646973,
+    "soc_group": "47"
+  },
+  {
+    "onetsoccode": "47-2152",
+    "occupation_title": "Solar Thermal Installers and Technicians",
+    "observed_exposure": 0.0116,
+    "expertise_percentile": 50.1165161133,
+    "soc_group": "47"
+  },
+  {
+    "onetsoccode": "47-2161",
+    "occupation_title": "Plasterers and Stucco Masons",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 35.4321136475,
+    "soc_group": "47"
+  },
+  {
+    "onetsoccode": "47-2171",
+    "occupation_title": "Reinforcing Iron and Rebar Workers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 41.2402648926,
+    "soc_group": "47"
+  },
+  {
+    "onetsoccode": "47-2181",
+    "occupation_title": "Roofers",
+    "observed_exposure": 0.0157,
+    "expertise_percentile": 31.7379722595,
+    "soc_group": "47"
+  },
+  {
+    "onetsoccode": "47-2211",
+    "occupation_title": "Sheet Metal Workers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 52.1826972961,
+    "soc_group": "47"
+  },
+  {
+    "onetsoccode": "47-2221",
+    "occupation_title": "Structural Iron and Steel Workers",
+    "observed_exposure": 0.0491,
+    "expertise_percentile": 41.8586387634,
+    "soc_group": "47"
+  },
+  {
+    "onetsoccode": "47-2231",
+    "occupation_title": "Solar Photovoltaic Installers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 51.2389907837,
+    "soc_group": "47"
+  },
+  {
+    "onetsoccode": "47-3011",
+    "occupation_title": "Helpers--Brickmasons, Blockmasons, Stonemasons, and Tile and Marble Setters",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 25.9677410126,
+    "soc_group": "47"
+  },
+  {
+    "onetsoccode": "47-3012",
+    "occupation_title": "Helpers--Carpenters",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 28.0634288788,
+    "soc_group": "47"
+  },
+  {
+    "onetsoccode": "47-3013",
+    "occupation_title": "Helpers--Electricians",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 31.5138645172,
+    "soc_group": "47"
+  },
+  {
+    "onetsoccode": "47-3014",
+    "occupation_title": "Helpers--Painters, Paperhangers, Plasterers, and Stucco Masons",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 19.3563346863,
+    "soc_group": "47"
+  },
+  {
+    "onetsoccode": "47-3015",
+    "occupation_title": "Helpers--Pipelayers, Plumbers, Pipefitters, and Steamfitters",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 41.5236358643,
+    "soc_group": "47"
+  },
+  {
+    "onetsoccode": "47-3016",
+    "occupation_title": "Helpers--Roofers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 27.8036117554,
+    "soc_group": "47"
+  },
+  {
+    "onetsoccode": "47-4011",
+    "occupation_title": "Construction and Building Inspectors",
+    "observed_exposure": 0.0481,
+    "expertise_percentile": 70.3749923706,
+    "soc_group": "47"
+  },
+  {
+    "onetsoccode": "47-4011",
+    "occupation_title": "Energy Auditors",
+    "observed_exposure": 0.0481,
+    "expertise_percentile": 56.0439758301,
+    "soc_group": "47"
+  },
+  {
+    "onetsoccode": "47-4021",
+    "occupation_title": "Elevator and Escalator Installers and Repairers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 53.7285194397,
+    "soc_group": "47"
+  },
+  {
+    "onetsoccode": "47-4031",
+    "occupation_title": "Fence Erectors",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 28.1951313019,
+    "soc_group": "47"
+  },
+  {
+    "onetsoccode": "47-4041",
+    "occupation_title": "Hazardous Materials Removal Workers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 34.1832389832,
+    "soc_group": "47"
+  },
+  {
+    "onetsoccode": "47-4051",
+    "occupation_title": "Highway Maintenance Workers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 33.6840553284,
+    "soc_group": "47"
+  },
+  {
+    "onetsoccode": "47-4061",
+    "occupation_title": "Rail-Track Laying and Maintenance Equipment Operators",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 33.2749595642,
+    "soc_group": "47"
+  },
+  {
+    "onetsoccode": "47-4071",
+    "occupation_title": "Septic Tank Servicers and Sewer Pipe Cleaners",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 28.9301147461,
+    "soc_group": "47"
+  },
+  {
+    "onetsoccode": "47-4091",
+    "occupation_title": "Segmental Pavers",
+    "observed_exposure": null,
+    "expertise_percentile": null,
+    "soc_group": "47"
+  },
+  {
+    "onetsoccode": "47-4099",
+    "occupation_title": "Weatherization Installers and Technicians",
+    "observed_exposure": null,
+    "expertise_percentile": null,
+    "soc_group": "47"
+  },
+  {
+    "onetsoccode": "47-5011",
+    "occupation_title": "Derrick Operators, Oil and Gas",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 41.2460098267,
+    "soc_group": "47"
+  },
+  {
+    "onetsoccode": "47-5012",
+    "occupation_title": "Rotary Drill Operators, Oil and Gas",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 44.3280754089,
+    "soc_group": "47"
+  },
+  {
+    "onetsoccode": "47-5013",
+    "occupation_title": "Service Unit Operators, Oil and Gas",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 46.8881263733,
+    "soc_group": "47"
+  },
+  {
+    "onetsoccode": "47-5022",
+    "occupation_title": "Excavating and Loading Machine and Dragline Operators, Surface Mining",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 32.5759162903,
+    "soc_group": "47"
+  },
+  {
+    "onetsoccode": "47-5023",
+    "occupation_title": "Earth Drillers, Except Oil and Gas",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 46.8627586365,
+    "soc_group": "47"
+  },
+  {
+    "onetsoccode": "47-5032",
+    "occupation_title": "Explosives Workers, Ordnance Handling Experts, and Blasters",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 41.2680282593,
+    "soc_group": "47"
+  },
+  {
+    "onetsoccode": "47-5041",
+    "occupation_title": "Continuous Mining Machine Operators",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 43.9622421265,
+    "soc_group": "47"
+  },
+  {
+    "onetsoccode": "47-5043",
+    "occupation_title": "Roof Bolters, Mining",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 25.9595928192,
+    "soc_group": "47"
+  },
+  {
+    "onetsoccode": "47-5044",
+    "occupation_title": "Loading and Moving Machine Operators, Underground Mining",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 26.1090869904,
+    "soc_group": "47"
+  },
+  {
+    "onetsoccode": "47-5051",
+    "occupation_title": "Rock Splitters, Quarry",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 33.5356903076,
+    "soc_group": "47"
+  },
+  {
+    "onetsoccode": "47-5071",
+    "occupation_title": "Roustabouts, Oil and Gas",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 30.3313484192,
+    "soc_group": "47"
+  },
+  {
+    "onetsoccode": "47-5081",
+    "occupation_title": "Helpers--Extraction Workers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 34.1867332458,
+    "soc_group": "47"
+  },
+  {
+    "onetsoccode": "49-1011",
+    "occupation_title": "First-Line Supervisors of Mechanics, Installers, and Repairers",
+    "observed_exposure": 0.1015,
+    "expertise_percentile": 55.1579246521,
+    "soc_group": "49"
+  },
+  {
+    "onetsoccode": "49-2011",
+    "occupation_title": "Computer, Automated Teller, and Office Machine Repairers",
+    "observed_exposure": 0.1067,
+    "expertise_percentile": 45.199672699,
+    "soc_group": "49"
+  },
+  {
+    "onetsoccode": "49-2021",
+    "occupation_title": "Radio, Cellular, and Tower Equipment Installers and Repairers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 43.5178146362,
+    "soc_group": "49"
+  },
+  {
+    "onetsoccode": "49-2022",
+    "occupation_title": "Telecommunications Equipment Installers and Repairers, Except Line Installers",
+    "observed_exposure": 0.0333,
+    "expertise_percentile": 46.9838981628,
+    "soc_group": "49"
+  },
+  {
+    "onetsoccode": "49-2091",
+    "occupation_title": "Avionics Technicians",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 68.9050598145,
+    "soc_group": "49"
+  },
+  {
+    "onetsoccode": "49-2092",
+    "occupation_title": "Electric Motor, Power Tool, and Related Repairers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 41.8249549866,
+    "soc_group": "49"
+  },
+  {
+    "onetsoccode": "49-2093",
+    "occupation_title": "Electrical and Electronics Installers and Repairers, Transportation Equipment",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 51.5412864685,
+    "soc_group": "49"
+  },
+  {
+    "onetsoccode": "49-2094",
+    "occupation_title": "Electrical and Electronics Repairers, Commercial and Industrial Equipment",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 67.3292541504,
+    "soc_group": "49"
+  },
+  {
+    "onetsoccode": "49-2095",
+    "occupation_title": "Electrical and Electronics Repairers, Powerhouse, Substation, and Relay",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 63.3018569946,
+    "soc_group": "49"
+  },
+  {
+    "onetsoccode": "49-2096",
+    "occupation_title": "Electronic Equipment Installers and Repairers, Motor Vehicles",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 43.7903404236,
+    "soc_group": "49"
+  },
+  {
+    "onetsoccode": "49-2097",
+    "occupation_title": "Audiovisual Equipment Installers and Repairers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 51.194770813,
+    "soc_group": "49"
+  },
+  {
+    "onetsoccode": "49-2098",
+    "occupation_title": "Security and Fire Alarm Systems Installers",
+    "observed_exposure": 0.0303,
+    "expertise_percentile": 43.5118789673,
+    "soc_group": "49"
+  },
+  {
+    "onetsoccode": "49-3011",
+    "occupation_title": "Aircraft Mechanics and Service Technicians",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 60.7360916138,
+    "soc_group": "49"
+  },
+  {
+    "onetsoccode": "49-3021",
+    "occupation_title": "Automotive Body and Related Repairers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 40.1533241272,
+    "soc_group": "49"
+  },
+  {
+    "onetsoccode": "49-3022",
+    "occupation_title": "Automotive Glass Installers and Repairers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 28.5546665192,
+    "soc_group": "49"
+  },
+  {
+    "onetsoccode": "49-3023",
+    "occupation_title": "Automotive Service Technicians and Mechanics",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 59.2516670227,
+    "soc_group": "49"
+  },
+  {
+    "onetsoccode": "49-3031",
+    "occupation_title": "Bus and Truck Mechanics and Diesel Engine Specialists",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 51.709197998,
+    "soc_group": "49"
+  },
+  {
+    "onetsoccode": "49-3041",
+    "occupation_title": "Farm Equipment Mechanics and Service Technicians",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 57.6636428833,
+    "soc_group": "49"
+  },
+  {
+    "onetsoccode": "49-3042",
+    "occupation_title": "Mobile Heavy Equipment Mechanics, Except Engines",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 60.2725524902,
+    "soc_group": "49"
+  },
+  {
+    "onetsoccode": "49-3043",
+    "occupation_title": "Rail Car Repairers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 47.0880699158,
+    "soc_group": "49"
+  },
+  {
+    "onetsoccode": "49-3051",
+    "occupation_title": "Motorboat Mechanics and Service Technicians",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 50.4955596924,
+    "soc_group": "49"
+  },
+  {
+    "onetsoccode": "49-3052",
+    "occupation_title": "Motorcycle Mechanics",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 50.7363739014,
+    "soc_group": "49"
+  },
+  {
+    "onetsoccode": "49-3053",
+    "occupation_title": "Outdoor Power Equipment and Other Small Engine Mechanics",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 54.2677230835,
+    "soc_group": "49"
+  },
+  {
+    "onetsoccode": "49-3091",
+    "occupation_title": "Bicycle Repairers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 29.7535896301,
+    "soc_group": "49"
+  },
+  {
+    "onetsoccode": "49-3092",
+    "occupation_title": "Recreational Vehicle Service Technicians",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 54.6840324402,
+    "soc_group": "49"
+  },
+  {
+    "onetsoccode": "49-3093",
+    "occupation_title": "Tire Repairers and Changers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 8.176618576,
+    "soc_group": "49"
+  },
+  {
+    "onetsoccode": "49-9011",
+    "occupation_title": "Mechanical Door Repairers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 35.4212417603,
+    "soc_group": "49"
+  },
+  {
+    "onetsoccode": "49-9012",
+    "occupation_title": "Control and Valve Installers and Repairers, Except Mechanical Door",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 43.8147621155,
+    "soc_group": "49"
+  },
+  {
+    "onetsoccode": "49-9021",
+    "occupation_title": "Heating, Air Conditioning, and Refrigeration Mechanics and Installers",
+    "observed_exposure": 0.0191,
+    "expertise_percentile": 48.0932121277,
+    "soc_group": "49"
+  },
+  {
+    "onetsoccode": "49-9031",
+    "occupation_title": "Home Appliance Repairers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 41.3007621765,
+    "soc_group": "49"
+  },
+  {
+    "onetsoccode": "49-9041",
+    "occupation_title": "Industrial Machinery Mechanics",
+    "observed_exposure": 0.0239,
+    "expertise_percentile": 51.1832313538,
+    "soc_group": "49"
+  },
+  {
+    "onetsoccode": "49-9043",
+    "occupation_title": "Maintenance Workers, Machinery",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 29.7470321655,
+    "soc_group": "49"
+  },
+  {
+    "onetsoccode": "49-9044",
+    "occupation_title": "Millwrights",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 48.2471046448,
+    "soc_group": "49"
+  },
+  {
+    "onetsoccode": "49-9045",
+    "occupation_title": "Refractory Materials Repairers, Except Brickmasons",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 28.8637752533,
+    "soc_group": "49"
+  },
+  {
+    "onetsoccode": "49-9051",
+    "occupation_title": "Electrical Power-Line Installers and Repairers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 48.1672744751,
+    "soc_group": "49"
+  },
+  {
+    "onetsoccode": "49-9052",
+    "occupation_title": "Telecommunications Line Installers and Repairers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 42.9351921082,
+    "soc_group": "49"
+  },
+  {
+    "onetsoccode": "49-9061",
+    "occupation_title": "Camera and Photographic Equipment Repairers",
+    "observed_exposure": 0.0412,
+    "expertise_percentile": 46.8651657104,
+    "soc_group": "49"
+  },
+  {
+    "onetsoccode": "49-9062",
+    "occupation_title": "Medical Equipment Repairers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 60.310344696,
+    "soc_group": "49"
+  },
+  {
+    "onetsoccode": "49-9063",
+    "occupation_title": "Musical Instrument Repairers and Tuners",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 52.1856842041,
+    "soc_group": "49"
+  },
+  {
+    "onetsoccode": "49-9064",
+    "occupation_title": "Watch and Clock Repairers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 52.0536231995,
+    "soc_group": "49"
+  },
+  {
+    "onetsoccode": "49-9071",
+    "occupation_title": "Maintenance and Repair Workers, General",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 56.8539199829,
+    "soc_group": "49"
+  },
+  {
+    "onetsoccode": "49-9081",
+    "occupation_title": "Wind Turbine Service Technicians",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 61.5946273804,
+    "soc_group": "49"
+  },
+  {
+    "onetsoccode": "49-9091",
+    "occupation_title": "Coin, Vending, and Amusement Machine Servicers and Repairers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 40.0646820068,
+    "soc_group": "49"
+  },
+  {
+    "onetsoccode": "49-9092",
+    "occupation_title": "Commercial Divers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 62.4123153687,
+    "soc_group": "49"
+  },
+  {
+    "onetsoccode": "49-9094",
+    "occupation_title": "Locksmiths and Safe Repairers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 43.7850608826,
+    "soc_group": "49"
+  },
+  {
+    "onetsoccode": "49-9095",
+    "occupation_title": "Manufactured Building and Mobile Home Installers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 46.8641166687,
+    "soc_group": "49"
+  },
+  {
+    "onetsoccode": "49-9096",
+    "occupation_title": "Riggers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 41.9852180481,
+    "soc_group": "49"
+  },
+  {
+    "onetsoccode": "49-9097",
+    "occupation_title": "Signal and Track Switch Repairers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 48.2202186584,
+    "soc_group": "49"
+  },
+  {
+    "onetsoccode": "49-9098",
+    "occupation_title": "Helpers--Installation, Maintenance, and Repair Workers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 48.9475250244,
+    "soc_group": "49"
+  },
+  {
+    "onetsoccode": "49-9099",
+    "occupation_title": "Geothermal Technicians",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 64.5324859619,
+    "soc_group": "49"
+  },
+  {
+    "onetsoccode": "51-1011",
+    "occupation_title": "First-Line Supervisors of Production and Operating Workers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 46.7024803162,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-2011",
+    "occupation_title": "Aircraft Structure, Surfaces, Rigging, and Systems Assemblers",
+    "observed_exposure": 0.0494,
+    "expertise_percentile": 45.229221344,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-2021",
+    "occupation_title": "Coil Winders, Tapers, and Finishers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 33.2855453491,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-2022",
+    "occupation_title": "Electrical and Electronic Equipment Assemblers",
+    "observed_exposure": null,
+    "expertise_percentile": null,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-2023",
+    "occupation_title": "Electromechanical Equipment Assemblers",
+    "observed_exposure": null,
+    "expertise_percentile": null,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-2031",
+    "occupation_title": "Engine and Other Machine Assemblers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 44.2340011597,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-2041",
+    "occupation_title": "Structural Metal Fabricators and Fitters",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 42.050075531,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-2051",
+    "occupation_title": "Fiberglass Laminators and Fabricators",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 28.1436805725,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-2061",
+    "occupation_title": "Timing Device Assemblers and Adjusters",
+    "observed_exposure": 0.0392,
+    "expertise_percentile": 62.319934845,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-2092",
+    "occupation_title": "Team Assemblers",
+    "observed_exposure": null,
+    "expertise_percentile": null,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-3011",
+    "occupation_title": "Bakers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 27.2979621887,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-3021",
+    "occupation_title": "Butchers and Meat Cutters",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 38.7684822083,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-3022",
+    "occupation_title": "Meat, Poultry, and Fish Cutters and Trimmers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 25.9584312439,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-3023",
+    "occupation_title": "Slaughterers and Meat Packers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 32.5554237366,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-3091",
+    "occupation_title": "Food and Tobacco Roasting, Baking, and Drying Machine Operators and Tenders",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 13.9910459518,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-3092",
+    "occupation_title": "Food Batchmakers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 30.1182384491,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-3093",
+    "occupation_title": "Food Cooking Machine Operators and Tenders",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 14.5074548721,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-4021",
+    "occupation_title": "Extruding and Drawing Machine Setters, Operators, and Tenders, Metal and Plastic",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 30.0288925171,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-4022",
+    "occupation_title": "Forging Machine Setters, Operators, and Tenders, Metal and Plastic",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 48.952091217,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-4023",
+    "occupation_title": "Rolling Machine Setters, Operators, and Tenders, Metal and Plastic",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 41.7454109192,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-4031",
+    "occupation_title": "Cutting, Punching, and Press Machine Setters, Operators, and Tenders, Metal and Plastic",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 29.5327663422,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-4032",
+    "occupation_title": "Drilling and Boring Machine Tool Setters, Operators, and Tenders, Metal and Plastic",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 31.740737915,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-4033",
+    "occupation_title": "Grinding, Lapping, Polishing, and Buffing Machine Tool Setters, Operators, and Tenders, Metal and Plastic",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 33.5323677063,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-4034",
+    "occupation_title": "Lathe and Turning Machine Tool Setters, Operators, and Tenders, Metal and Plastic",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 41.1562919617,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-4035",
+    "occupation_title": "Milling and Planing Machine Setters, Operators, and Tenders, Metal and Plastic",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 40.1605148315,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-4041",
+    "occupation_title": "Machinists",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 55.3157081604,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-4051",
+    "occupation_title": "Metal-Refining Furnace Operators and Tenders",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 39.2700080872,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-4052",
+    "occupation_title": "Pourers and Casters, Metal",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 31.4803237915,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-4061",
+    "occupation_title": "Model Makers, Metal and Plastic",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 58.8931427002,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-4062",
+    "occupation_title": "Patternmakers, Metal and Plastic",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 43.9547767639,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-4071",
+    "occupation_title": "Foundry Mold and Coremakers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 28.5612888336,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-4072",
+    "occupation_title": "Molding, Coremaking, and Casting Machine Setters, Operators, and Tenders, Metal and Plastic",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 28.2757034302,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-4081",
+    "occupation_title": "Multiple Machine Tool Setters, Operators, and Tenders, Metal and Plastic",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 41.2238731384,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-4111",
+    "occupation_title": "Tool and Die Makers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 52.6928825378,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-4121",
+    "occupation_title": "Welders, Cutters, Solderers, and Brazers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 43.4096450806,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-4122",
+    "occupation_title": "Welding, Soldering, and Brazing Machine Setters, Operators, and Tenders",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 38.7873725891,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-4191",
+    "occupation_title": "Heat Treating Equipment Setters, Operators, and Tenders, Metal and Plastic",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 39.3696975708,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-4192",
+    "occupation_title": "Layout Workers, Metal and Plastic",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 50.6926040649,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-4193",
+    "occupation_title": "Plating Machine Setters, Operators, and Tenders, Metal and Plastic",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 27.9609508514,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-4194",
+    "occupation_title": "Tool Grinders, Filers, and Sharpeners",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 40.0499763489,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-5111",
+    "occupation_title": "Prepress Technicians and Workers",
+    "observed_exposure": 0.1018,
+    "expertise_percentile": 31.2871208191,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-5112",
+    "occupation_title": "Printing Press Operators",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 29.4391994476,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-5113",
+    "occupation_title": "Print Binding and Finishing Workers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 42.96509552,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-6011",
+    "occupation_title": "Laundry and Dry-Cleaning Workers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 19.482755661,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-6021",
+    "occupation_title": "Pressers, Textile, Garment, and Related Materials",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 27.0942516327,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-6031",
+    "occupation_title": "Sewing Machine Operators",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 13.9801025391,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-6041",
+    "occupation_title": "Shoe and Leather Workers and Repairers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 41.2841377258,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-6042",
+    "occupation_title": "Shoe Machine Operators and Tenders",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 19.3525733948,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-6051",
+    "occupation_title": "Sewers, Hand",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 29.3636741638,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-6052",
+    "occupation_title": "Tailors, Dressmakers, and Custom Sewers",
+    "observed_exposure": 0.0342,
+    "expertise_percentile": 47.0965499878,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-6061",
+    "occupation_title": "Textile Bleaching and Dyeing Machine Operators and Tenders",
+    "observed_exposure": 0.0211,
+    "expertise_percentile": 30.2839813232,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-6062",
+    "occupation_title": "Textile Cutting Machine Setters, Operators, and Tenders",
+    "observed_exposure": 0.0152,
+    "expertise_percentile": 33.8492202759,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-6063",
+    "occupation_title": "Textile Knitting and Weaving Machine Setters, Operators, and Tenders",
+    "observed_exposure": 0.032,
+    "expertise_percentile": 30.5342788696,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-6064",
+    "occupation_title": "Textile Winding, Twisting, and Drawing Out Machine Setters, Operators, and Tenders",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 28.18334198,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-6091",
+    "occupation_title": "Extruding and Forming Machine Setters, Operators, and Tenders, Synthetic and Glass Fibers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 19.2809333801,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-6092",
+    "occupation_title": "Fabric and Apparel Patternmakers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 54.3489112854,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-6093",
+    "occupation_title": "Upholsterers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 42.9461135864,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-7011",
+    "occupation_title": "Cabinetmakers and Bench Carpenters",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 43.8561553955,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-7021",
+    "occupation_title": "Furniture Finishers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 43.9696502686,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-7031",
+    "occupation_title": "Model Makers, Wood",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 45.1548461914,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-7032",
+    "occupation_title": "Patternmakers, Wood",
+    "observed_exposure": 0.0301,
+    "expertise_percentile": 42.7981033325,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-7041",
+    "occupation_title": "Sawing Machine Setters, Operators, and Tenders, Wood",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 28.172624588,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-7042",
+    "occupation_title": "Woodworking Machine Setters, Operators, and Tenders, Except Sawing",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 30.2327632904,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-8011",
+    "occupation_title": "Nuclear Power Reactor Operators",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 64.5354537964,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-8012",
+    "occupation_title": "Power Distributors and Dispatchers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 60.3400039673,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-8013",
+    "occupation_title": "Power Plant Operators",
+    "observed_exposure": 0.0257,
+    "expertise_percentile": 57.2347412109,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-8013",
+    "occupation_title": "Biomass Plant Technicians",
+    "observed_exposure": 0.0257,
+    "expertise_percentile": 43.5338020325,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-8013",
+    "occupation_title": "Hydroelectric Plant Technicians",
+    "observed_exposure": 0.0257,
+    "expertise_percentile": 62.560760498,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-8021",
+    "occupation_title": "Stationary Engineers and Boiler Operators",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 47.7948532104,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-8031",
+    "occupation_title": "Water and Wastewater Treatment Plant and System Operators",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 47.3658561707,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-8091",
+    "occupation_title": "Chemical Plant and System Operators",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 42.0222930908,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-8092",
+    "occupation_title": "Gas Plant Operators",
+    "observed_exposure": 0.0723,
+    "expertise_percentile": 46.9038009644,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-8093",
+    "occupation_title": "Petroleum Pump System Operators, Refinery Operators, and Gaugers",
+    "observed_exposure": 0.0405,
+    "expertise_percentile": 39.2594223022,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-8099",
+    "occupation_title": "Biofuels Processing Technicians",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 45.3985214233,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-9011",
+    "occupation_title": "Chemical Equipment Operators and Tenders",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 33.6020050049,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-9012",
+    "occupation_title": "Separating, Filtering, Clarifying, Precipitating, and Still Machine Setters, Operators, and Tenders",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 24.0872802734,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-9021",
+    "occupation_title": "Crushing, Grinding, and Polishing Machine Setters, Operators, and Tenders",
+    "observed_exposure": 0.0425,
+    "expertise_percentile": 23.1404361725,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-9022",
+    "occupation_title": "Grinding and Polishing Workers, Hand",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 27.9264621735,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-9023",
+    "occupation_title": "Mixing and Blending Machine Setters, Operators, and Tenders",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 27.080286026,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-9031",
+    "occupation_title": "Cutters and Trimmers, Hand",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 18.1399822235,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-9032",
+    "occupation_title": "Cutting and Slicing Machine Setters, Operators, and Tenders",
+    "observed_exposure": 0.0321,
+    "expertise_percentile": 19.3810768127,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-9041",
+    "occupation_title": "Extruding, Forming, Pressing, and Compacting Machine Setters, Operators, and Tenders",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 23.0246124268,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-9051",
+    "occupation_title": "Furnace, Kiln, Oven, Drier, and Kettle Operators and Tenders",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 22.914182663,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-9061",
+    "occupation_title": "Inspectors, Testers, Sorters, Samplers, and Weighers",
+    "observed_exposure": 0.0324,
+    "expertise_percentile": 34.156917572,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-9071",
+    "occupation_title": "Jewelers and Precious Stone and Metal Workers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 53.7163658142,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-9071",
+    "occupation_title": "Gem and Diamond Workers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 50.6672439575,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-9081",
+    "occupation_title": "Dental Laboratory Technicians",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 57.6444511414,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-9082",
+    "occupation_title": "Medical Appliance Technicians",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 68.6709747314,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-9083",
+    "occupation_title": "Ophthalmic Laboratory Technicians",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 41.7337760925,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-9111",
+    "occupation_title": "Packaging and Filling Machine Operators and Tenders",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 9.7823801041,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-9123",
+    "occupation_title": "Painting, Coating, and Decorating Workers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 22.9947814941,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-9124",
+    "occupation_title": "Coating, Painting, and Spraying Machine Setters, Operators, and Tenders",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 27.1772613525,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-9141",
+    "occupation_title": "Semiconductor Processing Technicians",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 31.66680336,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-9151",
+    "occupation_title": "Photographic Process Workers and Processing Machine Operators",
+    "observed_exposure": 0.0108,
+    "expertise_percentile": 28.066318512,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-9161",
+    "occupation_title": "Computer Numerically Controlled Tool Operators",
+    "observed_exposure": 0.0215,
+    "expertise_percentile": 39.3621025085,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-9162",
+    "occupation_title": "Computer Numerically Controlled Tool Programmers",
+    "observed_exposure": 0.1207,
+    "expertise_percentile": 57.4702339172,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-9191",
+    "occupation_title": "Adhesive Bonding Machine Operators and Tenders",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 22.9205131531,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-9192",
+    "occupation_title": "Cleaning, Washing, and Metal Pickling Equipment Operators and Tenders",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 22.98711586,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-9193",
+    "occupation_title": "Cooling and Freezing Equipment Operators and Tenders",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 12.6575946808,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-9194",
+    "occupation_title": "Etchers and Engravers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 39.2412796021,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-9195",
+    "occupation_title": "Molders, Shapers, and Casters, Except Metal and Plastic",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 27.9445533752,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-9195",
+    "occupation_title": "Stone Cutters and Carvers, Manufacturing",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 53.5815353394,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-9195",
+    "occupation_title": "Glass Blowers, Molders, Benders, and Finishers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 49.5054244995,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-9195",
+    "occupation_title": "Potters, Manufacturing",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 33.7249412537,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-9196",
+    "occupation_title": "Paper Goods Machine Setters, Operators, and Tenders",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 28.9142379761,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-9197",
+    "occupation_title": "Tire Builders",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 23.1124649048,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "51-9198",
+    "occupation_title": "Helpers--Production Workers",
+    "observed_exposure": 0.0393,
+    "expertise_percentile": 4.3164072037,
+    "soc_group": "51"
+  },
+  {
+    "onetsoccode": "53-1041",
+    "occupation_title": "Aircraft Cargo Handling Supervisors",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 43.4694519043,
+    "soc_group": "53"
+  },
+  {
+    "onetsoccode": "53-1042",
+    "occupation_title": "First-Line Supervisors of Helpers, Laborers, and Material Movers, Hand",
+    "observed_exposure": null,
+    "expertise_percentile": null,
+    "soc_group": "53"
+  },
+  {
+    "onetsoccode": "53-1042",
+    "occupation_title": "Recycling Coordinators",
+    "observed_exposure": null,
+    "expertise_percentile": null,
+    "soc_group": "53"
+  },
+  {
+    "onetsoccode": "53-1043",
+    "occupation_title": "First-Line Supervisors of Material-Moving Machine and Vehicle Operators",
+    "observed_exposure": null,
+    "expertise_percentile": null,
+    "soc_group": "53"
+  },
+  {
+    "onetsoccode": "53-1044",
+    "occupation_title": "First-Line Supervisors of Passenger Attendants",
+    "observed_exposure": null,
+    "expertise_percentile": null,
+    "soc_group": "53"
+  },
+  {
+    "onetsoccode": "53-2011",
+    "occupation_title": "Airline Pilots, Copilots, and Flight Engineers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 71.2654724121,
+    "soc_group": "53"
+  },
+  {
+    "onetsoccode": "53-2012",
+    "occupation_title": "Commercial Pilots",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 76.8805541992,
+    "soc_group": "53"
+  },
+  {
+    "onetsoccode": "53-2021",
+    "occupation_title": "Air Traffic Controllers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 71.1982040405,
+    "soc_group": "53"
+  },
+  {
+    "onetsoccode": "53-2022",
+    "occupation_title": "Airfield Operations Specialists",
+    "observed_exposure": 0.0476,
+    "expertise_percentile": 52.062286377,
+    "soc_group": "53"
+  },
+  {
+    "onetsoccode": "53-2031",
+    "occupation_title": "Flight Attendants",
+    "observed_exposure": 0.0913,
+    "expertise_percentile": 13.9230613708,
+    "soc_group": "53"
+  },
+  {
+    "onetsoccode": "53-3011",
+    "occupation_title": "Ambulance Drivers and Attendants, Except Emergency Medical Technicians",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 28.078830719,
+    "soc_group": "53"
+  },
+  {
+    "onetsoccode": "53-3031",
+    "occupation_title": "Driver/Sales Workers",
+    "observed_exposure": 0.0281,
+    "expertise_percentile": 12.61074543,
+    "soc_group": "53"
+  },
+  {
+    "onetsoccode": "53-3032",
+    "occupation_title": "Heavy and Tractor-Trailer Truck Drivers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 19.2608108521,
+    "soc_group": "53"
+  },
+  {
+    "onetsoccode": "53-3033",
+    "occupation_title": "Light Truck Drivers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 5.2211880684,
+    "soc_group": "53"
+  },
+  {
+    "onetsoccode": "53-3051",
+    "occupation_title": "Bus Drivers, School",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 13.4672698975,
+    "soc_group": "53"
+  },
+  {
+    "onetsoccode": "53-3052",
+    "occupation_title": "Bus Drivers, Transit and Intercity",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 9.8731098175,
+    "soc_group": "53"
+  },
+  {
+    "onetsoccode": "53-3053",
+    "occupation_title": "Shuttle Drivers and Chauffeurs",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 5.4061174393,
+    "soc_group": "53"
+  },
+  {
+    "onetsoccode": "53-3054",
+    "occupation_title": "Taxi Drivers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 4.1709780693,
+    "soc_group": "53"
+  },
+  {
+    "onetsoccode": "53-4011",
+    "occupation_title": "Locomotive Engineers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 41.2626609802,
+    "soc_group": "53"
+  },
+  {
+    "onetsoccode": "53-4013",
+    "occupation_title": "Rail Yard Engineers, Dinkey Operators, and Hostlers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 33.5340843201,
+    "soc_group": "53"
+  },
+  {
+    "onetsoccode": "53-4022",
+    "occupation_title": "Railroad Brake, Signal, and Switch Operators and Locomotive Firers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 28.1501655579,
+    "soc_group": "53"
+  },
+  {
+    "onetsoccode": "53-4031",
+    "occupation_title": "Railroad Conductors and Yardmasters",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 33.253036499,
+    "soc_group": "53"
+  },
+  {
+    "onetsoccode": "53-4041",
+    "occupation_title": "Subway and Streetcar Operators",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 21.3534297943,
+    "soc_group": "53"
+  },
+  {
+    "onetsoccode": "53-5011",
+    "occupation_title": "Sailors and Marine Oilers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 30.1345596313,
+    "soc_group": "53"
+  },
+  {
+    "onetsoccode": "53-5021",
+    "occupation_title": "Captains, Mates, and Pilots of Water Vessels",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 51.5597038269,
+    "soc_group": "53"
+  },
+  {
+    "onetsoccode": "53-5022",
+    "occupation_title": "Motorboat Operators",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 43.5350418091,
+    "soc_group": "53"
+  },
+  {
+    "onetsoccode": "53-5031",
+    "occupation_title": "Ship Engineers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 54.3533782959,
+    "soc_group": "53"
+  },
+  {
+    "onetsoccode": "53-6011",
+    "occupation_title": "Bridge and Lock Tenders",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 25.96916008,
+    "soc_group": "53"
+  },
+  {
+    "onetsoccode": "53-6021",
+    "occupation_title": "Parking Attendants",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 4.4377803802,
+    "soc_group": "53"
+  },
+  {
+    "onetsoccode": "53-6031",
+    "occupation_title": "Automotive and Watercraft Service Attendants",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 8.1211271286,
+    "soc_group": "53"
+  },
+  {
+    "onetsoccode": "53-6032",
+    "occupation_title": "Aircraft Service Attendants",
+    "observed_exposure": null,
+    "expertise_percentile": 27.027797699,
+    "soc_group": "53"
+  },
+  {
+    "onetsoccode": "53-6041",
+    "occupation_title": "Traffic Technicians",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 48.2259407043,
+    "soc_group": "53"
+  },
+  {
+    "onetsoccode": "53-6051",
+    "occupation_title": "Transportation Inspectors",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 41.2801628113,
+    "soc_group": "53"
+  },
+  {
+    "onetsoccode": "53-6051",
+    "occupation_title": "Aviation Inspectors",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 86.3030700684,
+    "soc_group": "53"
+  },
+  {
+    "onetsoccode": "53-6051",
+    "occupation_title": "Transportation Vehicle, Equipment and Systems Inspectors, Except Aviation",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 51.2511329651,
+    "soc_group": "53"
+  },
+  {
+    "onetsoccode": "53-6061",
+    "occupation_title": "Passenger Attendants",
+    "observed_exposure": 0.1169,
+    "expertise_percentile": 9.7955703735,
+    "soc_group": "53"
+  },
+  {
+    "onetsoccode": "53-7011",
+    "occupation_title": "Conveyor Operators and Tenders",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 13.1164188385,
+    "soc_group": "53"
+  },
+  {
+    "onetsoccode": "53-7021",
+    "occupation_title": "Crane and Tower Operators",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 31.762594223,
+    "soc_group": "53"
+  },
+  {
+    "onetsoccode": "53-7031",
+    "occupation_title": "Dredge Operators",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 28.084022522,
+    "soc_group": "53"
+  },
+  {
+    "onetsoccode": "53-7041",
+    "occupation_title": "Hoist and Winch Operators",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 28.0506248474,
+    "soc_group": "53"
+  },
+  {
+    "onetsoccode": "53-7051",
+    "occupation_title": "Industrial Truck and Tractor Operators",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 13.0769786835,
+    "soc_group": "53"
+  },
+  {
+    "onetsoccode": "53-7061",
+    "occupation_title": "Cleaners of Vehicles and Equipment",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 12.3934860229,
+    "soc_group": "53"
+  },
+  {
+    "onetsoccode": "53-7062",
+    "occupation_title": "Laborers and Freight, Stock, and Material Movers, Hand",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 21.3357086182,
+    "soc_group": "53"
+  },
+  {
+    "onetsoccode": "53-7062",
+    "occupation_title": "Recycling and Reclamation Workers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 22.9057674408,
+    "soc_group": "53"
+  },
+  {
+    "onetsoccode": "53-7063",
+    "occupation_title": "Machine Feeders and Offbearers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 5.2454891205,
+    "soc_group": "53"
+  },
+  {
+    "onetsoccode": "53-7064",
+    "occupation_title": "Packers and Packagers, Hand",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 1.4166414738,
+    "soc_group": "53"
+  },
+  {
+    "onetsoccode": "53-7065",
+    "occupation_title": "Stockers and Order Fillers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 6.8934259415,
+    "soc_group": "53"
+  },
+  {
+    "onetsoccode": "53-7071",
+    "occupation_title": "Gas Compressor and Gas Pumping Station Operators",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 30.4198989868,
+    "soc_group": "53"
+  },
+  {
+    "onetsoccode": "53-7072",
+    "occupation_title": "Pump Operators, Except Wellhead Pumpers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 41.5009269714,
+    "soc_group": "53"
+  },
+  {
+    "onetsoccode": "53-7073",
+    "occupation_title": "Wellhead Pumpers",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 41.2329063416,
+    "soc_group": "53"
+  },
+  {
+    "onetsoccode": "53-7081",
+    "occupation_title": "Refuse and Recyclable Material Collectors",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 4.703622818,
+    "soc_group": "53"
+  },
+  {
+    "onetsoccode": "53-7121",
+    "occupation_title": "Tank Car, Truck, and Ship Loaders",
+    "observed_exposure": 0.0,
+    "expertise_percentile": 27.7500209808,
+    "soc_group": "53"
+  }
+]
