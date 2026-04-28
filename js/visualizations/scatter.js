@@ -37,12 +37,23 @@ Occupation work volume exposed to Generative AI, median annual wage from 2024, t
 
  */
 
+
+function bounding_boxes_overlap(box1, box2) {
+    return (
+            box1.x < box2.x + box2.width &&
+            box1.x + box1.width > box2.x &&
+            box1.y < box2.y + box2.height &&
+            box1.y + box1.height > box2.y
+    );  
+}
+
 d3.csv("./data/all_careers.csv").then((data)=>{
     const svg = d3.select("#scatter-plot");
     
     console.log(data);
     const width = svg.attr("width");
     const height = svg.attr("height");
+    const max_point_size = 60;
     console.log(width,height);
 
     console.log(data[0]);
@@ -85,7 +96,11 @@ d3.csv("./data/all_careers.csv").then((data)=>{
 
     let size_scale = d3.scaleLinear()
     .domain([0,d3.max(data,d=>{return +d.median_annual_wage_2024})])
-    .range([0,100])
+    .range([0,max_point_size])
+
+    let opacity_scale = d3.scaleLinear()
+    .domain([0,d3.max(data,d=>{return +d.median_annual_wage_2024})])
+    .range([0.10,1])
 
     console.log("Scale: ",x,y);
     
@@ -98,11 +113,44 @@ d3.csv("./data/all_careers.csv").then((data)=>{
     .attr('cx',(d)=>{return x(d.observed_exposure)})
     .attr('cy',(d)=>{return y(d.total_employment_2024)})
     .attr('r',(d)=>{return size_scale(d.median_annual_wage_2024)})
-    .attr('fill',"rgba(112, 112, 112, 0.24)")
+    .attr('fill',(d)=>{return `rgba(112, 112, 112, ${opacity_scale(d.median_annual_wage_2024)})`})
+    
+    // points.transition().ease(d3.easeCubic).duration(1000).attr("r",(d)=>{
+    //     return size_scale(d.median_annual_wage_2024)
+    // });
+
+    // .attr('fill',(d)=>{return `rgba(112, 112, 112, ${opacity_scale(d.median_annual_wage_2024)})`});
     
     // If points are big enough give them centered text 
-
+    // .data(data.filter((data,index)=>{
+    //     return size_scale(data.median_annual_wage_2024) > max_point_size/2;
+    // }))
     
-
-
+    let text = chart.append('g')
+    .selectAll('text')
+    .data(data)
+    .join('text')
+    .text(d=>d.occupation_title)
+    .attr('x',(d)=>{return x(d.observed_exposure)})
+    .attr('y',(d)=>{return y(d.total_employment_2024)})
+    .attr('font-size',(d)=>{
+        return size_scale(d.median_annual_wage_2024)/3
+    })
+    .attr('text-anchor',"middle")
+    .attr('alignment-baseline',"middle")
+    .attr('fill',"rgb(0, 0, 0)");
+    text.transition().ease(d3.easeCubic).duration(1000).attr("opacity",1).attr("font-size",(d)=>{
+        return size_scale(d.median_annual_wage_2024)/3
+    });
+    
+    text.each(function(d){
+        let text_bounding_box = this.getBBox();
+        text.each(function(d2){
+            let text2_bounding_box = this.getBBox();
+            if(bounding_boxes_overlap(text_bounding_box,text2_bounding_box) && d != d2){
+                this.remove();
+            }
+        })
+    });
+    
 })
