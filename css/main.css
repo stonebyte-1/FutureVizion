@@ -9,7 +9,3 @@
     --future-vision-background-secondary-color: color-mix(in srgb, var(--future-vision-second-color), black);
     --future-vision-background-danger-color: color-mix(in srgb, var(--future-vision-danger-color), black);
 }
-
-body {
-    background-color: var(--future-vision-background-color);
-}
