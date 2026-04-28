@@ -1,4 +1,5 @@
-import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm";
+// import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm";
+import { } from "d3";
 const W = window.innerWidth;
 const H = window.innerHeight;
 
@@ -37,6 +38,8 @@ svg.call(
     .scaleExtent([0.2, 4])
     .on("zoom", (e) => g.attr("transform", e.transform))
 );
+
+
 
 d3.json("./data/index.json").then((careerdata) => {
   const careers_p_dept = {};
