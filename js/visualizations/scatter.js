@@ -1,4 +1,5 @@
 import * as d3 from "d3";
+import * as main from "../main";
 /**
 https://github.com/s-mahdihosseini/GenAI_Expertise  GenAI_Expertise
 This dataset includes occupation level data that we can use for the scatter plot, including occupation work volume exposed to Generative AI, median annual wage from 2024, total employment, and job titles. It is the main dataset we plan to use for this visualization.  
@@ -112,8 +113,35 @@ d3.csv("./data/all_careers.csv").then((data)=>{
     .join('circle')
     .attr('cx',(d)=>{return x(d.observed_exposure)})
     .attr('cy',(d)=>{return y(d.total_employment_2024)})
-    .attr('r',(d)=>{return size_scale(d.median_annual_wage_2024)})
-    .attr('fill',(d)=>{return `rgba(112, 112, 112, ${opacity_scale(d.median_annual_wage_2024)})`})
+    .attr('r',(d)=>{return 0})
+    .attr('fill',(d)=>{return `rgb(255, 255, 255)`});
+    
+
+    points.each(function(d){
+        const duration = size_scale(d.median_annual_wage_2024)*40;
+        const delay = size_scale(d.median_annual_wage_2024)*40;
+        console.log("duration",duration);
+        console.log("delay",delay);
+
+        
+        d3.select(this)
+        .transition()
+        .ease(d3.easeBackOut)
+        .duration(duration)
+        .delay(delay)
+        .attr("r",(d)=>{
+            return size_scale(d.median_annual_wage_2024)})
+        .attr('fill',(d)=>{return `rgba(112, 112, 112, ${opacity_scale(d.median_annual_wage_2024)})`});
+    
+    });
+
+    // points.transition()
+    // .easeVarying((d)=>{
+    //     return d3.easePolyIn.exponent(opacity_scale(d.median_annual_wage_2024))
+    // })
+    // .duration(1000)
+    // .attr('r',(d)=>{return size_scale(d.median_annual_wage_2024)})
+    // .attr('fill',(d)=>{return `rgba(112, 112, 112, ${opacity_scale(d.median_annual_wage_2024)})`})
     
     // points.transition().ease(d3.easeCubic).duration(1000).attr("r",(d)=>{
     //     return size_scale(d.median_annual_wage_2024)
@@ -139,9 +167,13 @@ d3.csv("./data/all_careers.csv").then((data)=>{
     .attr('text-anchor',"middle")
     .attr('alignment-baseline',"middle")
     .attr('fill',"rgb(0, 0, 0)");
-    text.transition().ease(d3.easeCubic).duration(1000).attr("opacity",1).attr("font-size",(d)=>{
-        return size_scale(d.median_annual_wage_2024)/3
-    });
+
+    // text.transition().ease(d3.easeCubic)
+    // .duration(1000)
+    // .attr("opacity",1)
+    // .attr("font-size",(d)=>{
+    //     return size_scale(d.median_annual_wage_2024)/3
+    // });
     
     text.each(function(d){
         let text_bounding_box = this.getBBox();
@@ -152,5 +184,35 @@ d3.csv("./data/all_careers.csv").then((data)=>{
             }
         })
     });
+
+    text.each(function(d){
+         const duration = size_scale(d.median_annual_wage_2024)*40;
+        const delay = size_scale(d.median_annual_wage_2024)*40;
+        console.log("duration",duration);
+        console.log("delay",delay);
+        d3.select(this)
+        .attr('font-size',(d)=>{
+            return size_scale(d.median_annual_wage_2024)/10
+        })
+        .attr("fill","rgba(255, 255, 255, 0)")
+        
+        d3.select(this)
+        .transition()
+        .ease(d3.easeCircleOut)
+        .duration(duration)
+        .delay(delay)
+        .attr('x',(d)=>{return x(d.observed_exposure)})
+        .attr('y',(d)=>{return y(d.total_employment_2024)})
+        .attr('font-size',(d)=>{
+            return size_scale(d.median_annual_wage_2024)/5
+        })
+        .attr('text-anchor',"middle")
+        .attr('alignment-baseline',"middle")
+        .attr('fill',"rgb(0, 0, 0)");
+        
+
+    
+    });
+
     
 })

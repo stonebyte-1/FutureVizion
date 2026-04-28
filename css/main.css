@@ -1,0 +1,15 @@
+:root {
+    --future-vision-primary-color: rgb(255, 226, 120);
+    --future-vision-secondary-color: rgb(120, 192, 255);
+    --future-vision-danger-color: rgb(255, 120, 120);
+
+    --future-vision-background-color: rgb(31, 30, 30);
+
+    --future-vision-background-primary-color: color-mix(in srgb, var(--future-vision-primary-color), black);
+    --future-vision-background-secondary-color: color-mix(in srgb, var(--future-vision-second-color), black);
+    --future-vision-background-danger-color: color-mix(in srgb, var(--future-vision-danger-color), black);
+}
+
+body {
+    background-color: var(--future-vision-background-color);
+}
