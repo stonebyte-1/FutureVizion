@@ -38,14 +38,29 @@ Occupation work volume exposed to Generative AI, median annual wage from 2024, t
  */
 
 
-function bounding_boxes_overlap(box1, box2) {
-    return (
-            box1.x < box2.x + box2.width &&
-            box1.x + box1.width > box2.x &&
-            box1.y < box2.y + box2.height &&
-            box1.y + box1.height > box2.y
-    );  
+
+function remove_accluded_item(d3_svg_item,margin = 3) {
+    function bounding_boxes_overlap(box1, box2) {
+        return (
+                box1.x < box2.x + box2.width - margin &&
+                box1.x + box1.width - margin> box2.x  &&
+                box1.y < box2.y + box2.height - margin&&
+                box1.y + box1.height - margin> box2.y 
+        );  
+    }
+    d3_svg_item.each(function (d) {
+        let item_bounding_box = this.getBBox();
+        d3_svg_item.each(function (d2) {
+            let text2_bounding_box = this.getBBox();
+            if (bounding_boxes_overlap(item_bounding_box, text2_bounding_box) && d != d2) {
+                this.remove();
+                return;
+            }
+        });
+
+    });
 }
+
 
 d3.csv("./data/all_careers.csv").then((data)=>{
     const svg = d3.select("#scatter-plot");
@@ -155,15 +170,7 @@ d3.csv("./data/all_careers.csv").then((data)=>{
     .attr('alignment-baseline',"middle")
     .attr('fill',"rgb(0, 0, 0)");
 
-    text.each(function(d){
-        let text_bounding_box = this.getBBox();
-        text.each(function(d2){
-            let text2_bounding_box = this.getBBox();
-            if(bounding_boxes_overlap(text_bounding_box,text2_bounding_box) && d != d2){
-                this.remove();
-            }
-        })
-    });
+    remove_accluded_item(text);
 
     text.each(function(d){
         const duration = size_scale(d.median_annual_wage_2024)*40;
@@ -175,13 +182,16 @@ d3.csv("./data/all_careers.csv").then((data)=>{
         })
         .attr("fill","rgba(255, 255, 255, 0)")
         
+        const x_dest = x(d.observed_exposure);
+        const y_dest = y(d.total_employment_2024);
+    
         d3.select(this)
         .transition()
         .ease(d3.easeCircleOut)
         .duration(duration)
         .delay(delay)
-        .attr('x',(d)=>{return x(d.observed_exposure)})
-        .attr('y',(d)=>{return y(d.total_employment_2024)})
+        .attr('x',(d)=>{return x_dest})
+        .attr('y',(d)=>{return y_dest})
         .attr('font-size',(d)=>{
             return size_scale(d.median_annual_wage_2024)/5
         })
