@@ -69,9 +69,25 @@ d3.json("./data/index.json").then((careerdata) => {
       .attr("r", (d) => career_size(d.total_employment_2024 || 1))
       .attr("fill", "blue")
       .attr("opacity", 0.85);
+    const IC_Labels = g
+      .selectAll("text")
+      .data(careers)
+      .join("text")
+      .attr("text-anchor", "middle")
+      .attr("fill", "gray")
+      .attr("pointer-events", "none")
+      .text((d) =>
+        d.occupation_title.length > 20
+          ? d.occupation_title.slice(0, 18) + "…"
+          : d.occupation_title
+      );
 
     career_sim.on("tick", () => {
       career_nodes.attr("cx", (d) => d.x).attr("cy", (d) => d.y);
+      IC_Labels.attr("x", (d) => d.x).attr(
+        "y",
+        (d) => d.y - career_size(d.total_employment_2024 || 1) - 4
+      );
     });
   }
   const careers_p_dept = {};
