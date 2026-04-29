@@ -42,7 +42,32 @@ svg.call(
 d3.json("./data/index.json").then((careerdata) => {
   function showGroup(key, allCareers) {
     const careers = allCareers.filter((d) => d.soc_group == key);
-    console.log(careers);
+    ///console.log(careers); this was just for testing purposes to see if the function worked now it can be disregarded
+    const career_size = d3
+      .scaleSqrt()
+      .domain([0, d3.max(careers, (d) => d.total_employment_2024 || 1)])
+      .range([4, 18]);
+
+    const career_sim = d3
+      .forceSimulation(careers)
+      .force("charge", d3.forceManyBody().strength(-80))
+      .force("center", d3.forceCenter(W / 2, H / 2))
+      .force(
+        "collide",
+        d3.forceCollide((d) => career_size(d.total_employment_2024 || 1) + 4)
+      );
+
+    const career_nodes = g
+      .selectAll("circle")
+      .data(careers)
+      .join("circle")
+      .attr("r", (d) => career_size(d.total_employment_2024 || 1))
+      .attr("fill", "blue")
+      .attr("opacity", 0.85);
+
+    career_sim.on("tick", () => {
+      career_nodes.attr("cx", (d) => d.x).attr("cy", (d) => d.y);
+    });
   }
   const careers_p_dept = {};
   careerdata.forEach((d) => {
