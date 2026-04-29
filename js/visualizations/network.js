@@ -1,5 +1,5 @@
 // import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm";
-import { } from "d3";
+import * as d3 from "d3";
 const W = window.innerWidth;
 const H = window.innerHeight;
 
@@ -39,8 +39,6 @@ svg.call(
     .on("zoom", (e) => g.attr("transform", e.transform))
 );
 
-
-
 d3.json("./data/index.json").then((careerdata) => {
   const careers_p_dept = {};
   careerdata.forEach((d) => {
@@ -50,4 +48,39 @@ d3.json("./data/index.json").then((careerdata) => {
     key,
     count: careers_p_dept[key] || 0,
   }));
+
+  const size_scale = d3
+    .scaleSqrt()
+    .domain([0, d3.max(groups, (d) => d.count)])
+    .range([20, 60]);
+  const main_simu = d3
+    .forceSimulation(groups)
+    .force("charge", d3.forceManyBody().strength(-400))
+    .force("center", d3.forceCenter(W / 2, H / 2))
+    .force(
+      "collide",
+      d3.forceCollide((d) => size_scale(d.count) + 10)
+    );
+
+  const nodes = g
+    .selectAll("circle")
+    .data(groups)
+    .join("circle")
+    .attr("r", (d) => size_scale(d.count))
+    .attr("fill", "blue")
+    .attr("opacity", 0.85);
+  const label = g
+    .selectAll("text")
+    .data(groups)
+    .join("text")
+    .attr("text-anchor", "middle")
+    .attr("fill", "black")
+    .attr("font-size", 40)
+    .attr("pointer-events", "none")
+    .text((d) => soc_identifiers[d.key]);
+
+  main_simu.on("tick", () => {
+    nodes.attr("cx", (d) => d.x).attr("cy", (d) => d.y);
+    label.attr("x", (d) => d.x).attr("y", (d) => d.y + 4);
+  });
 });
