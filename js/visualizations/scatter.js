@@ -49,16 +49,23 @@ function bounding_boxes_overlap(box1, box2) {
 
 d3.csv("./data/all_careers.csv").then((data)=>{
     const svg = d3.select("#scatter-plot");
-    
+    const margin = 100
+
     console.log(data);
-    const width = svg.attr("width");
-    const height = svg.attr("height");
+
+    const width= parseFloat(svg.style("width"));
+    const height = parseFloat(svg.style("height"));
+
     const max_point_size = 60;
+
+    const axis_title_margin = 15;
+    const tick_number = 10;
+
     console.log(width,height);
 
     console.log(data[0]);
     
-    const chart = svg.append("g")
+    const chart = svg.append("g").attr('transform',`translate(${margin},-${margin})`)
 
     const x_min = d3.min(data, d => { return +d.observed_exposure; });
     const x_max = d3.max(data, d => { return +d.observed_exposure; });
@@ -79,7 +86,7 @@ d3.csv("./data/all_careers.csv").then((data)=>{
 
     let x = d3.scaleLinear()
     .domain([x_min,x_max])
-    .range([0,width]);
+    .range([0+margin,width-margin]);
 
     console.log("X Scale: ",x_min,x_max);
     
@@ -89,7 +96,7 @@ d3.csv("./data/all_careers.csv").then((data)=>{
     
     let y = d3.scaleLinear()
     .domain([y_min,y_max])
-    .range([height,0])
+    .range([height-margin,0+margin])
 
     console.log("Y Scale: ",y_min,y_max);
     
@@ -100,7 +107,7 @@ d3.csv("./data/all_careers.csv").then((data)=>{
 
     let opacity_scale = d3.scaleLinear()
     .domain([0,d3.max(data,d=>{return +d.median_annual_wage_2024})])
-    .range([0.10,1])
+    .range([0.10,0.9])
 
     console.log("Scale: ",x,y);
     
@@ -181,10 +188,34 @@ d3.csv("./data/all_careers.csv").then((data)=>{
         .attr('text-anchor',"middle")
         .attr('alignment-baseline',"middle")
         .attr('fill',"rgb(0, 0, 0)");
-        
-
-    
     });
+
+    chart.append('text')
+    .attr('class','axis-title')
+    .attr('x', width-margin-150)
+    .attr('y', height-axis_title_margin)
+    .text("GenAI Exposure");
+
+    chart.append('text') 
+    .attr('class', 'axis-title') 
+    .attr('x', axis_title_margin) 
+    .attr('y', margin+50) 
+    .text("Total Employment"); 
+        
+    // Axies 
+
+    chart.append("g")
+    .attr("transform", `translate(0, ${height})`)
+    //ticks + tickSize adds grids 
+    .call( d3.axisBottom(x).ticks(tick_number).tickSize(-height-10))
+    //Optional: remove the axis endpoints 
+    .call((g) => g.select(".domain").remove()); 
+
+    chart.append("g")
+        .call(d3.axisLeft(y).ticks(tick_number).tickSize(-width-10))
+        .call((g) => g.select(".domain").remove());
+
+
 
     
 })
