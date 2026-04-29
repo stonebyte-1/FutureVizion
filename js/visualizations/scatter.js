@@ -231,43 +231,22 @@ d3.csv("./data/all_careers.csv").then((data)=>{
 
         points //let’s attach an event listener to points (all svg circles)
          .on('mouseover', (event,d) => { //when mouse is over point
-            let middle_x = width/2;
-            let node_selected_x = event.pageX;
-
-            let left = middle_x < node_selected_x
-
-            d3.select(event.currentTarget)
-                .transition()
-                .duration(200)
-                .ease(d3.easeCircleOut)
-                .style("stroke", "black")
-                .style("stroke-width", "2px");
-
-            d3.select('#scatter-tooltip') // add text inside the tooltip divs
-                .style('display', 'block') //make it visible
-                .html(`
-                    <h1 class="tooltip-title" style="max-width: 200px;">${d.occupation_title}</h1>          
-                    <div>Highway (HWY) MPG: ${d.hwy}</div>
-                    City (CTY) MPG: ${d.cty}
-            `);
-            
-            d3.select("#scatter-tooltip")
-                .style('position', 'absolute')
-                .style('top', (event.pageY + 10) + 'px')
-                .style('left', (left ? event.pageX - 220 : event.pageX + 10) + 'px');
-            
-               
+            node_highlight(event);
+            summon_tooltip(width, event, d);
          })
            .on('mouseleave', (event) => {  //when mouse isn’t over point
-               d3.select('#scatter-tooltip').style('display', 'none'); // hide tooltip
-               d3.select(event.currentTarget) //remove the stroke from point
-                   .style("stroke", "none");
-                d3.select(event.currentTarget)
-                   .transition()
-                    .duration(200)
-                    .ease(d3.easeCircleOut)
-                   .style("stroke", "white")
-                   .style("stroke-width", "0px");
+               node_exit_highlight(event);
+
+
+         });
+
+        text //let’s attach an event listener to points (all svg circles)
+         .on('mouseover', (event,d) => { //when mouse is over point
+            // node_highlight(event);
+            summon_tooltip(width, event, d);
+         })
+           .on('mouseleave', (event) => {  //when mouse isn’t over point
+               node_exit_highlight(event);
 
 
          });
@@ -275,3 +254,58 @@ d3.csv("./data/all_careers.csv").then((data)=>{
 
     
 })
+
+function node_exit_highlight(event) {
+    d3.select('#scatter-tooltip').style('display', 'none'); // hide tooltip
+    d3.select(event.currentTarget) //remove the stroke from point
+        .style("stroke", "none");
+    d3.select(event.currentTarget)
+        .transition()
+        .duration(200)
+        .ease(d3.easeCircleOut)
+        .style("stroke", "white")
+        .style("stroke-width", "0px");
+    
+    }
+
+function node_highlight(event) {
+    d3.select(event.currentTarget)
+        .transition()
+        .duration(200)
+        .ease(d3.easeCircleOut)
+        .style("stroke", "black")
+        .style("stroke-width", "2px");
+
+    
+}
+
+function summon_tooltip(svg_width, event, d) {
+    let middle_x = svg_width / 2;
+    let node_selected_x = event.pageX;
+
+    let left = middle_x < node_selected_x;
+
+
+    d3.select('#scatter-tooltip') // add text inside the tooltip divs
+        .style('display', 'block') //make it visible
+        .html(`
+                    <h1 class="tooltip-title" >${d.occupation_title}</h1>          
+                    <div>Observed Exposure to AI: ${d.observed_exposure}</div>
+                    Employment Percent Change, 2024-2034: ${d["Employment Percent Change, 2024-2034"]}
+                    Total Employment: ${d.total_employment_2024}
+                    Median Annual Wage: $${d.median_annual_wage_2024}
+            `);
+
+    d3.select("#scatter-tooltip")
+        .transition()
+        .duration(800)
+        .ease(d3.easeCircleOut)
+        .style('position', 'absolute')
+        .style('background-color','rgba(255,255,255,0.6)')
+        .style('border', 'solid 0px 10px')
+        .style('border-radius', '10px')
+        .style('padding','10px')
+        .style('top', (event.pageY + 10) + 'px')
+        .style('left', (left ? event.pageX - 220 : event.pageX + 10) + 'px');
+}
+
