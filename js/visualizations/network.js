@@ -40,6 +40,10 @@ svg.call(
 );
 
 d3.json("./data/index.json").then((careerdata) => {
+  function showGroup(key, allCareers) {
+    const careers = allCareers.filter((d) => d.soc_group == key);
+    console.log(careers);
+  }
   const careers_p_dept = {};
   careerdata.forEach((d) => {
     careers_p_dept[d.soc_group] = (careers_p_dept[d.soc_group] || 0) + 1;
@@ -78,6 +82,9 @@ d3.json("./data/index.json").then((careerdata) => {
     .attr("font-size", 40)
     .attr("pointer-events", "none")
     .text((d) => soc_identifiers[d.key]);
+  nodes.on("click", (e, d) => {
+    showGroup(d.key, careerdata);
+  });
 
   main_simu.on("tick", () => {
     nodes.attr("cx", (d) => d.x).attr("cy", (d) => d.y);
