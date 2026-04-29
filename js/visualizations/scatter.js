@@ -133,9 +133,10 @@ d3.csv("./data/all_careers.csv").then((data)=>{
     .data(data)
     .join('circle')
     .attr('cx',(d)=>{return x(d.observed_exposure)})
-    .attr('cy',(d)=>{return y(d.total_employment_2024)})
+    .attr('cy',(d)=>{return y(d.total_employment_2024)+y(y_max)})
     .attr('r',(d)=>{return 0})
-    .attr('fill',(d)=>{return `rgb(255, 255, 255)`});
+    .attr('fill',(d)=>{return `rgb(255, 255, 255)`})
+    .style("stroke-width", "0px");
     
 
     points.each(function(d){
@@ -150,6 +151,8 @@ d3.csv("./data/all_careers.csv").then((data)=>{
         .ease(d3.easeBackOut)
         .duration(duration)
         .delay(delay)
+        .attr('cx',(d)=>{return x(d.observed_exposure)})
+        .attr('cy',(d)=>{return y(d.total_employment_2024)})
         .attr("r",(d)=>{
             return size_scale(d.median_annual_wage_2024)})
         .attr('fill',(d)=>{return `rgba(112, 112, 112, ${opacity_scale(d.median_annual_wage_2024)})`});
@@ -216,16 +219,59 @@ d3.csv("./data/all_careers.csv").then((data)=>{
 
     chart.append("g")
     .attr("transform", `translate(0, ${height})`)
-    //ticks + tickSize adds grids 
     .call( d3.axisBottom(x).ticks(tick_number).tickSize(-height-10))
-    //Optional: remove the axis endpoints 
-    .call((g) => g.select(".domain").remove()); 
-
+    .call((g) => g.select(".domain").remove()) 
+    .style("opacity",0.2);
+    
     chart.append("g")
         .call(d3.axisLeft(y).ticks(tick_number).tickSize(-width-10))
-        .call((g) => g.select(".domain").remove());
+        .call((g) => g.select(".domain").remove())
+        .style("opacity",0.2);
 
 
+        points //let’s attach an event listener to points (all svg circles)
+         .on('mouseover', (event,d) => { //when mouse is over point
+            let middle_x = width/2;
+            let node_selected_x = event.pageX;
+
+            let left = middle_x < node_selected_x
+
+            d3.select(event.currentTarget)
+                .transition()
+                .duration(200)
+                .ease(d3.easeCircleOut)
+                .style("stroke", "black")
+                .style("stroke-width", "2px");
+
+            d3.select('#scatter-tooltip') // add text inside the tooltip divs
+                .style('display', 'block') //make it visible
+                .html(`
+                    <h1 class="tooltip-title" style="max-width: 200px;">${d.occupation_title}</h1>          
+                    <div>Highway (HWY) MPG: ${d.hwy}</div>
+                    City (CTY) MPG: ${d.cty}
+            `);
+            
+            d3.select("#scatter-tooltip")
+                .style('position', 'absolute')
+                .style('top', (event.pageY + 10) + 'px')
+                .style('left', (left ? event.pageX - 220 : event.pageX + 10) + 'px');
+            
+               
+         })
+           .on('mouseleave', (event) => {  //when mouse isn’t over point
+               d3.select('#scatter-tooltip').style('display', 'none'); // hide tooltip
+               d3.select(event.currentTarget) //remove the stroke from point
+                   .style("stroke", "none");
+                d3.select(event.currentTarget)
+                   .transition()
+                    .duration(200)
+                    .ease(d3.easeCircleOut)
+                   .style("stroke", "white")
+                   .style("stroke-width", "0px");
+
+
+         });
+  
 
     
 })
