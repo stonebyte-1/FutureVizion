@@ -41,6 +41,11 @@ svg.call(
 
 d3.json("./data/index.json").then((careerdata) => {
   function showGroup(key, allCareers) {
+    g.selectAll("circle").remove();
+    g.selectAll("text").remove();
+    main_simu.stop();
+    document.getElementById("back").style.display = "block";
+
     const careers = allCareers.filter((d) => d.soc_group == key);
     ///console.log(careers); this was just for testing purposes to see if the function worked now it can be disregarded
     const career_size = d3
@@ -116,3 +121,6 @@ d3.json("./data/index.json").then((careerdata) => {
     label.attr("x", (d) => d.x).attr("y", (d) => d.y + 4);
   });
 });
+document.getElementById("back").onclick = () => {
+  location.reload();
+};
