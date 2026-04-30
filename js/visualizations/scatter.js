@@ -59,258 +59,266 @@ function remove_accluded_item(d3_svg_item, margin = 3) {
   });
 }
 
-d3.csv("./data/all_careers.csv").then((data) => {
-  const svg = d3.select("#scatter-plot");
-  const margin = 100;
-
-  console.log(data);
-
-  const width = window.innerWidth;
-  const height = 900;
-
-  const max_point_size = 60;
-
-  const axis_title_margin = 15;
-  const tick_number = 10;
-
-  console.log(width, height);
-
-  console.log(data[0]);
-
-  const chart = svg
-    .append("g")
-    .attr("transform", `translate(${margin},-${margin})`);
-
-  const x_min = d3.min(data, (d) => {
-    return +d.observed_exposure;
+const scatterContainer = document.getElementById("view-scatter");
+const observer = new MutationObserver((mutations) => {
+  mutations.forEach((mutation) => {
+    if (
+      mutation.attributeName === "class" &&
+      scatterContainer.classList.contains("active")
+    ) {
+      renderScatterPlot();
+      observer.disconnect();
+    }
   });
-  const x_max = d3.max(data, (d) => {
-    return +d.observed_exposure;
-  });
-  /**
-   * GenAI exposure
-   * Total employment
-   * Median annual wage
-   * Occupation title / category
-   */
+});
+observer.observe(scatterContainer, { attributes: true });
 
-  /**
-   * GenAI Exposure compared to Total Employment and Wage
-   */
+function renderScatterPlot() {
+  d3.csv("./data/all_careers.csv").then((data) => {
+    const svg = d3.select("#scatter-plot");
+    const margin = 100;
 
-  // Scale
+    console.log(data);
 
-  let x = d3
-    .scaleLinear()
-    .domain([x_min, x_max])
-    .range([0 + margin, width - margin]);
+    const width = window.innerWidth;
+    const height = 900;
 
-  console.log("X Scale: ", x_min, x_max);
+    const max_point_size = 60;
 
-  const y_min = d3.min(data, (d) => {
-    return +d.total_employment_2024;
-  });
-  const y_max = d3.max(data, (d) => {
-    return +d.total_employment_2024;
-  });
+    const axis_title_margin = 15;
+    const tick_number = 10;
 
-  let y = d3
-    .scaleLinear()
-    .domain([y_min, y_max])
-    .range([height - margin, 0 + margin]);
+    console.log(width, height);
 
-  console.log("Y Scale: ", y_min, y_max);
+    console.log(data[0]);
 
-  let size_scale = d3
-    .scaleLinear()
-    .domain([
-      0,
-      d3.max(data, (d) => {
-        return +d.median_annual_wage_2024;
-      }),
-    ])
-    .range([0, max_point_size]);
+    const chart = svg
+      .append("g")
+      .attr("transform", `translate(${margin},-${margin})`);
 
-  let opacity_scale = d3
-    .scaleLinear()
-    .domain([
-      0,
-      d3.max(data, (d) => {
-        return +d.median_annual_wage_2024;
-      }),
-    ])
-    .range([0.1, 0.9]);
+    const x_min = d3.min(data, (d) => {
+      return +d.observed_exposure;
+    });
+    const x_max = d3.max(data, (d) => {
+      return +d.observed_exposure;
+    });
+    /**
+     * GenAI exposure
+     * Total employment
+     * Median annual wage
+     * Occupation title / category
+     */
+    /**
+     * GenAI Exposure compared to Total Employment and Wage
+     */
+    // Scale
+    let x = d3
+      .scaleLinear()
+      .domain([x_min, x_max])
+      .range([0 + margin, width - margin]);
 
-  console.log("Scale: ", x, y);
+    console.log("X Scale: ", x_min, x_max);
 
-  // Points
+    const y_min = d3.min(data, (d) => {
+      return +d.total_employment_2024;
+    });
+    const y_max = d3.max(data, (d) => {
+      return +d.total_employment_2024;
+    });
 
-  const points = chart
-    .append("g")
-    .selectAll("circle")
-    .data(data)
-    .join("circle")
-    .attr("cx", (d) => {
-      return x(d.observed_exposure);
-    })
-    .attr("cy", (d) => {
-      return y(d.total_employment_2024) + y(y_max);
-    })
-    .attr("r", (d) => {
-      return 0;
-    })
-    .attr("fill", (d) => {
-      return `var(--future-vision-danger-color)`;
-    })
-    .style("stroke-width", "0px");
+    let y = d3
+      .scaleLinear()
+      .domain([y_min, y_max])
+      .range([height - margin, 0 + margin]);
 
-  points.each(function (d) {
-    const duration = size_scale(d.median_annual_wage_2024) * 40;
-    const delay = size_scale(d.median_annual_wage_2024) * 40;
-    // console.log("duration",duration);
-    // console.log("delay",delay);
+    console.log("Y Scale: ", y_min, y_max);
 
-    d3.select(this)
-      .transition()
-      .ease(d3.easeBackOut)
-      .duration(duration)
-      .delay(delay)
+    let size_scale = d3
+      .scaleLinear()
+      .domain([
+        0,
+        d3.max(data, (d) => {
+          return +d.median_annual_wage_2024;
+        }),
+      ])
+      .range([0, max_point_size]);
+
+    let opacity_scale = d3
+      .scaleLinear()
+      .domain([
+        0,
+        d3.max(data, (d) => {
+          return +d.median_annual_wage_2024;
+        }),
+      ])
+      .range([0.1, 0.9]);
+
+    console.log("Scale: ", x, y);
+
+    // Points
+    const points = chart
+      .append("g")
+      .selectAll("circle")
+      .data(data)
+      .join("circle")
       .attr("cx", (d) => {
         return x(d.observed_exposure);
       })
       .attr("cy", (d) => {
-        return y(d.total_employment_2024);
+        return y(d.total_employment_2024) + y(y_max);
       })
       .attr("r", (d) => {
-        return size_scale(d.median_annual_wage_2024);
+        return 0;
       })
       .attr("fill", (d) => {
-        return `color-mix(in srgb, var(--future-vision-primary-color), var(--future-vision-secondary-color) ${
-          (+d.median_annual_wage_2024 /
-            d3.max(data, (d) => +d.median_annual_wage_2024)) *
-          100
-        }%)`;
-      });
-  });
-
-  let text = chart
-    .append("g")
-    .selectAll("text")
-    .data(data)
-    .join("text")
-    .text((d) => d.occupation_title)
-    .attr("x", (d) => {
-      return x(d.observed_exposure);
-    })
-    .attr("y", (d) => {
-      return y(d.total_employment_2024);
-    })
-    .attr("font-size", (d) => {
-      return size_scale(d.median_annual_wage_2024) / 3;
-    })
-    .attr("text-anchor", "middle")
-    .attr("alignment-baseline", "middle")
-    .attr("fill", "rgb(0, 0, 0)");
-
-  remove_accluded_item(text);
-
-  text.each(function (d) {
-    const duration = size_scale(d.median_annual_wage_2024) * 40;
-    const delay = size_scale(d.median_annual_wage_2024) * 40;
-
-    d3.select(this)
-      .attr("font-size", (d) => {
-        return size_scale(d.median_annual_wage_2024) / 10;
+        return `var(--future-vision-danger-color)`;
       })
-      .attr("fill", "rgba(255, 255, 255, 0)");
+      .style("stroke-width", "0px");
 
-    const x_dest = x(d.observed_exposure);
-    const y_dest = y(d.total_employment_2024);
+    points.each(function (d) {
+      const duration = size_scale(d.median_annual_wage_2024) * 40;
+      const delay = size_scale(d.median_annual_wage_2024) * 40;
+      // console.log("duration",duration);
+      // console.log("delay",delay);
+      d3.select(this)
+        .transition()
+        .ease(d3.easeBackOut)
+        .duration(duration)
+        .delay(delay)
+        .attr("cx", (d) => {
+          return x(d.observed_exposure);
+        })
+        .attr("cy", (d) => {
+          return y(d.total_employment_2024);
+        })
+        .attr("r", (d) => {
+          return size_scale(d.median_annual_wage_2024);
+        })
+        .attr("fill", (d) => {
+          return `color-mix(in srgb, var(--future-vision-primary-color), var(--future-vision-secondary-color) ${(+d.median_annual_wage_2024 /
+            d3.max(data, (d) => +d.median_annual_wage_2024)) *
+            100}%)`;
+        });
+    });
 
-    d3.select(this)
-      .transition()
-      .ease(d3.easeCircleOut)
-      .duration(duration)
-      .delay(delay)
+    let text = chart
+      .append("g")
+      .selectAll("text")
+      .data(data)
+      .join("text")
+      .text((d) => d.occupation_title)
       .attr("x", (d) => {
-        return x_dest;
+        return x(d.observed_exposure);
       })
       .attr("y", (d) => {
-        return y_dest;
+        return y(d.total_employment_2024);
       })
       .attr("font-size", (d) => {
-        return size_scale(d.median_annual_wage_2024) / 5;
+        return size_scale(d.median_annual_wage_2024) / 3;
       })
       .attr("text-anchor", "middle")
       .attr("alignment-baseline", "middle")
-      .attr("fill", "var(--future-vision-text-color)");
+      .attr("fill", "rgb(0, 0, 0)");
+
+    remove_accluded_item(text);
+
+    text.each(function (d) {
+      const duration = size_scale(d.median_annual_wage_2024) * 40;
+      const delay = size_scale(d.median_annual_wage_2024) * 40;
+
+      d3.select(this)
+        .attr("font-size", (d) => {
+          return size_scale(d.median_annual_wage_2024) / 10;
+        })
+        .attr("fill", "rgba(255, 255, 255, 0)");
+
+      const x_dest = x(d.observed_exposure);
+      const y_dest = y(d.total_employment_2024);
+
+      d3.select(this)
+        .transition()
+        .ease(d3.easeCircleOut)
+        .duration(duration)
+        .delay(delay)
+        .attr("x", (d) => {
+          return x_dest;
+        })
+        .attr("y", (d) => {
+          return y_dest;
+        })
+        .attr("font-size", (d) => {
+          return size_scale(d.median_annual_wage_2024) / 5;
+        })
+        .attr("text-anchor", "middle")
+        .attr("alignment-baseline", "middle")
+        .attr("fill", "var(--future-vision-text-color)");
+    });
+
+    chart
+      .append("text")
+      .attr("class", "axis-title")
+      .attr("x", width - margin - 150)
+      .attr("y", height - axis_title_margin)
+      .attr("fill", "var(--future-vision-text-color)")
+      .text("GenAI Exposure");
+
+    chart
+      .append("text")
+      .attr("class", "axis-title")
+      .attr("x", axis_title_margin)
+      .attr("y", margin + 50)
+      .attr("fill", "var(--future-vision-text-color)")
+      .text("Total Employment");
+
+    // Axies
+    chart
+      .append("g")
+      .attr("transform", `translate(0, ${height})`)
+      .call(
+        d3
+          .axisBottom(x)
+          .ticks(tick_number)
+          .tickSize(-height - 10)
+      )
+      .call((g) => g.select(".domain").remove())
+      .attr("color", "var(--future-vision-secondary-color)")
+      .style("opacity", 0.2);
+
+    chart
+      .append("g")
+      .call(
+        d3
+          .axisLeft(y)
+          .ticks(tick_number)
+          .tickSize(-width - 10)
+      )
+      .call((g) => g.select(".domain").remove())
+      .attr("color", "var(--future-vision-secondary-color)")
+      .style("opacity", 0.2);
+
+    points //let’s attach an event listener to points (all svg circles)
+      .on("mouseover", (event, d) => {
+        //when mouse is over point
+        node_highlight(event);
+        summon_tooltip(width, event, d);
+      })
+      .on("mouseleave", (event) => {
+        //when mouse isn’t over point
+        node_exit_highlight(event);
+      });
+
+    text //let’s attach an event listener to points (all svg circles)
+      .on("mouseover", (event, d) => {
+        //when mouse is over point
+        // node_highlight(event);
+        summon_tooltip(width, event, d);
+      })
+      .on("mouseleave", (event) => {
+        //when mouse isn’t over point
+        node_exit_highlight(event);
+      });
   });
-
-  chart
-    .append("text")
-    .attr("class", "axis-title")
-    .attr("x", width - margin - 150)
-    .attr("y", height - axis_title_margin)
-    .attr("fill", "var(--future-vision-text-color)")
-    .text("GenAI Exposure");
-
-  chart
-    .append("text")
-    .attr("class", "axis-title")
-    .attr("x", axis_title_margin)
-    .attr("y", margin + 50)
-    .attr("fill", "var(--future-vision-text-color)")
-    .text("Total Employment");
-
-  // Axies
-
-  chart
-    .append("g")
-    .attr("transform", `translate(0, ${height})`)
-    .call(
-      d3
-        .axisBottom(x)
-        .ticks(tick_number)
-        .tickSize(-height - 10)
-    )
-    .call((g) => g.select(".domain").remove())
-    .attr("color", "var(--future-vision-secondary-color)")
-    .style("opacity", 0.2);
-
-  chart
-    .append("g")
-    .call(
-      d3
-        .axisLeft(y)
-        .ticks(tick_number)
-        .tickSize(-width - 10)
-    )
-    .call((g) => g.select(".domain").remove())
-    .attr("color", "var(--future-vision-secondary-color)")
-    .style("opacity", 0.2);
-
-  points //let’s attach an event listener to points (all svg circles)
-    .on("mouseover", (event, d) => {
-      //when mouse is over point
-      node_highlight(event);
-      summon_tooltip(width, event, d);
-    })
-    .on("mouseleave", (event) => {
-      //when mouse isn’t over point
-      node_exit_highlight(event);
-    });
-
-  text //let’s attach an event listener to points (all svg circles)
-    .on("mouseover", (event, d) => {
-      //when mouse is over point
-      // node_highlight(event);
-      summon_tooltip(width, event, d);
-    })
-    .on("mouseleave", (event) => {
-      //when mouse isn’t over point
-      node_exit_highlight(event);
-    });
-});
+}
 
 function node_exit_highlight(event) {
   d3.select("#scatter-tooltip").style("display", "none"); // hide tooltip
