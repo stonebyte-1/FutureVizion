@@ -20,14 +20,10 @@
   right: 0;
   width: 320px;
   height: 100vh;
-  background: color-mix(
-    in srgb,
-    var(--future-vision-background-color),
-    var(--future-vision-primary-color) 8%
-  );
+  background: var(--future-vision-primary-color);
   padding: 24px;
   overflow-y: auto;
-  color: white;
+  color: black;
   font-size: 13px;
 }
 #close {
@@ -42,4 +38,24 @@
   font-size: 16px;
   margin-bottom: 14px;
   padding-right: 24px;
+}
+.panel-section-title {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--future-vision-primary-color);
+  margin: 16px 0 8px;
+}
+
+.panel-task {
+  font-size: 12px;
+  margin-bottom: 6px;
+  line-height: 1.4;
+  opacity: 0.85;
+}
+
+.panel-ai-tag {
+  color: var(--future-vision-danger-color);
+  font-size: 11px;
+  margin-left: 4px;
 }
