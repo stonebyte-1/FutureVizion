@@ -59,7 +59,16 @@
       <div>
         <svg id="network-graph" width="1500" height="900"></svg>
       </div>
-      <div style="display:flex;flex-direction:row;gap: 1rem">
+      <div>
+        <h1>Tech Careers: AI Risk vs. Opportunity Score</h1>
+        <p>
+          Left = AI Exposure Risk (%) | Right = Opportunity Score (Salary + Growth)
+        </p>
+        <div id="barchart-chart"></div>
+        <div id="barchart-tooltip"></div>
+        <script type="module" src="./js/visualizations/barchart.js"></script>
+      </div>
+      <div>
         <svg id="scatter-plot" width="100%" height="900"></svg>
         <div id="scatter-tooltip"></div>
       </div>

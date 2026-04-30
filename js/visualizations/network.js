@@ -48,6 +48,8 @@ d3.json("./data/index.json").then((careerdata) => {
 
     const careers = allCareers.filter((d) => d.soc_group == key);
     const ids = new Set(careers.map((d) => d.onetsoccode));
+    console.log(careers);
+
     ///console.log(careers); this was just for testing purposes to see if the function worked now it can be disregarded
     d3.json("./data/links.json").then((allLinks) => {
       const groupLinks = allLinks.filter(
@@ -107,19 +109,17 @@ d3.json("./data/index.json").then((careerdata) => {
           document.getElementById("panel-title").textContent = p.TITLE;
           document.getElementById("panel-body").innerHTML = `
                   <div><span style="color:white">Median Salary: </span>$${(
-                    p["MEDIAN SALARY 2024"] || 0
-                  ).toLocaleString()}</div>
+              p["MEDIAN SALARY 2024"] || 0
+            ).toLocaleString()}</div>
                   <div><span style="color:white">Total Employment: </span>${(
-                    p["TOTAL EMPLOYMENT"] || 0
-                  ).toLocaleString()}</div>
-                  <div><span style="color:white">Employment Change: </span>${
-                    p["EMPLOYMENT PERCENT CHANGE"] ?? "N/A"
-                  }%</div>
-                  <div><span style="color:white">Observed AI Exposure: </span>${
-                    p["OBSERVED AI EXPOSURE"] != null
-                      ? (p["OBSERVED AI EXPOSURE"] * 100).toFixed(1) + "%"
-                      : "No data"
-                  }</div>
+              p["TOTAL EMPLOYMENT"] || 0
+            ).toLocaleString()}</div>
+                  <div><span style="color:white">Employment Change: </span>${p["EMPLOYMENT PERCENT CHANGE"] ?? "N/A"
+            }%</div>
+                  <div><span style="color:white">Observed AI Exposure: </span>${p["OBSERVED AI EXPOSURE"] != null
+              ? (p["OBSERVED AI EXPOSURE"] * 100).toFixed(1) + "%"
+              : "No data"
+            }</div>
               `;
           document.getElementById("panel").style.display = "block";
         });
