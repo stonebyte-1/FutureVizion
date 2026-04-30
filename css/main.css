@@ -60,14 +60,15 @@ text {
 /* Tooltip */
 #barchart-tooltip {
     position: absolute;
-    background: rgba(255, 255, 255, 0.95);
-    border: 1px solid var(--future-vision-primary-color);
+    background: var(--future-vision-secondary-color);
+    border: 1px solid var(--future-vision-secondary-color);
+    color: var(--future-vision-text-color);
     padding: 10px 14px;
     font-size: 13px;
     border-radius: 6px;
     pointer-events: none;
     opacity: 0;
-    box-shadow: 0px 4px 8px var(--future-vision-primary-color);
+    box-shadow: 0px 4px 8px var(--future-vision-secondary-color);
     transition: opacity 0.2s ease;
     text-align: left;
     line-height: 1.4;

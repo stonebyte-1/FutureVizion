@@ -48,8 +48,6 @@ d3.json("./data/index.json").then((careerdata) => {
 
     const careers = allCareers.filter((d) => d.soc_group == key);
     const ids = new Set(careers.map((d) => d.onetsoccode));
-    console.log(careers);
-
     ///console.log(careers); this was just for testing purposes to see if the function worked now it can be disregarded
     d3.json("./data/links.json").then((allLinks) => {
       const groupLinks = allLinks.filter(

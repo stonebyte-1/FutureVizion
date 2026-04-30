@@ -125,6 +125,7 @@ Promise.all([d3.csv("data/job_exposure.csv"), d3.csv("data/all_careers.csv")])
             .attr("class", "bar-risk")
             .attr("x", (d) => x(-d.risk))
             .attr("y", (d) => y(d.job))
+            .attr("rx", "6px")
             .attr("width", (d) => x(0) - x(-d.risk))
             .attr("height", y.bandwidth())
             .on("mouseover", function (event, d) {
@@ -134,6 +135,7 @@ Promise.all([d3.csv("data/job_exposure.csv"), d3.csv("data/all_careers.csv")])
                     .duration(200)
                     .attr("y", y(d.job) - 4)
                     .attr("height", y.bandwidth() + 8)
+                    .attr("rx", "10px")
                     .style("opacity", 0.7);
                 tooltip.style("opacity", 1);
             })
@@ -150,6 +152,7 @@ Promise.all([d3.csv("data/job_exposure.csv"), d3.csv("data/all_careers.csv")])
                     .duration(200)
                     .attr("y", y(d.job))
                     .attr("height", y.bandwidth())
+                    .attr("rx", "6px")
                     .style("opacity", 1);
                 tooltip.style("opacity", 0);
             });
@@ -163,6 +166,7 @@ Promise.all([d3.csv("data/job_exposure.csv"), d3.csv("data/all_careers.csv")])
             .attr("class", "bar-opportunity")
             .attr("x", x(0))
             .attr("y", (d) => y(d.job))
+            .attr("rx", "6px")
             .attr("width", (d) => x(d.opportunity) - x(0))
             .attr("height", y.bandwidth())
             .on("mouseover", function (event, d) {
@@ -171,6 +175,7 @@ Promise.all([d3.csv("data/job_exposure.csv"), d3.csv("data/all_careers.csv")])
                     .duration(200)
                     .attr("y", y(d.job) - 4)
                     .attr("height", y.bandwidth() + 8)
+                    .attr("rx", "10px")
                     .style("opacity", 0.7);
                 tooltip.style("opacity", 1);
             })
@@ -193,6 +198,7 @@ Promise.all([d3.csv("data/job_exposure.csv"), d3.csv("data/all_careers.csv")])
                     .duration(200)
                     .attr("y", y(d.job))
                     .attr("height", y.bandwidth())
+                    .attr("rx", "6px")
                     .style("opacity", 1);
                 tooltip.style("opacity", 0);
             });
