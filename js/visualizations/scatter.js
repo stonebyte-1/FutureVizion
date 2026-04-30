@@ -135,7 +135,7 @@ d3.csv("./data/all_careers.csv").then((data)=>{
     .attr('cx',(d)=>{return x(d.observed_exposure)})
     .attr('cy',(d)=>{return y(d.total_employment_2024)+y(y_max)})
     .attr('r',(d)=>{return 0})
-    .attr('fill',(d)=>{return `rgb(255, 255, 255)`})
+    .attr('fill',(d)=>{return `rgb(0, 0, 0)`})
     .style("stroke-width", "0px");
     
 
@@ -155,7 +155,7 @@ d3.csv("./data/all_careers.csv").then((data)=>{
         .attr('cy',(d)=>{return y(d.total_employment_2024)})
         .attr("r",(d)=>{
             return size_scale(d.median_annual_wage_2024)})
-        .attr('fill',(d)=>{return `rgba(112, 112, 112, ${opacity_scale(d.median_annual_wage_2024)})`});
+        .attr('fill',(d)=>{return `color-mix(in srgb, var(--primary-color), var(--secondary-color) ${opacity_scale(d.median_annual_wage_2024) * 100}%)`});
     
     });
 
@@ -171,7 +171,7 @@ d3.csv("./data/all_careers.csv").then((data)=>{
     })
     .attr('text-anchor',"middle")
     .attr('alignment-baseline',"middle")
-    .attr('fill',"rgb(0, 0, 0)");
+    .attr('fill',"var(--text-color)");
 
     remove_accluded_item(text);
 
@@ -200,7 +200,7 @@ d3.csv("./data/all_careers.csv").then((data)=>{
         })
         .attr('text-anchor',"middle")
         .attr('alignment-baseline',"middle")
-        .attr('fill',"rgb(0, 0, 0)");
+        .attr('fill',"var(--text-color)");
     });
 
     chart.append('text')
@@ -220,12 +220,14 @@ d3.csv("./data/all_careers.csv").then((data)=>{
     chart.append("g")
     .attr("transform", `translate(0, ${height})`)
     .call( d3.axisBottom(x).ticks(tick_number).tickSize(-height-10))
+    .style('color','var(--secondary-color)')
     .call((g) => g.select(".domain").remove()) 
     .style("opacity",0.2);
     
     chart.append("g")
         .call(d3.axisLeft(y).ticks(tick_number).tickSize(-width-10))
         .call((g) => g.select(".domain").remove())
+        .style('color','var(--secondary-color)')
         .style("opacity",0.2);
 
 
@@ -308,4 +310,3 @@ function summon_tooltip(svg_width, event, d) {
         .style('top', (event.pageY + 10) + 'px')
         .style('left', (left ? event.pageX - 220 : event.pageX + 10) + 'px');
 }
-
