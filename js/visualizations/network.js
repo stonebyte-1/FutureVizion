@@ -106,16 +106,16 @@ d3.json("./data/index.json").then((careerdata) => {
         d3.json(`./data/careers/${d.onetsoccode}.json`).then((p) => {
           document.getElementById("panel-title").textContent = p.TITLE;
           document.getElementById("panel-body").innerHTML = `
-                  <div><span style="color:gray">Median Salary: </span>$${(
+                  <div><span style="color:white">Median Salary: </span>$${(
                     p["MEDIAN SALARY 2024"] || 0
                   ).toLocaleString()}</div>
-                  <div><span style="color:gray">Total Employment: </span>${(
+                  <div><span style="color:white">Total Employment: </span>${(
                     p["TOTAL EMPLOYMENT"] || 0
                   ).toLocaleString()}</div>
-                  <div><span style="color:gray">Employment Change: </span>${
+                  <div><span style="color:white">Employment Change: </span>${
                     p["EMPLOYMENT PERCENT CHANGE"] ?? "N/A"
                   }%</div>
-                  <div><span style="color:gray">Observed AI Exposure: </span>${
+                  <div><span style="color:white">Observed AI Exposure: </span>${
                     p["OBSERVED AI EXPOSURE"] != null
                       ? (p["OBSERVED AI EXPOSURE"] * 100).toFixed(1) + "%"
                       : "No data"

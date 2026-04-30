@@ -7,6 +7,41 @@
     <div>
       <svg id="network-graph" width="1500" height="900"></svg>
       <button id="back">Back To Departments</button>
+      <div
+        id="panel"
+        style="
+          display: none;
+          position: fixed;
+          top: 0;
+          right: 0;
+          width: 320px;
+          height: 100vh;
+          background: navy;
+          padding: 24px;
+          overflow-y: auto;
+          color: white;
+          font-size: 13px;
+        "
+      >
+        <span
+          id="close"
+          style="
+            position: absolute;
+            top: 16px;
+            right: 16px;
+            cursor: pointer;
+            color: gray;
+            font-size: 18px;
+          "
+        >
+          X</span
+        >
+        <h2
+          id="panel-title"
+          style="font-size: 16px; margin-bottom: 14px; padding-right: 24px"
+        ></h2>
+        <div id="panel-body"></div>
+      </div>
     </div>
     <script type="module" src="./js/visualizations/network.js"></script>
   </body>
