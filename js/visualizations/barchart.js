@@ -1,5 +1,5 @@
-
-import * as d3 from "d3";
+import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm";
+// import * as d3 from "d3";
 const width = 900;
 const height = 600;
 const margin = { top: 40, right: 40, bottom: 50, left: 250 };

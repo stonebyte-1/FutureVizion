@@ -1,4 +1,4 @@
-import * as d3 from "d3";
+import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm";
 /**
 https://github.com/s-mahdihosseini/GenAI_Expertise  GenAI_Expertise
 This dataset includes occupation level data that we can use for the scatter plot, including occupation work volume exposed to Generative AI, median annual wage from 2024, total employment, and job titles. It is the main dataset we plan to use for this visualization.  
