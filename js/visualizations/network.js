@@ -1,5 +1,7 @@
 // import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm";
 import * as d3 from "d3";
+const C = (v) =>
+  getComputedStyle(document.documentElement).getPropertyValue(v).trim();
 const W = window.innerWidth;
 const H = window.innerHeight;
 
@@ -88,7 +90,7 @@ d3.json("./data/index.json").then((careerdata) => {
         .data(careers)
         .join("circle")
         .attr("r", (d) => career_size(d.total_employment_2024 || 1))
-        .attr("fill", "blue")
+        .attr("fill", C("--future-vision-primary-color"))
         .attr("opacity", 0.85);
       const IC_Labels = g
         .selectAll("text")
@@ -174,14 +176,14 @@ d3.json("./data/index.json").then((careerdata) => {
     .data(groups)
     .join("circle")
     .attr("r", (d) => size_scale(d.count))
-    .attr("fill", "blue")
+    .attr("fill", C("--future-vision-primary-color"))
     .attr("opacity", 0.85);
   const label = g
     .selectAll("text")
     .data(groups)
     .join("text")
     .attr("text-anchor", "middle")
-    .attr("fill", "black")
+    .attr("fill", C("--future-vision-background-color"))
     .attr("font-size", 40)
     .attr("pointer-events", "none")
     .text((d) => soc_identifiers[d.key]);
