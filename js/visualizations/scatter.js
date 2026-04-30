@@ -138,6 +138,7 @@ d3.csv("./data/all_careers.csv").then((data)=>{
     .attr('fill',(d)=>{return `rgb(0, 0, 0)`})
     .style("stroke-width", "0px");
     
+svg.on("mousemove", function() {
 
     points.each(function(d){
         const duration = size_scale(d.median_annual_wage_2024)*40;
@@ -158,6 +159,7 @@ d3.csv("./data/all_careers.csv").then((data)=>{
         .attr('fill',(d)=>{return `color-mix(in srgb, var(--primary-color), var(--secondary-color) ${opacity_scale(d.median_annual_wage_2024) * 100}%)`});
     
     });
+});
 
     let text = chart.append('g')
     .selectAll('text')
