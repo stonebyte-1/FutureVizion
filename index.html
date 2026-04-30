@@ -6,6 +6,24 @@
     <link rel="stylesheet" href="css/network.css" />
   </head>
   <body>
+    <div id="welcome">
+      <h1 id="welcome-title">FutureVizion</h1>
+      <p id="welcome-sub">What would you like to explore?</p>
+      <div id="welcome-buttons">
+        <button class="welcome-btn" data-target="view-network">
+          <span class="btn-title">Explore Careers</span>
+          <span class="btn-sub">Browse all occupations by sector</span>
+        </button>
+        <button class="welcome-btn" data-target="view-barchart">
+          <span class="btn-title">Tech Career Outlook</span>
+          <span class="btn-sub">See AI risk vs opportunity in tech</span>
+        </button>
+        <button class="welcome-btn" data-target="view-scatter">
+          <span class="btn-title">Employment & AI Exposure</span>
+          <span class="btn-sub">How many careers are affected by GenAI</span>
+        </button>
+      </div>
+    </div>
     <svg id="network-graph" width="100%" height="900"></svg>
     <button id="back">Back To Departments</button>
     <input
