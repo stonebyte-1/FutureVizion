@@ -107,21 +107,42 @@ d3.json("./data/index.json").then((careerdata) => {
       career_nodes.on("click", (e, d) => {
         d3.json(`./data/careers/${d.onetsoccode}.json`).then((p) => {
           document.getElementById("panel-title").textContent = p.TITLE;
+          const tasks_of_career = (p["ASSOCIATED TASKS"] || [])
+            .filter((t) => t.TaskType === "Core")
+            .sort((a, b) => b.task_importance_score - a.task_importance_score)
+            .slice(0, 5);
           document.getElementById("panel-body").innerHTML = `
-                  <div><span style="color:white">Median Salary: </span>$${(
+                  <div><span style="color:black">Median Salary: </span>$${(
                     p["MEDIAN SALARY 2024"] || 0
                   ).toLocaleString()}</div>
-                  <div><span style="color:white">Total Employment: </span>${(
+                  <div><span style="color:black">Total Employment: </span>${(
                     p["TOTAL EMPLOYMENT"] || 0
                   ).toLocaleString()}</div>
-                  <div><span style="color:white">Employment Change: </span>${
+                  <div><span style="color:black">Employment Change: </span>${
                     p["EMPLOYMENT PERCENT CHANGE"] ?? "N/A"
                   }%</div>
-                  <div><span style="color:white">Observed AI Exposure: </span>${
+                  <div><span style="color:black">Observed AI Exposure: </span>${
                     p["OBSERVED AI EXPOSURE"] != null
                       ? (p["OBSERVED AI EXPOSURE"] * 100).toFixed(1) + "%"
                       : "No data"
                   }</div>
+                      <h3 class="panel-section-title">Top Tasks</h3>
+    ${tasks_of_career
+      .map(
+        (t) => `
+        <div class="panel-task">
+            ${t.Task}
+            ${
+              t.penetration > 0
+                ? `<span class="panel-ai-tag">${(t.penetration * 100).toFixed(
+                    0
+                  )}% AI</span>`
+                : ""
+            }
+        </div>
+    `
+      )
+      .join("")}
               `;
           document.getElementById("panel").style.display = "block";
         });
