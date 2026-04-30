@@ -1,15 +1,16 @@
 # FutureVizion
 
-## About
-
 ## Description
 
-##DATA repo
+Our team's goal is simply to display all required data in a singular place, not to be fortune tellers. In order to accomplish this, we built an interactive network graph that allows users to explore occupational data by industry group, drilling down into individual careers to view salary, employment trends, and AI exposure metrics. We also included a scatterplot mapping observed AI exposure against total employment across all occupations, and a diverging bar chart breaking down AI exposure specifically within tech careers. This allows us to provide users with useful data all in one place.
 
+
+
+## DATA repo
 this repo contains the merging script as well as the raw data we used.
 Link:https://github.com/stonebyte-1/FutureVision-DataDisplay.git
 
-## Team
+## Team Responsibilites
 
 **John**
 
@@ -45,3 +46,8 @@ Link:https://github.com/stonebyte-1/FutureVision-DataDisplay.git
 - Utilizing D3 Bounding Boxes 
 - Software Engineering with a web-based project
 - MutatorObservers in JavaScript 
+**John**
+- Implementing complex D3 animation
+- Coordinating a multi-collaborator git workflow and resolving merge conflicts
+- Reinforced DOM manipulation patterns in vanilla JavaScript
+- Revisited HTML and CSS document structure and layout techniques​​​​​​​​​​​​​​​​
