@@ -156,7 +156,7 @@ svg.on("mousemove", function() {
         .attr('cy',(d)=>{return y(d.total_employment_2024)})
         .attr("r",(d)=>{
             return size_scale(d.median_annual_wage_2024)})
-        .attr('fill',(d)=>{return `color-mix(in srgb, var(--primary-color), var(--secondary-color) ${opacity_scale(d.median_annual_wage_2024) * 100}%)`});
+        .attr('fill',(d)=>{return `color-mix(in srgb, var( --future-vision-primary-color), var(--future-vision-secondary-color) ${opacity_scale(d.median_annual_wage_2024) * 100}%)`});
     
     });
 });
