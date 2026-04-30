@@ -4,8 +4,8 @@
   top: 20px;
   left: 50%;
   transform: translateX(-50%);
-  background: black;
-  border: 1px solid gray;
+  background: var(--future-vision-background-color);
+  border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 24px;
   padding: 8px 20px;
   color: white;
@@ -20,7 +20,11 @@
   right: 0;
   width: 320px;
   height: 100vh;
-  background: navy;
+  background: color-mix(
+    in srgb,
+    var(--future-vision-background-color),
+    var(--future-vision-primary-color) 8%
+  );
   padding: 24px;
   overflow-y: auto;
   color: white;
