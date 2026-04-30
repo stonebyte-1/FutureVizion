@@ -65,14 +65,16 @@ d3.json("./data/index.json").then((careerdata) => {
           d3
             .forceLink(groupLinks)
             .id((d) => d.onetsoccode)
-            .distance(100)
+            .distance(10)
             .strength(0.5)
         )
         .force("charge", d3.forceManyBody().strength(-80))
         .force("center", d3.forceCenter(W / 2, H / 2))
         .force(
           "collide",
-          d3.forceCollide((d) => career_size(d.total_employment_2024 || 1) + 4)
+          d3.forceCollide(
+            (d) => career_size(d.total_employment_2024 || 1) + 100
+          )
         );
       const link = g
         .selectAll("line")
