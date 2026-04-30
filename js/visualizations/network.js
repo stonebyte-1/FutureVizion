@@ -102,6 +102,28 @@ d3.json("./data/index.json").then((careerdata) => {
             ? d.occupation_title.slice(0, 18) + "…"
             : d.occupation_title
         );
+      career_nodes.on("click", (e, d) => {
+        d3.json(`./data/careers/${d.onetsoccode}.json`).then((p) => {
+          document.getElementById("panel-title").textContent = p.TITLE;
+          document.getElementById("panel-body").innerHTML = `
+                  <div><span style="color:gray">Median Salary: </span>$${(
+                    p["MEDIAN SALARY 2024"] || 0
+                  ).toLocaleString()}</div>
+                  <div><span style="color:gray">Total Employment: </span>${(
+                    p["TOTAL EMPLOYMENT"] || 0
+                  ).toLocaleString()}</div>
+                  <div><span style="color:gray">Employment Change: </span>${
+                    p["EMPLOYMENT PERCENT CHANGE"] ?? "N/A"
+                  }%</div>
+                  <div><span style="color:gray">Observed AI Exposure: </span>${
+                    p["OBSERVED AI EXPOSURE"] != null
+                      ? (p["OBSERVED AI EXPOSURE"] * 100).toFixed(1) + "%"
+                      : "No data"
+                  }</div>
+              `;
+          document.getElementById("panel").style.display = "block";
+        });
+      });
 
       career_sim.on("tick", () => {
         link
@@ -166,4 +188,7 @@ d3.json("./data/index.json").then((careerdata) => {
 });
 document.getElementById("back").onclick = () => {
   location.reload();
+};
+document.getElementById("close").onclick = () => {
+  document.getElementById("panel").style.display = "none";
 };
