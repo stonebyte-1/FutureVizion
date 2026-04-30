@@ -135,7 +135,7 @@ d3.csv("./data/all_careers.csv").then((data)=>{
     .attr('cx',(d)=>{return x(d.observed_exposure)})
     .attr('cy',(d)=>{return y(d.total_employment_2024)+y(y_max)})
     .attr('r',(d)=>{return 0})
-    .attr('fill',(d)=>{return `rgb(255, 255, 255)`})
+    .attr('fill',(d)=>{return `var(--future-vision-danger-color)`})
     .style("stroke-width", "0px");
     
 
@@ -155,7 +155,7 @@ d3.csv("./data/all_careers.csv").then((data)=>{
         .attr('cy',(d)=>{return y(d.total_employment_2024)})
         .attr("r",(d)=>{
             return size_scale(d.median_annual_wage_2024)})
-        .attr('fill',(d)=>{return `rgba(112, 112, 112, ${opacity_scale(d.median_annual_wage_2024)})`});
+        .attr('fill',(d)=>{return `color-mix(in srgb, var(--future-vision-primary-color), var(--future-vision-secondary-color) ${(+d.median_annual_wage_2024 / d3.max(data, d => +d.median_annual_wage_2024)) * 100}%)`});
     
     });
 
@@ -200,35 +200,39 @@ d3.csv("./data/all_careers.csv").then((data)=>{
         })
         .attr('text-anchor',"middle")
         .attr('alignment-baseline',"middle")
-        .attr('fill',"rgb(0, 0, 0)");
+        .attr('fill',"var(--future-vision-text-color)");
     });
 
     chart.append('text')
     .attr('class','axis-title')
     .attr('x', width-margin-150)
     .attr('y', height-axis_title_margin)
+    .attr('fill','var(--future-vision-text-color)')
     .text("GenAI Exposure");
 
     chart.append('text') 
     .attr('class', 'axis-title') 
     .attr('x', axis_title_margin) 
     .attr('y', margin+50) 
+    .attr('fill','var(--future-vision-text-color)')
     .text("Total Employment"); 
         
     // Axies 
-
+    
     chart.append("g")
     .attr("transform", `translate(0, ${height})`)
     .call( d3.axisBottom(x).ticks(tick_number).tickSize(-height-10))
     .call((g) => g.select(".domain").remove()) 
+    .attr('color','var(--future-vision-secondary-color)')
     .style("opacity",0.2);
     
     chart.append("g")
-        .call(d3.axisLeft(y).ticks(tick_number).tickSize(-width-10))
-        .call((g) => g.select(".domain").remove())
-        .style("opacity",0.2);
-
-
+    .call(d3.axisLeft(y).ticks(tick_number).tickSize(-width-10))
+    .call((g) => g.select(".domain").remove())
+    .attr('color','var(--future-vision-secondary-color)')
+    .style("opacity",0.2);
+    
+    
         points //let’s attach an event listener to points (all svg circles)
          .on('mouseover', (event,d) => { //when mouse is over point
             node_highlight(event);
@@ -288,24 +292,26 @@ function summon_tooltip(svg_width, event, d) {
 
     d3.select('#scatter-tooltip') // add text inside the tooltip divs
         .style('display', 'block') //make it visible
+        .style('opacity','0.1')
+        .style('background-color','var(--future-vision-danger-color)')
         .html(`
-                    <h1 class="tooltip-title" >${d.occupation_title}</h1>          
-                    <div>Observed Exposure to AI: ${d.observed_exposure}</div>
-                    Employment Percent Change, 2024-2034: ${d["Employment Percent Change, 2024-2034"]}
-                    Total Employment: ${d.total_employment_2024}
-                    Median Annual Wage: $${d.median_annual_wage_2024}
+            <h1 class="tooltip-title" >${d.occupation_title}</h1>          
+            <div>Observed Exposure to AI: ${d.observed_exposure}</div>
+            <div>Total Employment: ${d.total_employment_2024}</div>
+            <div>Employment Percent Change, 2024-2034: ${d["Employment Percent Change, 2024-2034"]}</div>
+            <div>Median Annual Wage: $${d.median_annual_wage_2024}</div>
             `);
-
-    d3.select("#scatter-tooltip")
-        .transition()
-        .duration(800)
-        .ease(d3.easeCircleOut)
+            
+        d3.select("#scatter-tooltip")
+            .transition()
+            .duration(800)
+            .ease(d3.easeCircleOut)
+            .style('opacity','1')
         .style('position', 'absolute')
-        .style('background-color','rgba(255,255,255,0.6)')
+        .style('background-color','var(--future-vision-secondary-color)')
         .style('border', 'solid 0px 10px')
         .style('border-radius', '10px')
         .style('padding','10px')
         .style('top', (event.pageY + 10) + 'px')
         .style('left', (left ? event.pageX - 220 : event.pageX + 10) + 'px');
 }
-
