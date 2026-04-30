@@ -1,0 +1,41 @@
+#search {
+  display: none;
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: black;
+  border: 1px solid gray;
+  border-radius: 24px;
+  padding: 8px 20px;
+  color: white;
+  font-size: 14px;
+  width: 300px;
+  outline: none;
+}
+#panel {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 320px;
+  height: 100vh;
+  background: navy;
+  padding: 24px;
+  overflow-y: auto;
+  color: white;
+  font-size: 13px;
+}
+#close {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  cursor: pointer;
+  color: gray;
+  font-size: 18px;
+}
+#panel-title {
+  font-size: 16px;
+  margin-bottom: 14px;
+  padding-right: 24px;
+}
