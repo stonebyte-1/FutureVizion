@@ -33,8 +33,6 @@ What the occupations really mean, like their job titles, what category the job f
 
 https://github.com/s-mahdihosseini/GenAI_Expertise
 Occupation work volume exposed to Generative AI, median annual wage from 2024, total employment, job titles
-
-
  */
 
 
