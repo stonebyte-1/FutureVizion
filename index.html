@@ -2,11 +2,33 @@
 <html>
   <head>
     <title>Document</title>
+    <style>
+      #search {
+        display: none;
+        position: fixed;
+        top: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        background: black;
+        border: 1px solid gray;
+        border-radius: 24px;
+        padding: 8px 20px;
+        color: white;
+        font-size: 14px;
+        width: 300px;
+        outline: none;
+      }
+    </style>
   </head>
   <body>
     <div>
       <svg id="network-graph" width="1500" height="900"></svg>
       <button id="back">Back To Departments</button>
+      <input
+        id="search"
+        type="text"
+        placeholder="Search For Careers Within This Department"
+      />
       <div
         id="panel"
         style="

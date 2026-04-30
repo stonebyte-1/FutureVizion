@@ -137,6 +137,14 @@ d3.json("./data/index.json").then((careerdata) => {
           (d) => d.y - career_size(d.total_employment_2024 || 1) - 4
         );
       });
+      document.getElementById("search").style.display = "block";
+
+      d3.select("#search").on("input", function () {
+        const q = this.value.toLowerCase();
+        career_nodes.style("opacity", (d) =>
+          !q || d.occupation_title.toLowerCase().includes(q) ? 1 : 0.1
+        );
+      });
     });
   }
   const careers_p_dept = {};
@@ -188,6 +196,8 @@ d3.json("./data/index.json").then((careerdata) => {
 });
 document.getElementById("back").onclick = () => {
   location.reload();
+  document.getElementById("search").style.display = "none";
+  document.getElementById("search").value = "";
 };
 document.getElementById("close").onclick = () => {
   document.getElementById("panel").style.display = "none";
