@@ -36,3 +36,12 @@ Link:https://github.com/stonebyte-1/FutureVision-DataDisplay.git
 
 - Designed the bar chart and its visual concept
 - Provided the base code implementation and handed it off to Joseph for final integration into the codebase
+
+## What we learned
+
+**Joseph**
+
+- Complex D3 Animations
+- Utilizing D3 Bounding Boxes 
+- Software Engineering with a web-based project
+- MutatorObservers in JavaScript 
