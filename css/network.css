@@ -20,11 +20,7 @@
   right: 0;
   width: 320px;
   height: 100vh;
-  background: color-mix(
-    in srgb,
-    var(--future-vision-background-color),
-    var(--future-vision-primary-color) 8%
-  );
+  background: var(--future-vision-primary-color);
   padding: 24px;
   overflow-y: auto;
   color: white;

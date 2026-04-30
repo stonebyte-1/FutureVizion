@@ -82,7 +82,7 @@ d3.json("./data/index.json").then((careerdata) => {
         .selectAll("line")
         .data(groupLinks)
         .join("line")
-        .attr("stroke", "black")
+        .attr("stroke", C("--future-vision-text-color"))
         .attr("stroke-width", 1);
 
       const career_nodes = g
@@ -183,7 +183,7 @@ d3.json("./data/index.json").then((careerdata) => {
     .data(groups)
     .join("text")
     .attr("text-anchor", "middle")
-    .attr("fill", C("--future-vision-background-color"))
+    .attr("fill", C("--future-vision-text-color"))
     .attr("font-size", 40)
     .attr("pointer-events", "none")
     .text((d) => soc_identifiers[d.key]);
