@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="css/network.css" />
   </head>
   <body>
-    <div id="welcome">
+    <div id="welcome" class="active">
       <h1 id="welcome-title">FutureVizion</h1>
       <p id="welcome-sub">What would you like to explore?</p>
       <div id="welcome-buttons">
@@ -52,5 +52,39 @@
     <script type="module" src="./js/visualizations/barchart.js"></script>
     <script type="module" src="./js/visualizations/network.js"></script>
     <script type="module" src="./js/visualizations/scatter.js"></script>
+    <script>
+      // welcome screen buttons
+      document.querySelectorAll(".welcome-btn").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          document.getElementById("welcome").classList.remove("active");
+          document
+            .querySelectorAll(".view")
+            .forEach((v) => v.classList.remove("active"));
+          document
+            .querySelectorAll(".tab")
+            .forEach((t) => t.classList.remove("active"));
+          const target = btn.dataset.target;
+          document.getElementById(target).classList.add("active");
+          document
+            .querySelector(`[data-target="${target}"]`)
+            .classList.add("active");
+        });
+      });
+
+      // tab buttons
+      document.querySelectorAll(".tab").forEach((tab) => {
+        tab.addEventListener("click", () => {
+          document.getElementById("welcome").classList.remove("active");
+          document
+            .querySelectorAll(".tab")
+            .forEach((t) => t.classList.remove("active"));
+          document
+            .querySelectorAll(".view")
+            .forEach((v) => v.classList.remove("active"));
+          tab.classList.add("active");
+          document.getElementById(tab.dataset.target).classList.add("active");
+        });
+      });
+    </script>
   </body>
 </html>

@@ -1,19 +1,31 @@
 :root {
-    --future-vision-primary-color: rgb(255, 212, 55);
-    --future-vision-secondary-color: rgb(0, 136, 255);
-    --future-vision-danger-color: rgb(255, 120, 120);
-    --future-vision-text-color: rgb(255, 245, 245);
+  --future-vision-primary-color: rgb(255, 212, 55);
+  --future-vision-secondary-color: rgb(0, 136, 255);
+  --future-vision-danger-color: rgb(255, 120, 120);
+  --future-vision-text-color: rgb(255, 245, 245);
 
-    --future-vision-background-color: rgb(31, 30, 30);
+  --future-vision-background-color: rgb(31, 30, 30);
 
-    --future-vision-background-primary-color: color-mix(in srgb, var(--future-vision-primary-color), var(--future-vision-background-color));
-    --future-vision-background-secondary-color: color-mix(in srgb, var(--future-vision-second-color), var(--future-vision-background-color));
-    --future-vision-background-danger-color: color-mix(in srgb, var(--future-vision-danger-color), var(--future-vision-background-color));
+  --future-vision-background-primary-color: color-mix(
+    in srgb,
+    var(--future-vision-primary-color),
+    var(--future-vision-background-color)
+  );
+  --future-vision-background-secondary-color: color-mix(
+    in srgb,
+    var(--future-vision-second-color),
+    var(--future-vision-background-color)
+  );
+  --future-vision-background-danger-color: color-mix(
+    in srgb,
+    var(--future-vision-danger-color),
+    var(--future-vision-background-color)
+  );
 }
 
 html {
-    background-color: var(--future-vision-background-color);
-    font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--future-vision-background-color);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* 
@@ -27,50 +39,50 @@ body {
 } */
 
 h1 {
-    margin-top: 30px;
-    margin-bottom: 5px;
-    color: var(--future-vision-text-color);
+  margin-top: 30px;
+  margin-bottom: 5px;
+  color: var(--future-vision-text-color);
 }
 
 p {
-    color: var(--future-vision-text-color);
+  color: var(--future-vision-text-color);
 }
 
 text {
-    color: var(--future-vision-text-color);
+  color: var(--future-vision-text-color);
 }
 
 #barchart-chart {
-    margin: 20px auto;
-    display: flex;
-    justify-content: center;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
 }
 
 /* Bars */
 .bar-risk {
-    fill: var(--future-vision-danger-color);
-    cursor: pointer;
+  fill: var(--future-vision-danger-color);
+  cursor: pointer;
 }
 
 .bar-opportunity {
-    fill: var(--future-vision-secondary-color);
-    cursor: pointer;
+  fill: var(--future-vision-secondary-color);
+  cursor: pointer;
 }
 
 /* Tooltip */
 #barchart-tooltip {
-    position: absolute;
-    background: var(--future-vision-secondary-color);
-    border: 1px solid var(--future-vision-secondary-color);
-    color: var(--future-vision-text-color);
-    padding: 10px 14px;
-    font-size: 13px;
-    border-radius: 6px;
-    pointer-events: none;
-    opacity: 0;
-    box-shadow: 0px 4px 8px var(--future-vision-secondary-color);
-    transition: opacity 0.2s ease;
-    text-align: left;
-    line-height: 1.4;
-    z-index: 10;
+  position: absolute;
+  background: var(--future-vision-secondary-color);
+  border: 1px solid var(--future-vision-secondary-color);
+  color: var(--future-vision-text-color);
+  padding: 10px 14px;
+  font-size: 13px;
+  border-radius: 6px;
+  pointer-events: none;
+  opacity: 0;
+  box-shadow: 0px 4px 8px var(--future-vision-secondary-color);
+  transition: opacity 0.2s ease;
+  text-align: left;
+  line-height: 1.4;
+  z-index: 10;
 }
