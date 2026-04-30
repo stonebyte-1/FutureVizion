@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <title>Document</title>
     <style>
       #search {
@@ -64,7 +65,19 @@
         ></h2>
         <div id="panel-body"></div>
       </div>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <div>
+        <svg id="network-graph" width="1500" height="900"></svg>
+    </div>
+    <div style="display:flex;flex-direction:row;gap: 1rem">
+        <svg id="scatter-plot" width="100%" height="900"></svg>
+        <div id="scatter-tooltip"></div>
     </div>
     <script type="module" src="./js/visualizations/network.js"></script>
-  </body>
+    <script type="module" src="./js/visualizations/scatter.js"></script>
+</body>
+
 </html>
